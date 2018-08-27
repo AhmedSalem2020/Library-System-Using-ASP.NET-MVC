@@ -8,6 +8,7 @@ using Microsoft.AspNet.Identity;
 
 namespace ELibrary.Controllers
 {
+    // GitHub Test
     public class MemberController : Controller
     {
         ApplicationDbContext lm = new ApplicationDbContext();
