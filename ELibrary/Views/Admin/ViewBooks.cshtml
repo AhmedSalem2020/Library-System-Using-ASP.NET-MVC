@@ -1,0 +1,56 @@
+﻿@model  IEnumerable<ELibrary.Models.book>
+
+@{
+    ViewBag.Title = "ViewBooks";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<h2>ViewBooks</h2>
+
+<table class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+
+            <th>title</th>
+            <th>Author_name </th>
+            <th>publisher_name </th>
+            <th>publishDate </th>
+            <th>categoryName </th>
+            <th>copiesCount</th>
+            <th>Available Copies</th>
+            <th>Image</th>
+            <th>Operations</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (book item in Model)
+        {
+
+
+                <tr>
+                    <td>@item.title</td>
+                    <td>@item.author.fName</td>
+                    <td>@item.publisher.name</td>
+                    <td>@item.publishDate</td>
+                    <td>@item.categoryName</td>
+                    <td>@item.copiesCount</td>
+                    <td>@item.availableCopies</td>
+                    <td><img src="~/Images/@item.cover" height="100" width="150" /></td>
+
+                    <td>
+                        @Html.ActionLink("UpdateBook", "UpdateBook", "Admin", new { id = item.id }, new { @class = "btn btn-warning" })
+
+                        @Html.ActionLink("Delete", "DeleteBook", "Admin", new { id = item.id }, new { @class = "btn btn-danger" })
+
+                    </td>
+
+                </tr>
+
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "MemberSearch";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<br />
+<br />
+<br/>
+
+@using (Ajax.BeginForm("_AjaxMemSearch", "Employee", new AjaxOptions() { UpdateTargetId = "mydiv", InsertionMode = InsertionMode.Replace }))
+{
+    @Html.TextBox("txt", null, new { @class = "form-control" })
+    <br />
+            <input type="submit" value="Search" class="btn btn-primary" />
+
+}
+<br />
+<br />
+
+
+
+
+
+@*@Html.TextBox("txtsrc", null, new { @class = "form-control" })
+        @Ajax.ActionLink("Search", "_AjaxMemSearch", "Employee",new { txt="m"},new AjaxOptions() {
+        UpdateTargetId="mydiv",
+        InsertionMode=InsertionMode.Replace
+    }, new { @class = "btn btn-success" })*@
+
+
+
+<div id="mydiv"></div>
+
+
+@section scripts{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+}

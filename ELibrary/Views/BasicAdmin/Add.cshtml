@@ -1,0 +1,192 @@
+﻿@model ELibrary.Models.ApplicationUser
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<br /><br />
+<form method="post" class="form-horizontal">
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>UserName:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.UserName, new { id = "UserName", @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.UserName)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Email Address:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.Email, new { id = "Email", @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.Email)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>First Name:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.fName, new { id = "fName", @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.fName)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Last Name:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.lName, new { id = "lName", @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.lName)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>BirthDate:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.birthDate, new
+       {
+           id = "BirthDate",
+           @type = "Date",
+           @class = "form-control"@*,min="1980/1/1",max="2000/1/1"*@})
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.birthDate)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Password:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.PasswordFor(m => m.PasswordHash, new
+       {@*id= "Password",*@@class = "form-control"
+       })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.PasswordHash)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Address:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.address, new { id = "Address", @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.address)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>JoinDate:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.JoinDate, new
+       {
+           id = "JoinDate",
+           @type = "Date",
+           @class = "form-control"@*, min = "1/1/2018", max = "1/1/2019"*@})
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.JoinDate)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Phone Number:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(m => m.PhoneNumber, new
+       {@*id= "Phone",*@@class = "form-control"
+       })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.PhoneNumber)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Salary:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBox("Salary", null, new { @class = "form-control" })
+            @*@Html.TextBoxFor(m => m.Employee.Salary, new { id= "Salary", @class = "form-control" })*@
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.Employee.salary)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-6 text-right">
+            <input id="btn_Save" type="submit" class="btn btn-success" value="AddAdmin" />
+        </div>
+    </div>
+</form>
+
+@section scripts
+{
+    <script>
+        $(function () {
+            $("#btn_Save").on("AddAdmin", function () {
+                
+                    $.ajax({
+                        type: "POST",
+                        dataType: "json",
+                        contentType: "application/json;charset=utf-8",
+                        url:'@Url.Action("Add","BasicAdmin")' /*"/BasicAdmin/Add"*/,
+                        data: "{'UserName':'"
+                            + $("#UserName").val()
+                            + "','Email':'"
+                            + $("#Email").val()
+                            + "','fName': '"
+                            + $("#fName").val()
+                            + "','lName':'"
+                            + $("#lName").val()
+                            + "','BirthDate':'"
+                            + $("#BirthDate").val()
+                            + "','Address':'"
+                            + $("#Address").val()
+                            + "','PhoneNumber':'"
+                            + $("#PhoneNumber").val()
+                            + "','PasswordHash':'"
+                            + $("#PasswordHash").val()
+                            + "','JoinDate':'"
+                            + $("#JoinDate").val()
+                            + "','salary':'"
+                            + $("#Salary").val()
+                            + "'}",
+                        success: function (results) {
+                            alert("Record has been Saved in DataBase");
+                            //$("#UserName").val("");
+                            //$("#Email").val("");
+                            //$("#fName").val("");
+                            //$("#lName").val("");
+                            //$("#BirthDate").val("");
+                            //$("#Address").val("");
+                            //$("#PhoneNumber").val("");
+                            //$("#PasswordHash").val("");
+                            //$("#JoinDate").val("");
+                            //$("#Salary").val("");
+                        },
+                        error: function (results) {
+                            alert("Error!!!");
+                        }
+                    });//ajaxCall
+                //}//end else
+            });//click
+        });//load
+    </script>
+}

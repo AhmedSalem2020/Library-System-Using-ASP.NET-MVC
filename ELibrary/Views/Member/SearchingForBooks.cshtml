@@ -1,0 +1,105 @@
+﻿
+@model IEnumerable<ELibrary.Models.userBook>
+
+@{
+    ViewBag.Title = "SearchingForBooks";
+}
+
+
+<form method="post" action="SearchingForBooks">
+
+    <select name="ddl" class="selectpicker"  title="Choose one of the following">
+        <option value="1">
+            Author
+        </option>
+        <option value="2">
+            Year
+        </option>
+        <option value="3">
+            Category
+        </option>
+
+        <option value="4">
+            Publisher
+        </option>
+
+        <option value="5">
+            Title
+        </option>
+
+        <option value="6">
+            Availbility
+        </option>
+    </select>
+    <br />
+    <br />
+
+    <input type="text" name="Dt" class="form-control" />
+    <br />
+    <br />
+
+
+
+    <input type="submit" class="btn btn-success" />
+
+</form>
+
+<br />
+<br />
+<br />
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.book.author.fName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.book.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.book.category.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.book.publisher.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.book.availableCopies)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.book.publishDate)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.author.fName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.name)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.category.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.publisher.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.availableCopies)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.publishDate)
+                </td>
+
+
+            </tr>
+
+        }
+    </tbody>
+</table>

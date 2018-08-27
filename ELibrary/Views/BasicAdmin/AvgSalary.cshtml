@@ -1,0 +1,48 @@
+﻿@model List<string>
+
+@{
+    ViewBag.Title = "AvgSalary";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+<br />
+<div class="form-group about-info">
+    Avg of net salaries : @ViewBag.Avg
+</div>
+<br />
+<br />
+<br />
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.Label("First Name")
+            </th>
+            <th>
+                @Html.Label("Salary")
+       
+            </th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item)
+                </td>
+                <td>
+                    @ViewBag.sal
+                </td>
+
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+
+

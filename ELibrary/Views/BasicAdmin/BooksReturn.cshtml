@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ELibrary.Models.userBook>
+
+@{
+    ViewBag.Title = "BooksReturn";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<br />
+<br />
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>
+                Book Title
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.userId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.startDate)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+      
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.title)
+                </td>
+
+               
+                <td>
+                    @Html.DisplayFor(modelItem => item.userId)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.startDate)
+                </td>
+
+               
+            </tr>
+        }
+    </tbody>
+</table>
+

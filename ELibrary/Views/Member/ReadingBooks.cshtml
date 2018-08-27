@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ELibrary.Models.userBook>
+
+@{
+    ViewBag.Title = "ReadingBooks";
+}
+
+
+
+
+<form method="post" action="ReadingBooks">
+    <select name="ddl" class="selectpicker"  title="Choose one of the following">
+
+        <option value="1">
+            Month
+        </option>
+        <option value="2">
+            Year
+        </option>
+        <option value="1">
+            Month & Year
+        </option>
+    </select>
+
+    <input type="month" name="Dt" class="form-control" />
+
+   
+    <input type="submit" class="btn btn-success" />
+
+</form>
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>
+                Book Title
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.startDate)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.deliveredDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.returnDate)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.title)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.startDate)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.deliveredDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.returnDate)
+                </td>
+                
+            </tr>
+         }
+    </tbody>
+
+</table>

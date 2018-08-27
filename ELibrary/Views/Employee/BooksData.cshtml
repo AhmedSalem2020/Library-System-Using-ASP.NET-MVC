@@ -1,0 +1,90 @@
+﻿@model IEnumerable<ELibrary.Models.book>
+
+@{
+    ViewBag.Title = "BooksData";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>
+                Book Name
+            </th>
+            <th>
+
+                Category Name
+            </th>
+            <th>
+                Publisher Name
+            </th>
+
+            <th>
+                Author Mail
+            </th>
+
+            <th>
+                copies Count
+            </th>
+
+            <th>
+                available Copies
+            </th>
+
+            <th>
+                publishDate
+            </th>
+
+            <th>
+                join Date
+            </th>
+
+            <th>
+                is Deleted
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.category.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.publisher.name)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.author.email)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem=>item.copiesCount)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.availableCopies)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.publishDate)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.joinDate)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.isDeleted)
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
+

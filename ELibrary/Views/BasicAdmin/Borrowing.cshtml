@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ELibrary.Models.userBook>
+
+@{
+    ViewBag.Title = "Borrowing";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<br />
+
+<br />
+<div class="form-group about-info">
+    Number Of Books : @ViewBag.borrowed
+</div>
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.book.name)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.name)
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+
+

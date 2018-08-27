@@ -1,0 +1,110 @@
+﻿@model ELibrary.Models.book
+
+@{
+    ViewBag.Title = "AddBook";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<br />
+<br />
+<br />
+<form class="form-horizontal" method="post" enctype="multipart/form-data">
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.title, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.TextBoxFor(a => a.title, new { @class = "form-control", @placeholder = "Book Title" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.title)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.name, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.TextBoxFor(a => a.name, new { @class = "form-control", @placeholder = "Book Name" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.name)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.autherId, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.DropDownListFor(a => a.autherId, ViewBag.aut as SelectList, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.autherId)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.publisherId, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.DropDownListFor(a => a.publisherId, ViewBag.pub as SelectList, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.publisherId)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.publishDate, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.TextBoxFor(a => a.publishDate, new { @class = "form-control", @placeholder = "Publish Date", @type = "date" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.publishDate)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.category, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.DropDownListFor(a => a.category, ViewBag.cat as SelectList, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.category)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.copiesCount, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.TextBoxFor(a => a.copiesCount, new { @class = "form-control", @placeholder = "No of capies" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.copiesCount)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.availableCopies, new { @class = "col-sm-3 control-label" })
+        <div class="col-sm-6">
+            @Html.TextBoxFor(a => a.availableCopies, new { @class = "form-control", @placeholder = "Available capies" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.availableCopies)
+        </div>
+    </div>
+
+    <div class="input-group">
+
+        <span class="input-group-addon"><i class="glyphicon glyphicon-paperclip"></i></span>
+
+        <input type="file" value="browse" class="form-control" name="img">
+    </div>
+
+    <br />
+
+    <input type="submit" value="add" class="btn btn-danger" />
+</form>
+

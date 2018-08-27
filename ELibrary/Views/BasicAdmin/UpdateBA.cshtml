@@ -1,0 +1,119 @@
+﻿@model ApplicationUser
+
+@{
+    ViewBag.Title = "UpdateBA";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<br /><br /><br />
+<form method="post" class="form-horizontal" enctype="multipart/form-data">
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>UserName:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(a => a.UserName, new { @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.UserName)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>First Name:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(a => a.fName, new { @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.fName)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Last Name:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(a => a.lName, new { @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.lName)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Email Address:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.Email)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Address:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(a => a.address, new { @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.address)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>BirthDate:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(a => a.birthDate, new { @type = "Date", @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.birthDate)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Phone Number:</h4>
+        </div>
+        <div class="col-xs-6">
+            @Html.TextBoxFor(a => a.PhoneNumber, new { @class = "form-control" })
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.PhoneNumber)
+        </div>
+    </div>
+    @*<div class="form-group">
+            <div class="col-xs-3">
+                <h4>JoinDate:</h4>
+            </div>
+            <div class="col-xs-6">
+                @Html.TextBoxFor(a => a.JoinDate, new { @type = "Date", @class = "form-control" })
+            </div>
+            <div class="col-xs-3">
+                @Html.ValidationMessageFor(a => a.JoinDate)
+            </div>
+        </div>*@
+    <div class="form-group">
+        <div class="col-xs-3">
+            <h4>Image:</h4>
+        </div>
+        <div class="col-xs-6">
+            <input type="file" value="browse" name="img" class="form-control" />
+        </div>
+        <div class="col-xs-3">
+            @Html.ValidationMessageFor(a => a.image)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-xs-6 col-xs-offset-3">
+            <input type="submit" value="Save Changes" class="btn btn-warning" />
+            @Html.ActionLink("Cancel", "Index", "BasicAdmin", null, new { @class = "btn btn-primary" })
+        </div>
+    </div>
+</form>
+
+

@@ -1,0 +1,117 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - E-Library</title>
+
+    @Styles.Render("~/Content/css")
+    
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               
+                @Html.ActionLink("E-Library", null, null, new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <!--Start Menu List-->
+                <ul class="nav navbar-nav">
+                   
+                    @if (User.IsInRole("Admin"))
+                     {
+                    <li><a href="/Admin/ViewProfile">View Profile</a></li>
+                    <li><a href="/Admin/AddEmployee">Add Employee</a></li>
+
+                    <li><a href="/Admin/ViewEmployess">View Employees</a></li>
+                    <li><a href="/Admin/AddBook">Add Book</a></li>
+
+                    <li><a href="/Admin/ViewBooks">View Books</a></li>
+                    <li><a href="/Admin/EmpSearch">Search</a></li>
+                  
+                    <li>@Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "ViewProfile", "Admin", routeValues: null, htmlAttributes: new { title = "Manage" })</li>
+                    
+                    <li><a href="/Admin/Logout">Logout</a></li>
+
+
+                      @*<li>@Html.ActionLink("Logout", "Logout", "Admin")  </li>*@  
+
+                    }
+                    
+
+                    @if (User.IsInRole("Basic Admin"))
+                     {
+                       
+                        <li><a href="/BasicAdmin/Index">View Profile</a></li>
+                        <li><a href="/BasicAdmin/Admins">Show Admin</a></li>
+                        @*<li><a href="/BasicAdmin/Ask">Info about Library</a></li>*@
+
+                        <li>@Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "BasicAdmin", routeValues: null, htmlAttributes: new { title = "Manage" })</li>  
+
+                        <li><a href="/BasicAdmin/Logout">Logout</a></li>
+
+                        @*@Html.ActionLink("Logout", "Logout", "BasicAdmin")*@
+
+                    }
+
+
+                    @if (User.IsInRole("Employee"))
+                    {
+                        <li><a href="/Employee/Index">Show Profile</a></li>
+
+                        <li><a href="/Employee/AddMember">Add Member</a></li>
+
+                        <li><a href="/Employee/ViewMembers">View Members</a></li>
+
+                        <li><a href="/Employee/MemberSearch">Searching For Members</a></li>
+                        
+                            <li><a href="/Employee/BooksData"> Books Data</a></li>
+
+
+                        <li> @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Action", "Employee", routeValues: null, htmlAttributes: new { title = "Manage" })</li>
+
+                        <li><a href="/Employee/Logout">Logout</a></li>
+                        @*@Html.ActionLink("Logout", "Logout", "Employee")*@
+
+                    }
+
+                </ul>
+
+                @*<div class="navbar-brand">
+                    @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "ViewProfile", "Admin", routeValues: null, htmlAttributes: new { title = "Manage" })
+                 </div>
+                <div class="navbar-brand">
+                    @Html.ActionLink("Logout", "Logout", "Admin")
+                </div>*@
+                 
+                
+            </div>
+          
+
+
+
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - E-Library</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+
+    @Scripts.Render("~/bundles/bootstrap")
+    
+    @RenderSection("scripts", required: false)
+</body>
+</html>

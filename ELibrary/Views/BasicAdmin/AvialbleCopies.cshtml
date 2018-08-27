@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ELibrary.Models.book>
+
+@{
+    ViewBag.Title = "AvialbleCopies";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<br />
+<br />
+<form method="post" action="Ask">
+
+
+    <input type="text" name="name" class="form-control" />
+    <br />
+    <br />
+
+    <input type="submit" class="btn btn-success" />
+</form>
+
+<br />
+
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            
+
+            <th>
+                @Html.DisplayNameFor(model => model.availableCopies)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+              
+                <td>
+                    @Html.DisplayFor(modelItem => item.availableCopies)
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+

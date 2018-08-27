@@ -1,0 +1,427 @@
+﻿
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+
+<!-- Mirrored from elibrary.rexbd.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Feb 2018 10:09:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link href="/Content/styles.css" rel="stylesheet" />
+    <title>eLibrary</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/icon.png">
+
+    <!--Chart Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/charts.css">
+    <!--Bootstrap Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/bootstrap.css">
+    <!--Bootstrap Range Slider-->
+    <link rel="stylesheet" type="text/css" href="/Content/bootstrap-slider.css">
+    <!--Slick Carousel Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/slick.css">
+    <!--Bootstrap Select Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/bootstrap-select.css">
+    <!--Input Select With Search Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/select2.css">
+    <!--Font Awesome Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/font-awesome.min.css">
+    <!--Animate Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/animate.css">
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/styles.css">
+    <!--Responsive Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/responsive.css">
+    <!--Color Switcher Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="/Content/switcher-colors.css">
+    <!--Custom Color Stylesheet-->
+    <!--
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-one.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-two.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-three.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-four.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-five.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-six.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-seven.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-eight.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-nine.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-ten.css">
+    <link rel="stylesheet" type="text/css" href="http://elibrary.rexbd.net/assets/css/custom-colors/color-eleven.css">
+    -->
+
+    <!-- Modanizr JS -->
+    <script src="/Scripts/modernizr.custom.js"></script>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body class="layout-wide color-eleven">
+    <!--Start Preloader Eight-->
+    <div class="site-preloader eight">
+        <div class="spinner"></div>
+    </div>
+    <!--End Preloader Eight-->
+
+    <!--Start Body Wrap-->
+    <div id="body-wrap">
+        <!--Start Header-->
+        <header class="header style-one header-main header-two">
+            <!--Start Header Top-->
+            <div class="header-top">
+                <!--Start Header Top container-->
+                <div class="container">
+                    <!--Start Header Top Row-->
+                    <div class="row">
+                        <div class="col-sm-5 col-xs-12">
+                            <div class="topbar-contact-info">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-phone"></i> +201099102087 <small>&#124;</small>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope"></i>ahmed.m.salem2020@outlook.com</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-2 col-sm-offset-4 col-xs-12">
+                            <div class="header-social-icon">
+                                <ul>
+                                  <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                                  <li><a href="http://pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                               </ul>
+                          
+                            </div>
+                            <div class="header-social-icon">
+                                @if (User.IsInRole("Member"))
+                                {
+
+                                    @Html.ActionLink("Hello " + User.Identity.Name + "!", "Index", "BasicAdmin", routeValues: null, htmlAttributes: new { title = "Manage" })
+
+                                    <a href="/Member/Logout">Logout</a>
+                                }
+                            </div>
+
+
+
+                            </div>
+                    </div>
+                    <!--End Header Top Row-->
+                </div>
+                <!--End Header Top container-->
+            </div>
+            <!--End Header Top-->
+
+            <div class="clearfix"></div>
+            <!--Start Main Menu-->
+            <div class="mainmenu" data-spy="affix" data-offset-top="197">
+                <!--Start Nav-->
+                <nav class="navbar navbar-default">
+                    <!--Start Main Menu container-->
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="/Member/NewArrivedBooks"><img class="img-responsive" src="~/images/logo.png" alt="Logo"></a>
+                        </div>
+
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <!--Start Menu List-->
+                            <ul class="nav navbar-nav">
+                            
+                                <li><a href="/Member/NewArrivedBooks">Home</a></li>
+                                <li><a href="/Member/BorrowingBooks">My Borrowing</a></li>
+                                <li><a href="/Member/ReadingBooks">My Reading</a></li>
+                                <li><a href="/Member/CurrentBorrwedBooks">My Current Borrowed</a></li>
+                                <li><a href="/Member/SearchingForBooks">Search</a></li>
+                                <li><a href="/Member/ViewProfile">View Profile</a></li>
+
+                              
+                            </ul>
+                           <!--End Menu List-->
+                        </div>
+                    </div>
+                    <!--End Main Menu container-->
+                </nav>
+                <!--End Nav-->
+            </div>
+            <!--End Main Menu-->
+        </header>
+        <!--End Header-->
+        <!--Start Search Directory Section-->
+        <section class="directory-search-form-slider business">
+            <!--Start Slider Carousel-->
+            <div id="directory-slider-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+
+                
+                    <!--Start Slide Item-->
+                    <div class="item active" style="background: url('/images/slider/1504890499.jpg');">
+                        <div class="directory-slider-overlay"></div>
+                        <div class="slider-content">
+                            <h2 class="text-bold animated rollIn">Wellcome to Librery</h2>
+                            <h3 class="animated rollIn">All The Books You Would like to Read  </h3>
+                        </div>
+                    </div>
+                    <!--End Slide Item-->
+
+                
+                    <!--Start Slide Item-->
+                    <div class="item" style="background: url('/images/slider/1504890524.jpg');">
+                        <div class="directory-slider-overlay"></div>
+                        <div class="slider-content">
+                            <h2 class="text-bold animated rollIn">Amazing Books</h2>
+                            <h3 class="animated rollIn">You Will Be Satisfied</h3>
+                        </div>
+                    </div>
+                    <!--End Slide Item-->
+
+                
+                </div>
+                <a class="left carousel-control" href="#directory-slider-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#directory-slider-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+            <!--End Slider Carousel-->
+        </section>
+        <!--End Search Directory Section-->
+
+        <!--Start Featured section-->
+        <section class="business-feat">
+            <!--Start Featured container-->
+            <div class="container">
+                <!--Start Section Title-->
+                <div class="section-title">
+                    <h2 class="text-center text-bold"><span>Librery</span> Books Listing</h2>
+                </div>
+                <!--End Section Title-->
+
+                <!--Start Featured Row-->
+                <div class="row">
+
+                
+                 
+
+
+                @RenderBody()
+                  
+
+                
+                </div>
+                <!--End Featured Row-->
+            </div>
+            <!--End Featured container-->
+        </section>
+        <!--End Featured section-->
+
+        <!--Start Counter Section-->
+        <section class="counter two">
+            <div class="counter-bg-ovelay"></div>
+            <!--Start container-->
+            <div class="container">
+                <div class="row">
+                   
+                    @*@model ELibrary.Models.book*@
+                    
+                    
+
+                    
+
+                    <!--Start Item-->
+                    <div class="col-sm-4">
+                        <div class="counter-item">
+                            <i class="fa fa-book text-center"></i>
+                            <h1 class="text-center extra integers"> 20 @*@Model.c.Count().ToString();*@</h1>
+                            <h4 class="text-center">Total Books</h4>
+                        </div>
+                    </div>
+                    <!--End Item-->
+
+                    
+                    <!--Start Item-->
+                    <div class="col-sm-4">
+                        <div class="counter-item">
+                            <i class="fa fa-users text-center"></i>
+                            <h1 class="text-center extra integers">36  @*@Model.members.Count().ToString();*@</h1>
+                                <h4 class="text-center">Total Members</h4>
+                            </div>
+                        </div>
+                        <!--End Item-->
+
+
+                        <!--Start Item-->
+                        <div class="col-sm-4">
+                            <div class="counter-item">
+                                <i class="fa fa-sign-out text-center"></i>
+                                <h1 class="text-center extra integers">18  @*@Model.userBooks.Where(x => x.status == BookStatus.isborrowking).Count().ToString();*@</h1>
+                                <h4 class="text-center">Total Borrows</h4>
+                            </div>
+                        </div>
+                        <!--End Item-->
+
+                    </div>
+                </div>
+                <!--Start container-->
+            </section>
+            <!--End Counter Section-->
+
+
+
+            <!--Start Footer-->
+            <footer class="footer switcher-footer-three">
+                <!--Start Footer Top-->
+                <div class="footer-top">
+                    <!--Start container-->
+                    <div class="container">
+                        <!--Start Row-->
+                        <div class="row">
+                            <!--Start Col-->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="footer-cont-details">
+                                    <h5 class="text-left text-upper">Short About us</h5>
+                                    <div class="border-line"></div>
+                                    <img class="img-responsive" src="/images/logo/logo-footer.html" alt="">
+                                    <p class="text-left">Owner: Ahmed Mohamed Salem </p>
+                                    <div class="footer-address">
+                                        <p class="text-left"><i class="fa fa-phone"></i> +201099102087</p>
+                                        <p class="text-left"><i class="fa fa-envelope"></i> ahmed.m.salem2020@outlook.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Col-->
+
+                            <!--Start Col-->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="footer-categories">
+                                    <h5 class="text-left text-upper">Menus</h5>
+                                    <div class="border-line"></div>
+                                    <div class="footer-categories-links">
+                                        <ul>
+                                            <li><a href="/Member/NewArrivedBooks">Home</a></li>
+                                            <li><a href="/Member/BorrowingBooks">My Borrowing</a></li>
+                                            <li><a href="/Member/ReadingBooks">My Reading</a></li>
+                                            <li><a href="/Member/CurrentBorrwedBooks">My Current Borrowed</a></li>
+                                            <li><a href="/Member/SearchingForBooks">Search</a></li>
+                                            <li><a href="/Member/Edit">View Profile</a></li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Col-->
+
+                            <!--Start Col-->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="footer-categories">
+                                    <h5 class="text-left text-upper">Latest Books</h5>
+                                    <div class="border-line"></div>
+                                    <div class="footer-categories-links">
+                                        <ul>
+                                        <li><a><i class="fa fa-book"> podda Nodir Majhi</i></a></li>
+                                        <li><a><i class="fa fa-book"> bisher Bashi</i></a></li>
+                                        <li><a><i class="fa fa-book"> dhukkho sukh</i></a></li>
+                                        <li><a><i class="fa fa-book"> ratuler rat din</i></a></li>
+                                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Col-->
+
+                            <!--Start Col-->
+                            <div class="col-md-3 col-sm-6">
+                                <div class="footer-contact-form">
+                                    <h5 class="text-left text-upper">Feeadback</h5>
+                                    <div class="border-line"></div>
+                                    <form action="/Home/Index" method="POST" id="feed-form">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name" name="name">
+                                            <input type="text" class="form-control" placeholder="Email" name="email">
+                                            <input type="text" class="form-control" placeholder="Mobile" name="mobile">
+                                            <input type="hidden" name="location" value="feedback-location">
+                                            <textarea class="form-control" rows="5" placeholder="Message" name="btext"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary cont-frm-btn">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!--End Col-->
+                        </div>
+                        <!--End Row-->
+                    </div>
+                    <!--End container-->
+                </div>
+                <!--End Footer Top-->
+                <!--Start Footer Bottom-->
+                <div class="footer-bottom">
+                    <!--Start container-->
+                    <div class="container">
+                        <!--Start Row-->
+                        <div class="row">
+                            <!--Start Col-->
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="copy-right-text">
+                                    <p class="text-left">Copyright © 2018 - eLibrary - All Rights Reserved</p>
+                                </div>
+                            </div>
+                            <!--End Col-->
+
+
+                        </div>
+                        <!--End Row-->
+                    </div>
+                    <!--End container-->
+                </div>
+                <!--End Footer Bottom-->
+
+                <!--Start ClickToTop-->
+                <div class="totop">
+                    <!--Start ClickToTop-->
+                    <a href="#top"><i class="fa fa-angle-up"></i></a>
+                </div>
+                <!--End ClickToTop-->
+            </footer>
+            <!--End Footer-->
+        </div>
+        <!--End Body Wrap-->
+
+        <!--Main jQuery JS-->
+        <script src="/Scripts/jquery.min.js"></script>
+        <!--Conter JS-->
+        <script type="text/javascript" src="/Scripts/waypoints.js"></script>
+        <script type="text/javascript" src="/Scripts/jquery.counterup.min.js"></script>
+        <!--Bootstrap JS-->
+        <script type="text/javascript" src="/Scripts/bootstrap.min.js"></script>
+        <!--Bootstrap Select JS-->
+        <script type="text/javascript" src="/Scripts/bootstrap-select.min.js"></script>
+        <!--Bootstrap Range Slide JS-->
+        <script type="text/javascript" src="/Scripts/bootstrap-slider.min.js"></script>
+        <!--Slick Crousel JS-->
+        <script type="text/javascript" src="/Scripts/slick.js"></script>
+        <!--Form Select Option JS-->
+        <script type="text/javascript" src="/Scripts/select2.min.js"></script>
+        <!-- Main JS -->
+        <script type="text/javascript" src="/Scripts/main.js"></script>
+
+        @RenderSection("scripts",false)
+
+    </body>
+
+
+    <!-- Mirrored from elibrary.rexbd.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Feb 2018 10:12:19 GMT -->
+    </html>

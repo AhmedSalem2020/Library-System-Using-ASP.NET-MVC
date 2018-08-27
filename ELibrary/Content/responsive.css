@@ -1,0 +1,5768 @@
+/*==============================================================
+Large devices (large desktops, 1200px and up)
+================================================================*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /*--------------------------------------------------
+        Directory Search Form Carousel
+    ----------------------------------------------------*/
+    .directory-slide-carousel .carousel-search-form {
+        padding: 240px 80px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Paralax
+    ----------------------------------------------------*/
+    .directory-search-form-paralax .search-form-vartical-cont {
+        margin-top: 20%;
+    }
+    .directory-search-form-paralax.travel .search-form-vartical-cont {
+        margin-top: 11%;
+    }
+    /*--------------------------------------------------
+        Homepage 1
+    ----------------------------------------------------*/
+    .home-one-cat-loc-item.sm .cat-loc-cont-overlay {
+        padding: 35px 10px;
+    }
+    .home-one-featured-img-ovrly ul {
+        padding: 102px 0;
+    }
+    .home-one-featured-cont h3 {
+        padding: 55px 6px 10px;
+    }
+    .home-one-featured-cont h3 span {
+        font-size: 14px;
+    }
+    .home-one-featured-cont h3 span sub {
+        font-size: 17px;
+    }
+    .home-one-featured-cont h3 span sup {
+        font-size: 13px;
+    }
+    .home-one-featured-cont ul li a {
+        margin: 10px 2px;
+        padding: 10px 16px;
+    }
+    .home-one-featured-cont h3 span i {
+        font-size: 13px;
+        margin: 0
+    }
+    .home-one-featured-cont>p {
+        padding: 0 6px 16px;
+    }
+    .home-one-featured-cont p span {
+        font-size: 15px;
+    }
+    .home-one-latest-cont {
+        padding: 0 4px;
+    }
+    .home-one-featured-item.all .home-one-featured-cont ul li a {
+        padding: 5px 8px;
+    }
+    .latest-item-carousel .slick-prev.slick-arrow {
+        left: 44%;
+    }
+    .latest-item-carousel .slick-next.slick-arrow {
+        right: 44%;
+    }
+    .advertise.vertical .advertise-cont h2 {
+        font-size: 26px;
+    }
+    .advertise-cont p {
+        font-size: 22px;
+    }
+    .home-one-cat-location .cat-loc-img-overlay ul {
+        bottom: 20px;
+        left: 0;
+        padding: 0 18%;
+        position: absolute;
+    }
+    /*--------------------------------------------------
+        Homepage 2
+    ----------------------------------------------------*/
+    .home-two-featured .feat-overlay-bottom {
+        left: 5px;
+    }
+    .home-two-latest .home-two-latest-cont ul li a {
+        padding: 6px 10px;
+    }
+    .home-two-pricing .pricing-plan-three.home-two .pricing-table-price {
+        left: 20.5%;
+    }
+    /*--------------------------------------------------
+        Homepage 3
+    ----------------------------------------------------*/
+    .home-three-feature-listing .list-item .feature-icon {
+        bottom: 42%;
+    }
+    .counter .counter-item {
+        height: 200px;
+        width: 200px;
+    }
+    .counter .counter-item::after {
+        height: 220px;
+        width: 220px;
+    }
+    /*--------------------------------------------------
+        Homepage Transport and Vehicles
+    ----------------------------------------------------*/
+    .transport-featured-cars .fetr-item-img-overlay,
+    .transport-featured-bike .fetr-item-img-overlay {
+        left: 20px;
+    }
+    .transport-featured-cars .fetr-item-img-overlay h3 span,
+    .transport-featured-bike .fetr-item-img-overlay h3 span {
+        padding: 4px 0 0 18px;
+    }
+    .transport-popular .price-cont .rating,
+    .transport-popular .price-cont .rating i {
+        font-size: 16px;
+    }
+    .transport-popular .item-content h3 a {
+        font-size: 18px;
+    }
+    /*--------------------------------------------------
+        Homepage Event
+    ----------------------------------------------------*/
+    .event-latest .latest-event-overlay {
+        padding: 0 8px;
+    }
+    .event-latest .item-top-cont span:first-child {
+        font-size: 13px;
+        padding: 4px;
+    }
+    .event-latest .item-top-cont span:last-child {
+        font-size: 14px;
+        padding: 3px 8px;
+    }
+    .event-latest .latest-event-overlay h3 {
+        margin: 35px 0 0;
+    }
+    .event-latest .latest-event-overlay h3 a {
+        font-size: 14px;
+    }
+    .event-latest .latest-event-cont h3 span a,
+    .event-hottest .hottest-event-cont h4 a {
+        padding: 4px;
+        font-size: 14px
+    }
+    .event-latest .latest-event-cont {
+        padding: 4px 6px 20px 4px;
+    }
+    .event-latest .latest-event-cont h3 button {
+        font-size: 14px;
+        padding: 6px;
+    }
+    .event-upcoming .upcoming-event-cont {
+        padding: 0 14px 4px;
+    }
+    .event-hottest .hottest-event-cont h3 a {
+        font-size: 17px;
+    }
+    .event-hottest .hottest-event-cont p a,
+    .event-hottest .hottest-event-cont button {
+        font-size: 14px;
+    }
+    .event-hottest .hottest-event-cont h4 span i {
+        font-size: 14px;
+    }
+    .event-hottest .hottest-event-overlay {
+        padding: 28px 0;
+    }
+    .event-pricing .pricing-plan-two.layout-two .pricing-table-top h1 {
+        font-size: 26px;
+    }
+    /*--------------------------------------------------
+        Homepage Real Estate
+    ----------------------------------------------------*/
+    .realestate-top-srch .top-search-item-content h2 {
+        font-size: 18px;
+    }
+    .realestate-top-srch .top-search-item-content h2 span {
+        font-size: 16px;
+    }
+    .realestate-top-srch .top-search-item-content h2 span i {
+        font-size: 13px;
+    }
+    .realestate-top-srch .top-search-item-content p {
+        font-size: 15px;
+    }
+    .restaurant-btn>button {
+        font-size: 16px;
+    }
+    #featured-property-carousel .pro-content-ovrly {
+        padding: 30px 0;
+    }
+    .realestate-recent .reecent-item-content h5>span a {
+        padding: 4px;
+    }
+    .realestate-recent .reecent-item-content h5>span a i {
+        font-size: 14px;
+    }
+    .reecent-item-content h5 span {
+        font-size: 15px;
+    }
+    .realestate-recent .reecent-item-content p span {
+        font-size: 12px;
+        padding: 5px 3px;
+    }
+    .realestate-recent .reecent-item-content p span a {
+        font-size: 12px;
+    }
+    /*--------------------------------------------------
+        Homepage Business
+    ----------------------------------------------------*/
+    .business-all .all-item-cont.float-right h3,
+    .business-all .all-item-cont.float-right h4 {
+        padding-bottom: 0;
+        margin: 12px 0 8px;
+    }
+    .business.latest-news .news-item-content p,
+    .business.latest-news .news-item-content p a {
+        margin: 0;
+    }
+    /*--------------------------------------------------
+        Homepage Ads
+    ----------------------------------------------------*/
+    .ads-category .ads-cat-item {
+        padding: 0 10px 15px;
+    }
+    .ads-featured .feat-ads-cont {
+        padding: 0 10px 10px;
+    }
+    .all-ads .all-ads-cont {
+        padding: 5px 12px 15px;
+    }
+    .all-ads .all-ads-cont li a {
+        padding: 6px 9px;
+    }
+    .latest-news .news-item-content {
+        padding: 0 10px 6px;
+        height: 100%
+    }
+    .news-item-content h3 {
+        margin: 11px 0 0;
+    }
+    /*--------------------------------------------------
+        Homepage Doctor
+    ----------------------------------------------------*/
+    .doctor-featured .doctor-info button {
+        padding: 10px 15px;
+    }
+    .doctor-featured .doctor-info h4,
+    .doctor-featured .doctor-info>p span {
+        font-size: 15px;
+    }
+    .doctor-all .all-dr-icon p a {
+        padding: 2px 2px 0;
+    }
+    .doctor-spcl .spcl-dr-item>h4::after {
+        left: 95px;
+    }
+    .doctor-spcl .spcl-dr-item>h4::after {
+        top: 30px;
+    }
+    /*--------------------------------------------------
+        Homepage Job Board
+    ----------------------------------------------------*/
+    .job-hottest .left-item p span,
+    .job-hottest .left-item p span a {
+        padding: 0 12px 0 0;
+    }
+    .job-all .job-item-details {
+        width: 74%;
+    }
+    .job-all .job-price {
+        padding: 0 0 0 22px;
+    }
+    .advertise.vertical-two .advertise-cont h1 {
+        font-size: 35px;
+    }
+    .advertise.vertical-two .advertise-cont h2 {
+        font-size: 20px;
+    }
+    .advertise.vertical-two .advertise-cont {
+        padding: 110px 0 0;
+    }
+    .advertise.vertical-three .advertise-cont {
+        height: 400px;
+        padding: 0px 12px;
+    }
+    /*--------------------------------------------------
+        Homepage Travel and Hotel
+    ----------------------------------------------------*/
+    .travel-package .img-overlay ul {
+        padding: 200px 0 0
+    }
+    .travel-package .img-overlay ul li a {
+        padding: 6px;
+    }
+    .travel-package .item-content {
+        padding: 14px 15px;
+    }
+    .travel-popular .left-cont-one h4 span a {
+        padding: 5px;
+    }
+    .travel-popular .popular-item-img {
+        width: 38%;
+    }
+    .travel-popular .popular-item-content {
+        width: 62%;
+    }
+    .popular-item-content .left-cont-one h3 {
+        margin: 14px 0 6px;
+    }
+    .travel-hottest .item-content {
+        padding: 14px 12px;
+    }
+    .travel-hottest .item-content p span a {
+        padding: 6px 10px;
+    }
+    /*--------------------------------------------------
+        Homepage Restaurant
+    ----------------------------------------------------*/
+    .restaurant-exclusive .exclusive-item-content h3 span {
+        font-size: 15px;
+        margin-top: 4px;
+    }
+    .restaurant-exclusive .exclusive-item-content h3 span i {
+        font-size: 14px;
+    }
+    .coupons-widget.recent-listing-widget .recent-listing-widget-img {
+        float: none;
+    }
+    /*--------------------------------------------------
+        Admin Pages
+    ----------------------------------------------------*/
+    .admin-mess-body {
+        padding: 10px 0 6px 12px;
+    }
+    .admin-mess-action p a {
+        padding: 5px 12px;
+    }
+    .admin-mess-cont {
+        padding-left: 15px;
+    }
+    .admin-one .admin-one-user .dropdown-menu {
+        padding: 2px 12px;
+    }
+    .admin-three.analytics .visitor-overview-item {
+        padding: 30px 34px;
+    }
+    .admin-listings-overview .admin-listings-tbl .listings-tbl-cont h4 {
+        font-size: 16px;
+    }
+    .admin-listings-overview .admin-listings-tbl .listings-tbl-cont p {
+        font-size: 14px;
+    }
+    .admin-listings-overview .listings-tbl-actions>ul>li>a {
+        padding: 3px;
+    }
+    .admin-listings-overview .table-responsive .table tbody tr td {
+        font-size: 15px;
+    }
+    /*--------------------------------------------------
+        Header Style One
+    ----------------------------------------------------*/
+    .header-login-sign li>a {
+        margin: 0 4px;
+        padding: 4px 14px;
+    }
+    .header-social-icon li a {
+        padding: 8px;
+    }
+    .nav.navbar-nav {
+        padding: 0 0 0 130px;
+    }
+    .header-search-icon {
+        right: 85%;
+    }
+    /*--------------------------------------------------
+        Login Page
+    ----------------------------------------------------*/
+    .login-form .social-network ul li a {
+        padding: 10px 8px;
+    }
+    /*--------------------------------------------------
+        Registration Page
+    ----------------------------------------------------*/
+    .registration-form-content .social-network ul li a {
+        padding: 10px 8px;
+    }
+    /*--------------------------------------------------
+        Team Page
+    ----------------------------------------------------*/
+    .team .member-img::before {
+        border-bottom: 70px solid #f94141;
+        border-left: 107px solid transparent;
+        border-right: 106px solid transparent;
+        top: -70px;
+    }
+    .team .member-img::after {
+        border-left: 107px solid transparent;
+        border-right: 106px solid transparent;
+        border-top: 70px solid #f94141;
+        bottom: -70px;
+    }
+    .team .member-social>ul li a i.fa.fa-facebook {
+        padding: 11px 16px;
+    }
+    .team .member-social>ul li a i.fa.fa-twitter {
+        padding: 11px 12px;
+    }
+    .team .member-social>ul li a i.fa.fa-google-plus {
+        padding: 11px 9px;
+    }
+    .team .member-social>ul li a i.fa.fa-linkedin {
+        padding: 11px 13px;
+    }
+    .team.ly-three .member-social ul li a span {
+        height: 38px;
+        left: 6px;
+        width: 38px;
+    }
+    .team.ly-three .member-social ul li a {
+        margin: 0 3px;
+    }
+    .team .member-social>ul li a i {
+        font-size: 16px
+    }
+    .team.ly-four .member-social ul li a {
+        margin: 0 2px;
+    }
+    .team.ly-four .member-social ul li a span {
+        height: 36px;
+        width: 36px;
+    }
+    /*--------------------------------------------------
+        Pricing Page
+    ----------------------------------------------------*/
+    .pricing-table-four .pricing-tringle-shape {
+        border-left: 106px solid transparent;
+        border-right: 106px solid transparent;
+    }
+    /*--------------------------------------------------
+        Reset Password Page
+    ----------------------------------------------------*/
+    .login-page-three.reset-pass .login-content.reset-pass .form-group input {
+        margin: 0 0 0 36px;
+    }
+    /*--------------------------------------------------
+        About Us Page
+    ----------------------------------------------------*/
+    .about-us .about-contact p {
+        padding: 0 140px;
+    }
+    /*--------------------------------------------------
+        Blog Page
+    ----------------------------------------------------*/
+    .blog-single-wrap .post-comment-text .author-comment-text {
+        margin-left: -30px;
+    }
+    /*--------------------------------------------------
+        Blog Page
+    ----------------------------------------------------*/
+    .contact.layout-four .contact-info .cont-item-left {
+        float: left;
+        width: 15%;
+    }
+    /*--------------------------------------------------
+        Listing Page
+    ----------------------------------------------------*/
+    .listing-view-options .listing-icon-view a {
+        margin-left: 4px;
+    }
+    .listings-content .home-three-feature-listing .list-item .list-item-content {
+        padding: 12px;
+    }
+    .ads-featured.listings .feat-ads-cont {
+        padding: 0 5px 10px;
+    }
+    .ads-featured.listings .feat-ads-cont a {
+        font-size: 18px;
+    }
+    .event-hottest.listings .hottest-event-cont {
+        padding: 0 2px 16px;
+    }
+    .widget.tags {
+        padding: 0 0 30px;
+    }
+    .widget.price-range .slider.slider-horizontal {
+        margin-left: 6px;
+        width: 120px;
+    }
+    .business-feat.listings .feat-item-cont {
+        padding: 0 26px 10px;
+    }
+    .business-feat.listings .feat-item-img-ovrly {
+        padding: 36px 0;
+    }
+    .home-two-latest.listings .home-two-latest-cont h3,
+    .home-two-latest.listings .home-two-latest-cont p {
+        padding-left: 10px;
+    }
+    .home-two-latest.listings .home-two-latest-cont ul li a {
+        padding: 6px 2px;
+        margin: 0;
+        font-size: 14px
+    }
+    .home-two-latest.listings .home-two-latest-cont h4 span sub {
+        font-size: 20px;
+    }
+    .home-two-latest.listings .home-two-latest-cont h4 span sup {
+        font-size: 14px;
+    }
+    .home-two-latest.listings .home-two-latest-cont h4 {
+        padding: 20px 10px;
+    }
+    .home-two-latest.listings .home-two-latest-img-overlay span {
+        padding: 2px;
+    }
+    .home-two-latest.listings .home-two-latest-img-overlay {
+        padding: 8px 4px;
+    }
+    .home-two-latest.listings .home-two-latest-img-overlay p span:first-child {
+        padding: 2px 6px;
+    }
+    /*--------------------------------------------------
+        Footer
+    ----------------------------------------------------*/
+    .footer-social-icons ul li a {
+        padding: 8px 13px;
+    }
+    .footer-menu ul li>a {
+        padding: 14px 6px;
+    }
+    .border-line {
+        width: 212px;
+    }
+    .footer-social-icons {
+        padding-top: 80px;
+    }
+    .footer-subscribe {
+        padding-top: 2px;
+    }
+    /*--------------------------------------------------
+        demo page
+    ----------------------------------------------------*/
+    .header.demo .nav.navbar-nav {
+        padding: 0 0 0 200px
+    }
+    .demo-items .demo-peview-item h3 a {
+        font-size: 15px
+    }
+}
+
+
+/*==============================================================
+    Medium devices (desktops, 992px and up)
+================================================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*--------------------------------------------------
+        Site Preloader
+    ----------------------------------------------------*/
+    .site-preloader .spinner {
+        margin: 250px auto;
+    }
+    .site-preloader.two .sk-circle {
+        margin: 250px auto;
+    }
+    .site-preloader.three .spinner {
+        margin: 250px auto;
+    }
+    .site-preloader.four .spinner {
+        margin: 250px auto 0;
+    }
+    .site-preloader.five .sk-fading-circle {
+        margin: 250px auto;
+    }
+    .site-preloader.six .sk-folding-cube {
+        margin: 250px auto;
+    }
+    .site-preloader.seven .spinner {
+        margin: 250px auto;
+    }
+    .site-preloader.eight .spinner {
+        margin: 250px auto;
+    }
+    .site-preloader.nine .spinner {
+        margin: 250px auto;
+    }
+    .site-preloader.ten .spinner {
+        margin: 250px auto;
+    }
+    .site-preloader.eleven .sk-cube-grid {
+        margin: 250px auto;
+    }
+    /*--------------------------------------------------
+        Directory Search Form One
+    ----------------------------------------------------*/
+    .directory-search-form-one.travel .search-filter {
+        margin: 0 10px;
+    }
+    .directory-search-form-one .search-filter {
+        margin: 0 60px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Two
+    ----------------------------------------------------*/
+    .directory-search-form-two .search-form-cont {
+        padding: 30px 80px;
+    }
+    .directory-search-form-two.travel .search-form-cont {
+        padding: 30px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Carousel
+    ----------------------------------------------------*/
+    .directory-slide-carousel .carousel-search-form {
+        padding: 250px 90px;
+    }
+    .directory-slide-carousel.travel .carousel-search-form.travel {
+        padding: 250px 10px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h2 {
+        font-size: 40px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h3 {
+        font-size: 24px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Paralax
+    ----------------------------------------------------*/
+    .directory-search-form-paralax .search-form-vartical-cont {
+        background-color: #f94141;
+        margin-top: 26%;
+        padding: 40px 20px;
+        width: 300px;
+    }
+    .parallax-cont-inner h1 {
+        font-size: 30px;
+        padding-top: 40%;
+    }
+    .parallax-cont-inner h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .header-top .topbar-contact-info li small {
+        font-size: 16px;
+        padding: 0 8px;
+    }
+    .directory-search-form-paralax.travel .search-form-vartical-cont {
+        margin-top: 14%;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Slider
+    ----------------------------------------------------*/
+    .directory-search-form-slider #directory-slider-carousel .item h2 {
+        font-size: 40px;
+    }
+    /*--------------------------------------------------
+        Homepage 1
+    ----------------------------------------------------*/
+    .home-one-cat-location .cat-loc-img-overlay ul {
+        padding: 0 19%;
+    }
+    .home-one-featured-img-ovrly ul {
+        padding: 136px 0;
+    }
+    .home-one-cat-location .cat-loc-cont-overlay {
+        padding: 45px 0px;
+        text-align: center
+    }
+    .home-one-cat-loc-item.sm .cat-loc-cont-overlay {
+        padding: 35px 0;
+    }
+    .home-one-featured-cont h3 span sub {
+        font-size: 17px;
+    }
+    .home-one-featured-cont h3 span sup {
+        font-size: 13px;
+    }
+    .home-one-featured-cont h3 span i {
+        font-size: 14px;
+    }
+    .latest-item-carousel .latest-img-overlay p span:first-child {
+        font-size: 14px;
+        margin: 8px;
+        padding: 4px 10px;
+    }
+    .latest-item-carousel .latest-img-overlay span {
+        font-size: 14px;
+        padding: 12px 6px;
+    }
+    .latest-item-carousel .latest-cont h3 a {
+        font-size: 18px;
+    }
+    .latest-item-carousel .latest-cont p {
+        font-size: 14px;
+    }
+    .latest-item-carousel .latest-item,
+    .latest-item-carousel .latest-item-img {
+        height: 250px;
+    }
+    .latest-item-carousel .slick-prev.slick-arrow {
+        left: 42%;
+    }
+    .latest-item-carousel .slick-next.slick-arrow {
+        right: 42%;
+    }
+    .advertise-cont h2 {
+        font-size: 26px;
+        margin-top: 16px
+    }
+    .advertise-cont p {
+        font-size: 18px;
+    }
+    .advertise-cont button {
+        margin-top: -2px;
+    }
+    .home-one-featured-item.all .home-one-featured-cont ul li a {
+        padding: 5px 10px;
+    }
+    .counter .counter-item i {
+        font-size: 40px;
+    }
+    .counter .counter-item h1 {
+        font-size: 35px;
+    }
+    .team-home-one .team.ly-three .section-title h2 {
+        font-size: 28px;
+    }
+    .home-one-sidebar .advertise.vertical {
+        margin-top: 30px;
+    }
+    /*--------------------------------------------------
+        Homepage 2
+    ----------------------------------------------------*/
+    .pricing-plan-two.home-two .pricing-table-three .pricing-table-price {
+        height: 150px;
+        left: 16.5%;
+        width: 150px;
+    }
+    .testimonial.two .client-img {
+        left: 30%;
+    }
+    .home-two-featured-img-ovrly ul {
+        left: 30px;
+    }
+    .home-two-featured .feat-overlay-bottom {
+        left: 32px;
+    }
+    /*--------------------------------------------------
+        Homepage 3
+    ----------------------------------------------------*/
+    .home-three-recent-listing .recent-listing-details {
+        height: 270px;
+    }
+    .home-three-recent-listing .recent-listing-middle-icon {
+        left: 48%;
+    }
+    .home-three-registration .register-middle-overlay {
+        height: 80px;
+        left: 10%;
+        width: 80px;
+    }
+    .home-three-registration .register-middle-cont>h3 {
+        padding: 30px 0 0;
+    }
+    .counter .counter-item::after {
+        height: 180px;
+        width: 180px;
+    }
+    .counter .counter-item {
+        height: 160px;
+        width: 160px;
+        padding: 20px
+    }
+    /*--------------------------------------------------
+        Homepage Transport
+    ----------------------------------------------------*/
+    .transport-featured-cars .fetr-item-img-overlay h3 a,
+    .transport-featured-bike .fetr-item-img-overlay h3 a {
+        font-size: 18px;
+    }
+    .fetr-item-img-overlay.medium h4 {
+        text-align: left;
+    }
+    /*--------------------------------------------------
+        Homepage Event
+    ----------------------------------------------------*/
+    .event-hottest .hottest-event-overlay {
+        padding: 92px 0;
+    }
+    .event-hottest .hottest-event-cont {
+        padding: 0 15px 16px;
+    }
+    /*--------------------------------------------------
+        Homepage Real Estate
+    ----------------------------------------------------*/
+    .realestate-category .section-title.two {
+        padding-bottom: 0;
+    }
+    .realestate-category .category-item {
+        margin-top: 20px;
+    }
+    #featured-property-carousel .pro-content-ovrly h3 {
+        font-size: 18px;
+    }
+    #featured-property-carousel .pro-content-ovrly {
+        padding: 6px 0;
+    }
+    .realestate-recent .reecent-item-content h5>span a {
+        padding: 8px;
+    }
+    .realestate-submit .submit-content {
+        padding: 85px 0;
+    }
+    .realestate-submit .submit-content>button {
+        font-size: 14px;
+    }
+    /*--------------------------------------------------
+        Homepage Ads
+    ----------------------------------------------------*/
+    .all-ads .all-ads-cont li a {
+        padding: 6px 14px;
+    }
+    .latest-news .news-item-content {
+        height: 100%;
+        padding: 20px 20px 9px;
+    }
+    /*--------------------------------------------------
+        Homepage Doctor
+    ----------------------------------------------------*/
+    .doctor-spcl .spcl-dr-img {
+        margin: 0 45px;
+    }
+    .doctor-spcl .spcl-dr-item>h4::after {
+        left: 160px;
+        top: 30px;
+    }
+    /*--------------------------------------------------
+        Homepage Job Board
+    ----------------------------------------------------*/
+    .job-hottest .hottest-item {
+        padding: 8px 4px 20px;
+    }
+    .job-hottest .left-item p span,
+    .job-hottest .left-item p span a {
+        padding: 0 15px 0 0;
+    }
+    .newsletter-content {
+        padding: 18px 10px 26px;
+    }
+    .newsletter .newsletter-content h3 {
+        font-size: 22px;
+    }
+    .newsletter .newsletter-content button {
+        font-size: 16px;
+        padding: 10px 7px;
+    }
+    .job-all .job-price {
+        padding: 6px 0 0 30px;
+    }
+    .job-sidebar {
+        padding: 30px 0 0;
+    }
+    .advertise.vertical-two .advertise-cont {
+        padding: 125px 0 0;
+    }
+    .advertise.vertical-three .advertise-cont {
+        padding: 55px 50px;
+    }
+    /*--------------------------------------------------
+        Homepage Travel And Hotel
+    ----------------------------------------------------*/
+    .travel-popular .popular-item {
+        height: auto;
+    }
+    .travel-popular .popular-item-img {
+        width: 100%;
+    }
+    .travel-popular .popular-item-img,
+    .travel-popular .popular-item-content {
+        width: 100%;
+        height: 270px;
+    }
+    .travel-package .img-overlay ul {
+        padding: 190px 0 0;
+    }
+    /*--------------------------------------------------
+        Homepage Restaurant
+    ----------------------------------------------------*/
+    .restaurnt.latest-news .news-item-content {
+        height: 100%;
+    }
+    .popular-item-sidebar {
+        margin-top: 40px;
+    }
+    /*--------------------------------------------------
+        Admin Pages
+    ----------------------------------------------------*/
+    .admin-one .db-overview {
+        padding: 0 14px;
+    }
+    .admin-one .overview-item {
+        margin-bottom: 20px;
+    }
+    .admin-one {
+        padding-top: 140px;
+    }
+    .admin-two-menu {
+        margin-bottom: 40px;
+    }
+    .admin-transaction-overview .transaction-item {
+        margin-bottom: 20px;
+    }
+    .admin-one-user ul.dropdown-menu {
+        margin: 0 32px;
+    }
+    .admin-three.analytics .visitor-overview-item {
+        padding: 30px;
+    }
+    .admin-three-content {
+        background-color: #fff
+    }
+    .admin-one-user ul.dropdown-menu {
+        left: 38%;
+    }
+    .admin-one-menu nav>ul,
+    .admin-three-menu nav>ul {
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        Header Style One
+    ----------------------------------------------------*/
+    .header-top .btn-group.bootstrap-select.form-control.select-lang {
+        width: 96px;
+    }
+    .header-top .bootstrap-select.select-lang .dropdown-toggle .filter-option,
+    .header-top .dropdown-menu.inner a>span.text {
+        font-size: 14px!important;
+        padding: 1px 0;
+    }
+    .topbar-info li {
+        font-size: 13px;
+    }
+    .header-social-icon li a {
+        font-size: 14px;
+        padding: 8px 4px;
+    }
+    .header-login-sign li>a {
+        font-size: 14px;
+        margin: 0 2px;
+        padding: 4px;
+    }
+    .navbar.navbar-default .navbar-brand {
+        margin: 0;
+    }
+    .navbar.navbar-default .navbar-brand img {
+        width: 90px
+    }
+    .nav.navbar-nav {
+        padding: 0 0 0 70px;
+    }
+    .nav.navbar-nav li a {
+        font-size: 13px;
+        padding: 18px 8px;
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu {
+        top: 65px;
+    }
+    #navbar .add-listing-btn a {
+        font-size: 14px;
+        margin: 0;
+        padding: 4px;
+    }
+    .header-search-icon {
+        font-size: 14px;
+        right: 100%;
+        top: 24%;
+    }
+    #navbar .add-listing-btn {
+        padding: 15px 0;
+    }
+    #navbar .mega-menu.drop-down-menu .mega-menu-list {
+        width: 780px;
+        margin-left: -200px
+    }
+    /*--------------------------------------------------
+        Pricing Page
+    ----------------------------------------------------*/
+    .pricing .pricing-plan-two {
+        padding: 30px 0 70px;
+    }
+    .pricing-plan-one .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-one .pricing-table-price {
+        left: 42%;
+    }
+    .pricing-plan-one .pricing-table-one {
+        margin-top: 30px;
+    }
+    .pricing-plan-two .pricing-table-two-featured {
+        left: 42%;
+    }
+    .pricing-plan-two .pricing-table-two {
+        margin-top: 40px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-two.selected {
+        margin-top: 30px;
+    }
+    .pricing .pricing-plan-two.layout-two {
+        padding: 45px 0 70px;
+    }
+    .pricing .pricing-plan-two.layout-two .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-table-three .pricing-table-price {
+        left: 38%;
+    }
+    .pricing-plan-three .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-three .pricing-table-three {
+        margin-top: 30px;
+    }
+    .pricing-table-four .pricing-tringle-shape {
+        border-left: 360px solid transparent;
+        border-right: 360px solid transparent;
+        border-top: 70px solid #ecf0f1;
+    }
+    .pricing-plan-four .pricing-table-four {
+        margin: 15px 0;
+    }
+    /*--------------------------------------------------
+        Team Page
+    ----------------------------------------------------*/
+    .page-header .page-content h2 {
+        font-size: 26px;
+    }
+    .team .section-title h2 {
+        font-size: 24px;
+    }
+    .team .team-member {
+        margin-top: 50px;
+    }
+    .team .member-img::before {
+        border-bottom: 40px solid #f94141;
+        border-left: 78px solid transparent;
+        border-right: 79px solid transparent;
+        top: -40px;
+    }
+    .team .member-img::after {
+        border-left: 78px solid transparent;
+        border-right: 79px solid transparent;
+        border-top: 40px solid #f94141;
+        bottom: -40px;
+    }
+    .team .member-info {
+        padding-top: 40px;
+    }
+    .team .member-info h3 {
+        font-size: 16px;
+    }
+    .team .member-info p {
+        font-size: 13px;
+    }
+    .team .member-social>ul li a i {
+        font-size: 14px;
+        margin: -1px
+    }
+    .team .member-social>ul li a i.fa.fa-facebook {
+        padding: 10px 14px;
+    }
+    .team .member-social>ul li a i.fa.fa-twitter,
+    .team .member-social>ul li a i.fa.fa-linkedin {
+        padding: 10px 12px;
+    }
+    .team .member-social>ul li a i.fa.fa-google-plus {
+        padding: 10px 9px;
+    }
+    .team.ly-three .member-social ul li a {
+        margin: 0 1px;
+    }
+    .team.ly-three .member-social ul li a span {
+        height: 30px;
+        width: 30px;
+    }
+    .team.ly-four .member-social ul li a {
+        margin: 0px
+    }
+    .team.ly-four .member-social ul li a i {
+        font-size: 12px;
+    }
+    .team.ly-four .member-social ul li a span {
+        height: 28px;
+        width: 28px;
+    }
+    /*--------------------------------------------------
+        Conatct Pages
+    ----------------------------------------------------*/
+    .contact .contact-info .cont-item {
+        padding-left: 25px
+    }
+    .contact.two .contact-info {
+        margin: 70px 0 0;
+        text-align: center;
+    }
+    .contact.layout-two .contact-info .cont-item {
+        padding: 20px 0px;
+        margin-bottom: 25px
+    }
+    .contact.layout-two.two .contact-info {
+        padding-top: 10px;
+    }
+    .contact.layout-three .contact-info {
+        text-align: center;
+    }
+    .contact.layout-four .contact-info .cont-item-left {
+        width: 20%;
+    }
+    .contact.layout-four.two .contact-info .cont-item-left {
+        width: 24%;
+    }
+    .contact.layout-four.two .contact-info .cont-item-right {
+        width: 75%;
+        text-align: left
+    }
+    /*--------------------------------------------------
+        Registration Page
+    ----------------------------------------------------*/
+    .registration-forms .registration-form-left {
+        margin: 0 0 50px;
+    }
+    /*--------------------------------------------------
+        Reset Password Page
+    ----------------------------------------------------*/
+    .login-page-three.reset-pass .login-content.reset-pass .form-group input {
+        margin: 0 0 0 53px;
+    }
+    /*--------------------------------------------------
+        About Us Page
+    ----------------------------------------------------*/
+    .about-us .about-contact p {
+        padding: 0;
+    }
+    .about-us .about-info img {
+        margin: 0 auto;
+    }
+    .about-us .about-info-cont {
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        FAQ Page
+    ----------------------------------------------------*/
+    .faq-page .faq-content {
+        padding: 45px 20px 30px;
+    }
+    /*--------------------------------------------------
+        Blog Page
+    ----------------------------------------------------*/
+    .blog-single-wrap .post-comment-text .author-comment-text {
+        margin-left: -15px;
+    }
+    /*--------------------------------------------------
+        Listing Page
+    ----------------------------------------------------*/
+    .listing-view-options .listing-icon-view a {
+        margin-left: 4px;
+        padding: 4px 10px;
+    }
+    .event-hottest.listings .hottest-event-cont {
+        padding: 0 4px 16px;
+    }
+    .widget.price-range .slider.slider-horizontal {
+        margin-left: 0;
+        width: 100%;
+    }
+    .widget.distance-range .slider.slider-horizontal {
+        margin: 0;
+        width: 100%;
+    }
+    .home-one-featured.all.listings .home-one-featured-cont p span {
+        float: left;
+    }
+    .home-two-latest.listings .home-two-latest-cont h3,
+    .home-two-latest.listings .home-two-latest-cont p {
+        padding-left: 10px;
+    }
+    .home-two-latest.listings .home-two-latest-cont ul li a {
+        font-size: 16px;
+        margin: 4px;
+        padding: 6px 2px;
+    }
+    .home-two-latest.listings .home-two-latest-img-overlay span {
+        padding: 2px;
+    }
+    .home-two-latest.listings .home-two-latest-img-overlay {
+        padding: 8px 4px;
+    }
+    .home-two-latest.listings .home-two-latest-img-overlay p span:first-child {
+        padding: 2px 6px;
+    }
+    .travel-package.listings.sm .img-overlay ul {
+        padding: 215px 0;
+    }
+    .travel-package.listings.sm .img-overlay ul li a {
+        border: 2px dotted #fff;
+        display: block;
+        margin: 4px;
+        padding: 2px;
+    }
+    .travel-package.listings.sm .item-content h3 a {
+        font-size: 18px;
+    }
+    .travel-package.listings.sm .item-content {
+        padding: 14px 10px;
+    }
+    /*--------------------------------------------------
+        Footer
+    ----------------------------------------------------*/
+    .footer-categories {
+        padding-bottom: 70px;
+    }
+    /*--------------------------------------------------
+        Demo Page
+    ----------------------------------------------------*/
+    .header.demo .nav.navbar-nav li a {
+        font-size: 15px
+    }
+    .header.demo .nav.navbar-nav {
+        padding: 0 0 0 110px
+    }
+    .header.demo .navbar.navbar-default .navbar-brand img {
+        width: 102px
+    }
+}
+
+
+/*==============================================================
+    Small devices (tablets, 768px and up) 
+================================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*--------------------------------------------------
+        Site Preloader
+    ----------------------------------------------------*/
+    .site-preloader .spinner {
+        margin: 200px auto;
+    }
+    .site-preloader.two .sk-circle {
+        margin: 200px auto;
+    }
+    .site-preloader.three .spinner {
+        margin: 200px auto;
+    }
+    .site-preloader.four .spinner {
+        margin: 200px auto 0;
+    }
+    .site-preloader.five .sk-fading-circle {
+        margin: 200px auto;
+    }
+    .site-preloader.six .sk-folding-cube {
+        margin: 200px auto;
+    }
+    .site-preloader.seven .spinner {
+        margin: 200px auto;
+    }
+    .site-preloader.eight .spinner {
+        margin: 200px auto;
+    }
+    .site-preloader.nine .spinner {
+        margin: 200px auto;
+    }
+    .site-preloader.ten .spinner {
+        margin: 200px auto;
+    }
+    .site-preloader.eleven .sk-cube-grid {
+        margin: 200px auto;
+    }
+    /*--------------------------------------------------
+        Homepage Map Layout One
+    ----------------------------------------------------*/
+    .pin-wrap {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: -50.71068px;
+        margin-left: -15px;
+        -webkit-transform-origin: 50% 120.71068% 0;
+        transform-origin: 50% 120.71068% 0;
+    }
+    .pin {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        margin-left: -25px;
+        -webkit-transform-origin: 50% 120.71068% 0;
+        transform-origin: 50% 120.71068% 0;
+    }
+    .pin::after {
+        position: absolute;
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-transform: rotateZ(-45deg);
+        transform: rotateZ(-45deg);
+        border: 20px solid #FF017E;
+        border-radius: 50% 50% 50% 50%;
+    }
+    .pin::before {
+        position: absolute;
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-transform: rotateZ(-45deg);
+        transform: rotateZ(-45deg);
+        border: 18px solid #FF017E;
+        border-radius: 50% 50% 50% 0;
+    }
+    .shadow {
+        position: absolute;
+    }
+    .shadow::after {
+        position: absolute;
+        left: -125px;
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin-top: -15px;
+        content: '';
+        -webkit-transform: rotateX(55deg);
+        transform: rotateX(55deg);
+        border-radius: 50%;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 100px 0 20px;
+        box-shadow: rgba(0, 0, 0, 0.5) 100px 0 20px;
+    }
+    .pulse {
+        position: absolute;
+        margin-top: -25px;
+        margin-left: -25px;
+        -webkit-transform: rotateX(55deg);
+        transform: rotateX(55deg);
+    }
+    .pulse::after {
+        display: block;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-animation: pulsate 1s ease-out;
+        animation: pulsate 1s ease-out;
+        -webkit-animation-delay: 1.1s;
+        animation-delay: 1.1s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        opacity: 0;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 6px 3px #FF017E;
+        box-shadow: 0 0 6px 3px #FF017E;
+    }
+    /*--------------------------------------------------
+        Homepage Map Layout Two
+    ----------------------------------------------------*/
+    .directory-search-form-map-vartical {
+        height: 700px;
+    }
+    .directory-search-form-map-vartical .search-form-vartical-cont {
+        left: 8%;
+        top: 47%;
+    }
+    /*--------------------------------------------------
+        Directory Search Form One
+    ----------------------------------------------------*/
+    .directory-search-form-one {
+        height: 830px;
+        padding-top: 270px;
+    }
+    .directory-search-form-one .search-filter {
+        margin: 0 60px;
+        height: 275px;
+    }
+    .directory-search-form-one .bootstrap-select.form-control.open .dropdown-menu.open {
+        height: 120px
+    }
+    .directory-search-form-one .form-control.keyword,
+    .directory-search-form-one .search-cities,
+    .directory-search-form-one .search-category,
+    .directory-search-form-one .search-btn {
+        float: none;
+        height: 55px;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .directory-search-form-one .form-control.keyword,
+    .directory-search-form-one .search-btn>button {
+        border-radius: 0px!important
+    }
+    .directory-search-form-one h2 {
+        font-size: 35px;
+        padding: 30px 0 20px
+    }
+    .directory-search-form-one .search-form-category {
+        padding: 20px 0 0;
+    }
+    .directory-search-form-one .search-form-category li a {
+        padding: 10px;
+    }
+    .directory-search-form-one.travel .form-control.keyword.travel,
+    .directory-search-form-one.travel .search-category.travel,
+    .directory-search-form-one.travel .search-btn.travel,
+    .directory-search-form-one.travel .search-btn.travel button,
+    .directory-search-form-one.travel .input-group.date.date-from.travel,
+    .directory-search-form-one.travel .input-group.date.date-from.travel input,
+    .directory-search-form-one.travel .input-group.date.date-to.travel,
+    .directory-search-form-one.travel .input-group.date.date-to.travel input,
+    .directory-search-form-one.travel .search-filter .btn.dropdown-toggle.btn-info,
+    .directory-search-form-one.travel .search-filter .btn-group.bootstrap-select.form-control,
+    .directory-search-form-one.travel .search-country.travel {
+        width: 100%;
+        float: none;
+        margin-bottom: 4px;
+        height: 36px!important
+    }
+    /*--------------------------------------------------
+        Directory Search Form two
+    ----------------------------------------------------*/
+    .directory-search-form-two .search-form-cont {
+        padding: 30px 20px;
+    }
+    .directory-search-form-two.travel .form-control.keyword.travel,
+    .directory-search-form-two.travel .search-location.travel,
+    .directory-search-form-two.travel .search-category.travel,
+    .directory-search-form-two.travel .input-group.date.date-from.travel,
+    .directory-search-form-two.travel .input-group.date.date-to.travel {
+        width: 100%;
+        border-radius: 0;
+        height: 36px;
+        margin: 2px 0
+    }
+    .directory-search-form-two.travel .btn.dropdown-toggle.btn-info,
+    .directory-search-form-two.travel .btn-group.bootstrap-select.form-control,
+    .directory-search-form-two.travel .input-group.date.date-from.travel input,
+    .directory-search-form-two.travel .input-group.date.date-to.travel input {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-search-form-two.travel .search-btn.travel button {
+        width: 100%;
+        margin: 2px 0 0;
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-search-form-two.travel .search-btn.travel {
+        height: 36px;
+        width: 100%;
+    }
+    .directory-search-form-two.travel .search-form-cont {
+        bottom: -278px;
+        padding: 18px 20px
+    }
+    .directory-search-form-two.travel {
+        margin-bottom: 250px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Carousel
+    ----------------------------------------------------*/
+    .directory-slide-carousel .carousel-search-form {
+        padding: 310px 25px;
+    }
+    .directory-slide-carousel .carousel-inner .item {
+        height: 750px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h2 {
+        font-size: 40px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h3 {
+        font-size: 22px;
+    }
+    .directory-slide-carousel .form-control.keyword,
+    .directory-slide-carousel .search-location,
+    .directory-slide-carousel .search-category,
+    .directory-slide-carousel .search-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .directory-slide-carousel .form-control.keyword,
+    .directory-slide-carousel .bootstrap-select button,
+    .directory-slide-carousel .search-btn>button {
+        border-radius: 4px;
+    }
+    .directory-slide-carousel.travel .form-control.keyword.travel,
+    .directory-slide-carousel.travel .search-location.travel,
+    .directory-slide-carousel.travel .search-category.travel,
+    .directory-slide-carousel.travel .input-group.date.date-from.travel,
+    .directory-slide-carousel.travel .input-group.date.date-to.travel {
+        height: 36px;
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .btn-group.bootstrap-select.form-control,
+    .directory-slide-carousel.travel .btn.dropdown-toggle.btn-info {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .input-group.date.date-from.travel input,
+    .directory-slide-carousel.travel .input-group.date.date-to.travel input {
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .search-btn.travel,
+    .directory-slide-carousel.travel .search-btn.travel button {
+        width: 100%;
+        height: 36px;
+        border-radius: 0;
+        margin: 1px 0 0
+    }
+    /*--------------------------------------------------
+        Directory Search Form Paralax
+    ----------------------------------------------------*/
+    .directory-search-form-paralax {
+        height: 800px;
+    }
+    .directory-search-form-paralax .parallax-cont {
+        padding-top: 285px;
+    }
+    .parallax-cont-inner {
+        padding: 0 60px;
+        text-align: center;
+    }
+    .parallax-cont-inner h1 {
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0;
+        padding-top: 8%;
+    }
+    .parallax-cont-inner h3 {
+        color: #ffffff;
+        font-family: "raleway";
+        font-size: 20px;
+        margin: 8px 0 30px;
+    }
+    .directory-search-form-paralax .search-form-vartical-cont {
+        float: none;
+        margin: 0 auto;
+        padding: 18px 38px;
+        width: 350px;
+    }
+    .directory-search-form-paralax.travel .search-form-vartical-cont {
+        background-color: #f94141;
+        margin-top: -3.5%;
+        padding: 25px 20px;
+    }
+    .directory-search-form-paralax.travel .search-form-vartical-cont.travel {
+        margin-top: -20px;
+    }
+    .directory-search-form-paralax.travel .parallax-cont-inner.travel h1 {
+        padding-top: 2%;
+    }
+    .directory-search-form-map-vartical.travel .search-form-vartical-cont.travel {
+        top: 305px;
+        padding: 15px 20px
+    }
+    /*--------------------------------------------------
+        Directory Search Form Slider
+    ----------------------------------------------------*/
+    .directory-search-form-slider .search-filter .form-control.keyword,
+    .directory-search-form-slider .search-filter .search-location,
+    .directory-search-form-slider .search-filter .search-category,
+    .directory-search-form-slider .search-filter .search-btn {
+        float: left;
+        width: 100%;
+        margin-bottom: 6px;
+        border-radius: 4px
+    }
+    .directory-search-form-slider .search-filter .bootstrap-select button,
+    .directory-search-form-slider .search-filter .search-btn>button {
+        border-radius: 4px;
+    }
+    .directory-search-form-slider #directory-slider-carousel .item {
+        height: 900px;
+    }
+    .directory-search-form-slider #directory-slider-carousel .item h2 {
+        font-size: 40px;
+    }
+    .directory-search-form-slider .item .slider-content {
+        padding: 410px 0;
+    }
+    .directory-search-form-slider .carousel-control .glyphicon-chevron-right,
+    .directory-search-form-slider .carousel-control .glyphicon-chevron-left {
+        margin-top: 20px;
+    }
+    .directory-search-form-slider.travel .search-filter.travel .form-control.keyword.travel,
+    .directory-search-form-slider.travel .search-filter.travel .search-location.travel,
+    .directory-search-form-slider.travel .search-filter.travel .search-category.travel,
+    .directory-search-form-slider.travel .input-group.date.date-from.travel,
+    .directory-search-form-slider.travel .input-group.date.date-to.travel {
+        float: left;
+        height: 36px;
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .btn-group.bootstrap-select.form-control,
+    .directory-search-form-slider.travel .btn.dropdown-toggle.btn-info {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .input-group.date.date-from.travel input,
+    .directory-search-form-slider.travel .input-group.date.date-to.travel input {
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .search-filter.travel .search-btn.travel,
+    .directory-search-form-slider.travel .search-btn.travel button {
+        width: 100%;
+        height: 36px;
+        border-radius: 0;
+        margin: 1px 0 0
+    }
+    /*--------------------------------------------------
+        Header
+    ----------------------------------------------------*/
+    .page-header {
+        padding: 320px 0 52px;
+    }
+    .header-top {
+        text-align: center;
+        padding: 15px 0 5px;
+    }
+    .header-top .header-login-sign {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .topbar-contact-info {
+        padding: 10px 0 5px;
+    }
+    .navbar-collapse.collapse.in {
+        background-color: #ffffff;
+        position: relative;
+        z-index: 999999;
+        width: 100%;
+        margin-top: 15px;
+        border: 1px solid #ccc;
+        border-top: 0;
+        margin-left: 0
+    }
+    .navbar-collapse.collapsing {
+        margin-top: 15px;
+        background-color: #fff;
+        width: 100%;
+        border-top: 0;
+        margin-left: 0
+    }
+    .nav.navbar-nav {
+        padding-left: 40%
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu,
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        -webkit-transform: 0.0s;
+        transform: 0.0s
+    }
+    #navbar .nav.navbar-nav li .mega-menu.drop-down-menu {
+        display: none
+    }
+    #navbar ul li a b {
+        display: inline-block
+    }
+    .dropdown.has-submenu ul {
+        display: none
+    }
+    .dropdown.has-submenu.open ul {
+        display: block
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu {
+        opacity: 1;
+        position: unset;
+        visibility: visible;
+        padding-left: 30px;
+        border: 0
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        opacity: 1;
+        position: unset;
+        visibility: visible;
+        border: 0
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        display: block;
+        padding: 0 14px;
+        font-weight: 600;
+        color: #34495e;
+        color: #F94141
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        color: #2c3e50
+    }
+    .dropdown.has-submenu.open .drop-down-menu.mobile {
+        display: block!important
+    }
+    #navbar .add-listing-btn {
+        padding: 20px 10px 30px 35%;
+        float: left;
+    }
+    .header-search-icon {
+        display: none
+    }
+    .navbar.navbar-default {
+        padding: 15px 14px
+    }
+    .nav.navbar-nav li {
+        padding: 0;
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu li {
+        padding: 10px 0
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu,
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li {
+        min-width: 200px;
+    }
+    .layout-boxed #body-wrap .header {
+        padding: 0 20px
+    }
+    .layout-boxed #body-wrap {
+        margin: 0 20px
+    }
+    .header-static-one.header .mainmenu.affix {
+        margin-top: -200px;
+    }
+    .layout-boxed .header-static-one.header .mainmenu.affix {
+        padding-right: 40px;
+    }
+    .header-two.header.header-main .nav.navbar-nav li a,
+    .header-static-two.header.header-main .nav.navbar-nav li a,
+    .header-two.header.header-main #navbar .add-listing-btn a,
+    .header-static-two.header.header-main #navbar .add-listing-btn a {
+        color: unset;
+    }
+    .header-two.header.header-main .navbar-collapse.collapse.in,
+    .header-static-two.header.header-main .navbar-collapse.collapse.in,
+    .header-two.header.header-main .navbar-collapse.collapsing,
+    .header-static-two.header.header-main .navbar-collapse.collapsing {
+        padding: 0;
+        margin-left: 0;
+        margin-top: 18px
+    }
+    .header-static-two.header.header-main .navbar-collapse.collapse.in,
+    .header-static-two.header.header-main .navbar-collapse.collapsing {
+        margin-top: 2px
+    }
+    .header-static-two.header.header-main #navbar .add-listing-btn {
+        float: none;
+        text-align: center;
+        padding: 10px;
+        margin: 0 0 20px -90px
+    }
+    .header-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a,
+    .header-static-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        color: #F94141;
+    }
+    .header-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a,
+    .header-static-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        color: #2c3e50;
+    }
+    .header-static-two.header.header-main .mainmenu.affix {
+        margin-top: -200px;
+    }
+    .header-three.header.header-main .navbar.navbar-default,
+    .header-static-three.header.header-main .navbar.navbar-default {
+        background-color: #fff;
+        border: 1px solid #ccc
+    }
+    .header-three.header.header-main .navbar.navbar-default .navbar-brand,
+    .header-static-three.header.header-main .navbar.navbar-default .navbar-brand {
+        margin: -8px 0 0;
+    }
+    .header-static-three.header .mainmenu.affix {
+        margin-top: -250px;
+    }
+    .layout-boxed .header-static-two.header .mainmenu.affix {
+        padding-right: 40px;
+    }
+    .header-three.header.header-main .navbar-collapse.collapse.in,
+    .header-static-three.header.header-main .navbar-collapse.collapse.in,
+    .header-three.header.header-main .navbar-collapse.collapsing,
+    .header-static-three.header.header-main .navbar-collapse.collapsing {
+        padding: 0;
+        margin-left: 0;
+        margin-top: 15px
+    }
+    .layout-boxed .header-static-three.header .mainmenu.affix {
+        padding-right: 40px;
+    }
+    /*--------------------------------------------------
+        Homepage 1
+    ----------------------------------------------------*/
+    .home-one-cat-location .cat-loc-img-overlay ul {
+        padding: 0 26%;
+    }
+    .home-one-cat-location .cat-loc-cont-overlay {
+        text-align: center;
+    }
+    .home-one-featured-img ul li img,
+    .home-one-featured-item.all .home-one-featured-img ul li img {
+        width: 50px;
+    }
+    .home-one-featured-img-ovrly ul {
+        padding: 202px 0;
+    }
+    .home-one-sidebar {
+        display: none
+    }
+    .latest-item-carousel .slick-prev.slick-arrow {
+        left: 42%;
+    }
+    .latest-item-carousel .slick-next.slick-arrow {
+        right: 42%;
+    }
+    .advertise-cont h2 {
+        font-size: 24px;
+        margin-top: 18px
+    }
+    .advertise-cont p {
+        font-size: 18px;
+    }
+    .advertise-cont button {
+        margin-top: 0;
+        padding: 5px 22px;
+    }
+    .home-one-featured-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .home-one-featured-img {
+        height: 300px;
+    }
+    .latest-blog .post-media img {
+        height: 300px;
+    }
+    /*--------------------------------------------------
+        Homepage 2
+    ----------------------------------------------------*/
+    .home-two-featured .home-two-feat-overlay {
+        padding: 12.5% 0;
+    }
+    .home-two-featured .feat-overlay-bottom {
+        left: 30%;
+    }
+    .home-two-category .home-two-cat-item {
+        height: 345px;
+    }
+    .home-two-category .home-two-cont-overlay ul li a {
+        padding: 4px;
+    }
+    .home-two-category .home-two-cont-overlay {
+        height: 205px;
+    }
+    .home-two-featured .home-two-feat-item {
+        height: 300px;
+    }
+    .home-two-latest .home-two-latest-img {
+        height: 250px;
+        width: 100%;
+    }
+    .home-two-latest .home-two-latest-img img {
+        white-space: 100%;
+        height: 100%
+    }
+    .home-two-latest .home-two-latest-item {
+        margin: 0 0 20px;
+    }
+    .home-two-latest .home-two-latest-cont h3,
+    .home-two-latest .home-two-latest-cont p {
+        text-align: center;
+    }
+    .testimonial.two .client-img {
+        left: 43%;
+    }
+    .home-two-featured .feat-overlay-bottom {
+        position: unset;
+        padding: 180px 0;
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        Homepage 3
+    ----------------------------------------------------*/
+    .home-three-feature-listing .list-item .feature-icon {
+        bottom: 35%;
+        left: 46%;
+    }
+    .home-three-feature-listing .list-item-overlay>ul {
+        padding-top: 14%;
+    }
+    .home-three-recent-listing .recent-listing-details {
+        height: 270px;
+    }
+    .home-three-recent-listing .recent-listing-middle-icon {
+        left: 48%;
+    }
+    .pricing-home.three .pricing-table-two {
+        margin-bottom: 30px;
+    }
+    .home-three-registration .register-middle-overlay {
+        left: 43.5%;
+    }
+    .counter .counter-item {
+        margin: 0 auto;
+        margin-bottom: 35px
+    }
+    .counter .counter-item:after {
+        margin: 0 auto;
+    }
+    .counter .counter-item::after {
+        height: 220px;
+        left: 0;
+        width: 220px;
+    }
+    .counter .counter-item {
+        height: 200px;
+        width: 200px;
+        padding: 25px
+    }
+    .home-three-recent-listing .recent-listing-left ul {
+        padding: 10px 0 12px;
+        text-align: center;
+    }
+    .partner-item-list.slick-initialized.slick-slider {
+        text-align: center
+    }
+    /*--------------------------------------------------
+        Homepage Transport
+    ----------------------------------------------------*/
+    .fetr-item-img-overlay.medium h4 {
+        text-align: left;
+    }
+    .transport-featured-cars .fetr-item-img-overlay.medium h3 a,
+    .transport-featured-bike .fetr-item-img-overlay.medium h3 a,
+    transport-featured-cars .fetr-item-img-overlay h3 a,
+    .transport-featured-bike .fetr-item-img-overlay h3 a {
+        font-size: 24px;
+    }
+    .transport-featured-bike .ribbon::before {
+        border-width: 12px 5px 12px 12px;
+        left: -9px
+    }
+    .transport-popular .popular-item img {
+        width: 100%;
+        height: 300px;
+    }
+    /*--------------------------------------------------
+        Homepage Event
+    ----------------------------------------------------*/
+    .event-latest .latest-event-overlay h3 a {
+        font-size: 30px;
+    }
+    .event-latest .latest-event-overlay h3 {
+        margin: 140px 0 0;
+    }
+    .event-latest .latest-event-cont {
+        padding: 4px 40px 20px 30px;
+    }
+    .event-hottest .hottest-event-cont {
+        padding: 0 30px 16px;
+    }
+    .event-latest .latest-event-img,
+    .event-hottest .hottest-event-img {
+        height: 300px;
+    }
+    .event-latest .latest-event-item img,
+    .event-hottest .hottest-event-overlay img {
+        height: 100%;
+        width: 100%;
+    }
+    .event-latest .latest-event-overlay h3 {
+        margin: 80px 0 0;
+    }
+    .event-latest .latest-event-overlay.lg h3 {
+        padding-top: 1%;
+    }
+    .event-hottest .hottest-event-overlay {
+        padding: 100px 0;
+    }
+    /*--------------------------------------------------
+        Homepage Real Estate
+    ----------------------------------------------------*/
+    .realestate-category .section-title.two {
+        padding-bottom: 0;
+    }
+    .realestate-category .category-item {
+        margin-top: 20px;
+    }
+    .realestate-top-srch .top-search-item-img {
+        height: 350px;
+    }
+    .realestate-featured {
+        margin: 0 100px;
+    }
+    .realestate-recent .recent-img {
+        height: 350px;
+    }
+    .realestate-submit .submit-content {
+        padding: 140px 0;
+    }
+    .realestate-submit .submit-content>button {
+        font-size: 14px;
+    }
+    /*--------------------------------------------------
+        Homepage Business
+    ----------------------------------------------------*/
+    .business-feat .feat-item-img-ovrly {
+        padding: 80px 0;
+    }
+    .business-all .all-item,
+    .latest-news .news-item {
+        height: auto;
+    }
+    .business-all .all-item .all-item-img,
+    .business-all .all-item-cont,
+    .latest-news .news-item-content,
+    .latest-news .news-item-img {
+        width: 100%;
+    }
+    .business-all .bottom-content p {
+        padding: 0;
+    }
+    .business-all .bottom-content {
+        padding: 120px 0;
+    }
+    .business-feat .feat-item-img {
+        height: 300px;
+    }
+    .business-feat .feat-item-img img {
+        width: 100%;
+        height: 100%
+    }
+    .business-all .all-item .all-item-img {
+        height: 230px;
+    }
+    /*--------------------------------------------------
+        Homepage Ads
+    ----------------------------------------------------*/
+    .ads-featured .feat-ads-img,
+    .all-ads .all-ads-item img {
+        height: 300px;
+    }
+    /*--------------------------------------------------
+        Homepage Doctor
+    ----------------------------------------------------*/
+    .doctor-featured .featured-item,
+    .doctor-spcl {
+        padding: 0 80px;
+    }
+    .doctor-featured .feat-left-cont {
+        width: 50%;
+    }
+    .doctor-featured .feat-right-cont {
+        padding-top: 20%;
+        width: 50%;
+    }
+    .all-dr-item {
+        padding: 0 150px;
+    }
+    .latest-blog .blog-post {
+        margin-bottom: 30px;
+    }
+    .doctor-spcl .spcl-dr-item>h4 {
+        margin: 0 auto 20px;
+        padding: 6px 0;
+        width: 350px;
+    }
+    .doctor-spcl .spcl-dr-item>h4::after {
+        left: 162px;
+        top: 30px;
+    }
+    .doctor-spcl .spcl-dr-img {
+        width: 300px;
+        margin: 0 auto
+    }
+    /*--------------------------------------------------
+        Homepage Job Board
+    ----------------------------------------------------*/
+    .job-category .cat-item-overlay {
+        left: 44%;
+    }
+    .newsletter-content {
+        padding: 20px 20px 42px;
+    }
+    .newsletter .newsletter-content h3 {
+        text-align: center;
+    }
+    .newsletter .newsletter-content input {
+        margin: 12px 0 0;
+    }
+    .newsletter .newsletter-content button {
+        width: 100%;
+    }
+    .job-all .job-cont-img,
+    .job-all .job-item-details {
+        width: 100%;
+        text-align: center;
+    }
+    .job-all .job-locaction>h3 {
+        padding-top: 0;
+    }
+    .job-all .job-price {
+        text-align: center;
+        padding: 0
+    }
+    .job-all .job-price>span a,
+    .job-all .job-price h3 span {
+        margin: 0;
+    }
+    .job-sidebar {
+        margin-top: 50px;
+    }
+    .advertise.vertical-two .advertise-cont {
+        padding: 125px 0 0;
+    }
+    .advertise.vertical-three .advertise-cont {
+        padding: 60px 40px;
+    }
+    .job.testimonial.four .client-comment {
+        padding: 0 50px;
+    }
+    .testimonial.four .client-comment::before {
+        left: 25px;
+        top: -8px;
+    }
+    .testimonial.four .client-comment::after {
+        bottom: -16px;
+        right: 27px;
+    }
+    /*--------------------------------------------------
+        Homepage Travel And Hotel
+    ----------------------------------------------------*/
+    .travel-popular .popular-item {
+        height: auto;
+    }
+    .travel-popular .popular-item-img {
+        width: 100%;
+    }
+    .travel-popular .popular-item-img,
+    .travel-popular .popular-item-content {
+        width: 100%;
+        height: auto
+    }
+    .travel-package .img-overlay ul {
+        padding: 180px 0 0;
+    }
+    .travel-popular .item-left-cont {
+        width: 100%;
+        padding: 0
+    }
+    .travel-popular .left-cont-two {
+        border: 1px solid #ecf0f1;
+        margin-top: 35px;
+    }
+    .travel-popular .item-right-cont {
+        width: 100%;
+        padding: 6px 0 0;
+    }
+    /*--------------------------------------------------
+        Homepage Restaurant
+    ----------------------------------------------------*/
+    .testimonial.five .testi-content {
+        padding: 100px;
+        margin: 0
+    }
+    .restaurant-category .category-item.large {
+        margin-bottom: 30px
+    }
+    .popular-item-sidebar {
+        margin-top: 40px;
+    }
+    /*--------------------------------------------------
+        Admin Pages
+    ----------------------------------------------------*/
+    .admin-one-user ul.dropdown-menu {
+        margin: 0 39.5%;
+    }
+    .admin-one .db-overview {
+        padding: 20px 16px 0;
+    }
+    .admin-one .overview-item {
+        margin-bottom: 20px;
+    }
+    .admin-one {
+        padding-top: 278px;
+    }
+    .admin-two .admin-two-header h2 {
+        margin: 122px 0;
+    }
+    .admin-two .admin-two-header {
+        padding: 240px 0;
+    }
+    .admin-analytics .visitor-overview-item {
+        margin-bottom: 20px;
+        padding: 25px 120px;
+    }
+    .admin-transaction-overview .transaction-item,
+    .admin-sales-overview .sales-item,
+    .admin-payment .admin-payment-overview .payment-item {
+        margin-bottom: 20px;
+    }
+    .admin-profile {
+        margin-top: 30px;
+    }
+    .admin-three-content {
+        background-color: #fff
+    }
+    .admin-three-header {
+        height: auto;
+    }
+    .admin-three-header .user-alert-icons {
+        padding-top: 16px;
+        text-align: center;
+    }
+    .admin-three-header .admin-three-user {
+        float: none;
+        margin-top: 14px;
+        text-align: center;
+    }
+    .admin-three-header .admin-three-user .dropdown-menu {
+        left: 38%;
+    }
+    .admin-three-header {
+        margin-top: 138px;
+    }
+    .admin-one-menu nav>ul,
+    .admin-three-menu nav>ul {
+        text-align: center;
+    }
+    .admin-two .overview-item {
+        margin-bottom: 20px;
+    }
+    .admin-three .overview-item {
+        text-align: center;
+    }
+    .admin-three .overview-item p span {
+        float: none;
+        padding: 0 20px;
+    }
+    /*--------------------------------------------------
+        Login Page
+    ----------------------------------------------------*/
+    .login-form .social-network ul li a {
+        padding: 10px 6px;
+    }
+    .login-form-content {
+        padding: 40px 0;
+    }
+    .login-page-three .login-content {
+        margin: 70px 30px 50px;
+    }
+    /*--------------------------------------------------
+        Registration Page
+    ----------------------------------------------------*/
+    .registration-form-content {
+        padding: 30px 0;
+    }
+    .registration-form-content .social-network ul li a {
+        padding: 10px 7px;
+    }
+    .registration-forms .registration-form-left {
+        margin: 0 0 50px;
+    }
+    /*--------------------------------------------------
+        404 Page
+    ----------------------------------------------------*/
+    .page-notfound .notfound-content {
+        padding-top: 25px;
+    }
+    .page-notfound .notfound-content h1 {
+        font-size: 80px;
+    }
+    .page-notfound .notfound-content h2 {
+        font-size: 30px;
+    }
+    .page-notfound .notfound-search-form span i.fa.fa-home {
+        font-size: 20px;
+        padding: 10px 16px;
+    }
+    .page-notfound .notfound-search-form span input {
+        font-size: 18px;
+        height: 42px;
+        width: 90%;
+    }
+    .page-notfound .notfound-search-form span i.fa.fa-search {
+        font-size: 18px;
+        top: 22px;
+    }
+    .page-notfound .notfound-search-form {
+        padding: 10px 30px 90px;
+    }
+    .page-notfound .notfound-search-form span i.fa.fa-search {
+        right: 60px;
+    }
+    /*--------------------------------------------------
+        Team Page
+    ----------------------------------------------------*/
+    .team-page .section-title {
+        padding-bottom: 0;
+    }
+    .team .member-img {
+        padding: 20px;
+    }
+    .team .member-img::before {
+        border: 0;
+    }
+    .team .member-img::after {
+        border: 0;
+    }
+    .team .team-member {
+        margin-top: 30px;
+    }
+    .team .member-info {
+        padding-top: 0;
+    }
+    .team.ly-three .member-img {
+        padding: 0 150px;
+    }
+    /*--------------------------------------------------
+        Pricing Page
+    ----------------------------------------------------*/
+    .pricing .pricing-plan-two {
+        padding: 30px 0 70px;
+    }
+    .pricing-plan-one .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-one .pricing-table-price {
+        left: 42%;
+    }
+    .pricing-plan-one .pricing-table-one {
+        margin-top: 30px;
+    }
+    .pricing-plan-two .pricing-table-two-featured {
+        left: 42%;
+    }
+    .pricing-plan-two .pricing-table-two {
+        margin-top: 40px;
+    }
+    .pricing .pricing-plan-two.layout-two .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h1 {
+        font-size: 30px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2 {
+        font-size: 24px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2>sub {
+        font-size: 45px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2 span sub {
+        font-size: 20px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-two.selected {
+        margin-top: 30px;
+    }
+    .pricing-table-three .pricing-table-price {
+        left: 38%;
+    }
+    .pricing-plan-three .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-three .pricing-table-three {
+        margin-top: 30px;
+    }
+    .pricing-table-four .pricing-tringle-shape {
+        border-left: 360px solid transparent;
+        border-right: 360px solid transparent;
+        border-top: 70px solid #ecf0f1;
+    }
+    .pricing-plan-four .pricing-table-four {
+        margin: 15px 0;
+    }
+    .pricing-table-four .pricing-tringle-shape {
+        display: none;
+    }
+    /*--------------------------------------------------
+        Conatct Pages
+    ----------------------------------------------------*/
+    .contact .contact-info .cont-item {
+        text-align: center;
+        margin-bottom: 20px
+    }
+    .contact .contact-info {
+        padding: 32px 0 20px;
+        margin: 20px 0 10px;
+    }
+    .contact.layout-three .contact-info .cont-item {
+        margin: 0;
+    }
+    .contact.layout-four .contact-info-text {
+        text-align: center
+    }
+    .contact.layout-four .contact-info .cont-item-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact.layout-four .contact-info .cont-item-right {
+        width: 100%;
+    }
+    .contact.layout-four .contact-social {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        About Us Page
+    ----------------------------------------------------*/
+    .about-us .about-info img {
+        margin: 0 auto;
+    }
+    .about-us .about-info-cont {
+        text-align: center;
+    }
+    .about-us .about-contact p {
+        padding: 0 20px;
+    }
+    /*--------------------------------------------------
+        FAQ Page
+    ----------------------------------------------------*/
+    .faq-page .faq-content {
+        padding: 45px 30px 30px;
+    }
+    /*--------------------------------------------------
+        Blog Page
+    ----------------------------------------------------*/
+    .widget.widget-recent-post .recent-post {
+        height: 100px;
+    }
+    .widget.widget-recent-post .recent-post .left-side-post,
+    .widget.widget-recent-post .recent-post .right-side-post {
+        width: 50%;
+    }
+    .blog-post-wrap.grid-two .post-media::before {
+        left: -4px;
+    }
+    .blog-single-wrap .post-comment-text .author-comment-text {
+        margin-left: 0;
+    }
+    /*--------------------------------------------------
+        Listing Page
+    ----------------------------------------------------*/
+    .listing-page .listing-view-options .btn-group.bootstrap-select.form-control {
+        margin-bottom: 5px!important;
+    }
+    .listing-view-options .listing-icon-view a {
+        margin-left: 0;
+    }
+    .listing-sidebar.right {
+        padding: 0 0 40px
+    }
+    /*--------------------------------------------------
+        Footer
+    ----------------------------------------------------*/
+    .footer-categories {
+        padding: 30px 0;
+    }
+    .footer-contact-form {
+        padding-top: 15px;
+    }
+    .footer-bottom .copy-right-text p {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        Comimg Soon Page
+    ----------------------------------------------------*/
+    .coming-soon-wrap .countdown li span {
+        font-size: 35px;
+        padding: 20px 20px;
+    }
+    .coming-soon-wrap .countdown li:first-child span {
+        padding: 20px 12px;
+    }
+    .coming-soon-wrap .countdown-content h1 {
+        font-size: 40px;
+    }
+    .coming-soon-wrap .social-icons ul li a .fa {
+        padding: 12px 14px;
+    }
+    /*--------------------------------------------------
+        Demo Page
+    ----------------------------------------------------*/
+    .header-demo-purchase {
+        text-align: center;
+        margin: 0 0 30px -75px
+    }
+    /*--------------------------------------------------
+        Footer Style Two
+    ----------------------------------------------------*/
+    .switcher-footer-two.footer .footer-sup-info-cont .fotr-sup-info-item .sup-info-icon {
+        position: unset;
+        padding: 10px 0
+    }
+    .switcher-footer-two.footer {
+        margin-top: 0;
+        position: unset;
+    }
+    .switcher-footer-two.footer .footer-support-info {
+        position: unset;
+    }
+    .switcher-footer-two.footer .footer-support-info .footer-sup-info-cont .sup-info-icon i {
+        margin: 0 auto;
+    }
+    .switcher-footer-two.footer .footer-top {
+        padding-top: 30px;
+    }
+}
+
+
+/*==============================================================
+    Exceptionla Media Quries
+================================================================*/
+
+@media only screen and (min-width: 620px) and (max-width: 700px) {
+    /*--------------------------------------------------
+        Directory Search Form two
+    ----------------------------------------------------*/
+    .directory-search-form-two {
+        margin-bottom: 300px;
+    }
+    .directory-search-form-two .search-form-cont {
+        padding: 32px 20px 30px;
+        bottom: -300px;
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .search-location,
+    .directory-search-form-two .search-category,
+    .directory-search-form-two .search-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .bootstrap-select button,
+    .directory-search-form-two .search-btn>button {
+        border-radius: 4px;
+    }
+    .directory-search-form-two.travel .form-control.keyword.travel,
+    .directory-search-form-two.travel .search-location.travel,
+    .directory-search-form-two.travel .search-category.travel,
+    .directory-search-form-two.travel .input-group.date.date-from.travel,
+    .directory-search-form-two.travel .input-group.date.date-to.travel {
+        width: 100%;
+        border-radius: 0;
+        height: 36px;
+        margin: 2px 0
+    }
+    /*--------------------------------------------------
+        Directory Search Form Carousel
+    ----------------------------------------------------*/
+    .directory-slide-carousel .carousel-search-form {
+        padding: 310px 25px;
+    }
+    .directory-slide-carousel .carousel-inner .item {
+        height: 750px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h2 {
+        font-size: 40px;
+    }
+    /*--------------------------------------------------
+        Listing Page
+    ----------------------------------------------------*/
+    .listing-page .listings-content.full-width {
+        padding: 240px 0 5px!important;
+    }
+    .listing-page .listing-view-options .btn-group.bootstrap-select.form-control {
+        margin-bottom: 5px!important;
+    }
+    .listing-view-options .listing-icon-view a {
+        margin-left: 0;
+    }
+    /*--------------------------------------------------
+        Admin One Dashboard
+    ----------------------------------------------------*/
+    .admin-one-user ul.dropdown-menu {
+        margin: 0px 38.5%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+    /*--------------------------------------------------
+        Directory Search Form two
+    ----------------------------------------------------*/
+    .directory-search-form-two {
+        margin-bottom: 300px;
+    }
+    .directory-search-form-two .search-form-cont {
+        padding: 32px 20px 30px;
+        bottom: -300px;
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .search-location,
+    .directory-search-form-two .search-category,
+    .directory-search-form-two .search-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .bootstrap-select button,
+    .directory-search-form-two .search-btn>button {
+        border-radius: 4px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Carousel
+    ----------------------------------------------------*/
+    .directory-slide-carousel .carousel-search-form {
+        padding: 310px 25px;
+    }
+    .directory-slide-carousel .carousel-inner .item {
+        height: 750px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h2 {
+        font-size: 35px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h3 {
+        font-size: 18px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Paralax
+    ----------------------------------------------------*/
+    .directory-search-form-paralax.travel .search-form-vartical-cont {
+        background-color: #f94141;
+        margin-top: -3.5%;
+        padding: 25px 20px;
+    }
+    .directory-search-form-paralax.travel .parallax-cont-inner.travel h1 {
+        padding-top: 2%;
+        font-size: 24px
+    }
+    .directory-search-form-paralax.travel .parallax-cont-inner.travel h3 {
+        font-size: 18px;
+    }
+    /*--------------------------------------------------
+        Homepage 1
+    ----------------------------------------------------*/
+    .home-one-cat-location .cat-loc-img-overlay ul {
+        padding: 0 19.3%;
+    }
+    /*--------------------------------------------------
+        Homepage Doctor
+    ----------------------------------------------------*/
+    .all-dr-item {
+        padding: 0 80px;
+    }
+    .featured-item,
+    .doctor-spcl {
+        padding: 0 50px;
+    }
+    .doctor-featured .feat-right-cont {
+        padding-top: 0
+    }
+    /*--------------------------------------------------
+        Homepage Job Board
+    ----------------------------------------------------*/
+    .job-category .cat-item-overlay {
+        left: 43%;
+    }
+    /*--------------------------------------------------
+        Admin Pages
+    ----------------------------------------------------*/
+    .admin-one-user ul.dropdown-menu {
+        margin: 0px 36%;
+    }
+    /*--------------------------------------------------
+        Listing Page
+    ----------------------------------------------------*/
+    .listing-page .listings-content.full-width {
+        padding: 240px 0 5px!important;
+    }
+    .listing-page .listing-view-options .btn-group.bootstrap-select.form-control {
+        margin-bottom: 5px!important;
+    }
+    .listing-view-options .listing-icon-view a {
+        margin-left: 0;
+    }
+    /*--------------------------------------------------
+        404 Page
+    ----------------------------------------------------*/
+    .page-notfound .notfound-search-form span input {
+        width: 87%;
+    }
+}
+
+
+/*==============================================================
+   Extra small devices (phones, less than 768px)
+================================================================*/
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    /*--------------------------------------------------
+        Site Preloader
+    ----------------------------------------------------*/
+    .site-preloader {
+        display: none
+    }
+    /*--------------------------------------------------
+        Homepage Map Layout One
+    ----------------------------------------------------*/
+    .pin-wrap {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: -50.71068px;
+        margin-left: -15px;
+        -webkit-transform-origin: 50% 120.71068% 0;
+        transform-origin: 50% 120.71068% 0;
+    }
+    .pin {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        margin-left: -25px;
+        -webkit-transform-origin: 50% 120.71068% 0;
+        transform-origin: 50% 120.71068% 0;
+    }
+    .pin::after {
+        position: absolute;
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-transform: rotateZ(-45deg);
+        transform: rotateZ(-45deg);
+        border: 20px solid #FF017E;
+        border-radius: 50% 50% 50% 50%;
+    }
+    .pin::before {
+        position: absolute;
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-transform: rotateZ(-45deg);
+        transform: rotateZ(-45deg);
+        border: 18px solid #FF017E;
+        border-radius: 50% 50% 50% 0;
+    }
+    .shadow {
+        position: absolute;
+    }
+    .shadow::after {
+        position: absolute;
+        left: -125px;
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin-top: -15px;
+        content: '';
+        -webkit-transform: rotateX(55deg);
+        transform: rotateX(55deg);
+        border-radius: 50%;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 100px 0 20px;
+        box-shadow: rgba(0, 0, 0, 0.5) 100px 0 20px;
+    }
+    .pulse {
+        position: absolute;
+        margin-top: -25px;
+        margin-left: -25px;
+        -webkit-transform: rotateX(55deg);
+        transform: rotateX(55deg);
+    }
+    .pulse::after {
+        display: block;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-animation: pulsate 1s ease-out;
+        animation: pulsate 1s ease-out;
+        -webkit-animation-delay: 1.1s;
+        animation-delay: 1.1s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        opacity: 0;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 6px 3px #FF017E;
+        box-shadow: 0 0 6px 3px #FF017E;
+    }
+    /*--------------------------------------------------
+        Homepage Map Layout Two
+    ----------------------------------------------------*/
+    .directory-search-form-map-vartical {
+        height: 700px;
+    }
+    .directory-search-form-map-vartical .search-form-vartical-cont {
+        top: 47%;
+        left: 9%;
+        width: 300px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form One
+    ----------------------------------------------------*/
+    .directory-search-form-one {
+        height: 800px;
+        padding-top: 260px;
+    }
+    .directory-search-form-one .search-filter {
+        margin: 0;
+        height: 275px;
+    }
+    .directory-search-form-one .bootstrap-select.form-control.open .dropdown-menu.open {
+        margin: 14px 0 0;
+        height: 120px
+    }
+    .directory-search-form-one .form-control.keyword,
+    .directory-search-form-one .search-cities,
+    .directory-search-form-one .search-category,
+    .directory-search-form-one .search-btn {
+        float: none;
+        height: 55px;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .directory-search-form-one .form-control.keyword,
+    .directory-search-form-one .search-btn>button {
+        border-radius: 0px!important
+    }
+    .directory-search-form-one h2 {
+        font-size: 30px;
+        padding: 26px 10px 20px;
+    }
+    .directory-search-form-one .search-form-category {
+        padding: 20px 0 0;
+    }
+    .directory-search-form-one .search-form-category li a {
+        padding: 10px;
+    }
+    .search-form-category ul li img {
+        width: 38px;
+    }
+    .directory-search-form-one.travel .form-control.keyword.travel,
+    .directory-search-form-one.travel .search-category.travel,
+    .directory-search-form-one.travel .search-btn.travel,
+    .directory-search-form-one.travel .search-btn.travel button,
+    .directory-search-form-one.travel .input-group.date.date-from.travel,
+    .directory-search-form-one.travel .input-group.date.date-from.travel input,
+    .directory-search-form-one.travel .input-group.date.date-to.travel,
+    .directory-search-form-one.travel .input-group.date.date-to.travel input,
+    .directory-search-form-one.travel .search-filter .btn.dropdown-toggle.btn-info,
+    .directory-search-form-one.travel .search-filter .btn-group.bootstrap-select.form-control,
+    .directory-search-form-one.travel .search-country.travel {
+        width: 100%;
+        float: none;
+        margin-bottom: 4px;
+        height: 36px!important
+    }
+    /*--------------------------------------------------
+        Directory Search Form two
+    ----------------------------------------------------*/
+    .directory-search-form-two {
+        margin-bottom: 330px;
+    }
+    .directory-search-form-two .search-form-cont {
+        padding: 32px 20px 30px;
+        margin-bottom: -226px
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .search-location,
+    .directory-search-form-two .search-category,
+    .directory-search-form-two .search-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .bootstrap-select button,
+    .directory-search-form-two .search-btn>button {
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+    .directory-search-form-two .bootstrap-select.form-control.open .dropdown-menu.open {
+        margin: 14px 0 0;
+    }
+    .search-filter {
+        padding-top: 20px;
+    }
+    .directory-search-form-two.travel .form-control.keyword.travel,
+    .directory-search-form-two.travel .search-location.travel,
+    .directory-search-form-two.travel .search-category.travel,
+    .directory-search-form-two.travel .input-group.date.date-from.travel,
+    .directory-search-form-two.travel .input-group.date.date-to.travel {
+        width: 100%;
+        border-radius: 0;
+        height: 36px;
+        margin: 2px 0
+    }
+    .directory-search-form-two.travel .btn.dropdown-toggle.btn-info,
+    .directory-search-form-two.travel .btn-group.bootstrap-select.form-control,
+    .directory-search-form-two.travel .input-group.date.date-from.travel input,
+    .directory-search-form-two.travel .input-group.date.date-to.travel input {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-search-form-two.travel .search-btn.travel button {
+        width: 100%;
+        margin: 2px 0 0;
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-search-form-two.travel .search-btn.travel {
+        height: 36px;
+        width: 100%;
+    }
+    .directory-search-form-two.travel .search-form-cont {
+        bottom: -85px;
+        padding: 18px 20px
+    }
+    .directory-search-form-two.travel {
+        margin-bottom: 280px;
+    }
+    .directory-slide-carousel.travel .form-control.keyword.travel,
+    .directory-slide-carousel.travel .search-location.travel,
+    .directory-slide-carousel.travel .search-category.travel,
+    .directory-slide-carousel.travel .input-group.date.date-from.travel,
+    .directory-slide-carousel.travel .input-group.date.date-to.travel {
+        height: 36px;
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .btn-group.bootstrap-select.form-control,
+    .directory-slide-carousel.travel .btn.dropdown-toggle.btn-info {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .input-group.date.date-from.travel input,
+    .directory-slide-carousel.travel .input-group.date.date-to.travel input {
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .search-btn.travel,
+    .directory-slide-carousel.travel .search-btn.travel button {
+        width: 100%;
+        height: 36px;
+        border-radius: 0;
+        margin: 1px 0 0
+    }
+    .directory-slide-carousel.travel .carousel-search-form-content {
+        padding: 0;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Carousel
+    ----------------------------------------------------*/
+    .directory-slide-carousel .form-control.keyword,
+    .directory-slide-carousel .search-location,
+    .directory-slide-carousel .search-category,
+    .directory-slide-carousel .search-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .directory-slide-carousel .form-control.keyword,
+    .directory-slide-carousel .bootstrap-select button,
+    .directory-slide-carousel .search-btn>button {
+        border-radius: 4px;
+        height: 40px
+    }
+    .btn-group.bootstrap-select.form-control {
+        height: 40px!important;
+    }
+    .directory-slide-carousel .carousel-search-form {
+        padding: 305px 25px;
+    }
+    .directory-slide-carousel .carousel-inner .item {
+        height: 700px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h2 {
+        font-size: 26px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h3 {
+        font-size: 18px;
+    }
+    .directory-slide-carousel .search-filter {
+        padding-top: 0;
+    }
+    .directory-search-form-slider.travel .search-filter.travel .form-control.keyword.travel,
+    .directory-search-form-slider.travel .search-filter.travel .search-location.travel,
+    .directory-search-form-slider.travel .search-filter.travel .search-category.travel,
+    .directory-search-form-slider.travel .input-group.date.date-from.travel,
+    .directory-search-form-slider.travel .input-group.date.date-to.travel {
+        float: left;
+        height: 36px;
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .btn-group.bootstrap-select.form-control,
+    .directory-search-form-slider.travel .btn.dropdown-toggle.btn-info {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .input-group.date.date-from.travel input,
+    .directory-search-form-slider.travel .input-group.date.date-to.travel input {
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .search-filter.travel .search-btn.travel,
+    .directory-search-form-slider.travel .search-btn.travel button {
+        width: 100%;
+        height: 36px;
+        border-radius: 0;
+        margin: 1px 0 0
+    }
+    /*--------------------------------------------------
+        Directory Search Form Paralax
+    ----------------------------------------------------*/
+    .parallax-cont-inner {
+        padding: 0;
+        text-align: center;
+    }
+    .parallax-cont-inner h1 {
+        font-size: 25px;
+        font-weight: 800;
+        margin: 0;
+        padding-top: 14%;
+    }
+    .parallax-cont-inner h3 {
+        color: #ffffff;
+        font-family: "raleway";
+        font-size: 18px;
+        margin: 8px 0 30px;
+    }
+    .directory-search-form-paralax .search-form-vartical-cont {
+        float: none;
+        margin: 0 auto;
+        padding: 18px 38px;
+        width: 290px;
+    }
+    .directory-search-form-paralax {
+        height: 800px;
+    }
+    .directory-search-form-paralax .parallax-cont {
+        padding-top: 285px;
+    }
+    .directory-search-form-paralax.travel .search-form-vartical-cont.travel {
+        margin-top: -18px;
+        padding: 14px 20px;
+    }
+    .directory-search-form-paralax.travel .parallax-cont-inner.travel h1 {
+        padding-top: 2%;
+        font-size: 24px
+    }
+    .directory-search-form-paralax.travel .parallax-cont-inner.travel h3 {
+        font-size: 18px;
+    }
+    .directory-search-form-map-vartical.travel .search-form-vartical-cont.travel {
+        top: 302px;
+        padding: 15px 20px
+    }
+    /*--------------------------------------------------
+        Directory Search Form Slider
+    ----------------------------------------------------*/
+    .directory-search-form-slider .search-filter .form-control.keyword,
+    .directory-search-form-slider .search-filter .search-location,
+    .directory-search-form-slider .search-filter .search-category,
+    .directory-search-form-slider .search-filter .search-btn {
+        float: left;
+        width: 100%;
+        margin-bottom: 6px;
+        border-radius: 4px
+    }
+    .directory-search-form-slider #directory-slider-carousel .item {
+        height: 900px;
+    }
+    .directory-search-form-slider #directory-slider-carousel .item h2 {
+        font-size: 30px;
+    }
+    .directory-search-form-slider #directory-slider-carousel .item h3 {
+        font-size: 18px;
+    }
+    .directory-search-form-slider .item .slider-content {
+        padding: 395px 0;
+    }
+    .directory-search-form-slider .carousel-control .glyphicon-chevron-right,
+    .directory-search-form-slider .carousel-control .glyphicon-chevron-left {
+        margin-top: 20px;
+    }
+    .directory-search-form-slider .search-filter .bootstrap-select button,
+    .directory-search-form-slider .search-filter .search-btn>button {
+        border-radius: 4px;
+    }
+    .directory-search-form-slider .search-filter .btn-group.bootstrap-select.form-control {
+        margin-bottom: 15px
+    }
+    .directory-search-form-slider .search-filter .bootstrap-select.form-control.open .dropdown-menu.open {
+        margin-top: 14px;
+    }
+    /*--------------------------------------------------
+        Header
+    ----------------------------------------------------*/
+    .page-header {
+        padding: 320px 0 52px;
+    }
+    .header-top {
+        text-align: center;
+        padding: 15px 0 5px;
+    }
+    .header-top .header-login-sign {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .topbar-contact-info {
+        padding: 10px 0 5px;
+    }
+    .navbar-collapse.collapse.in {
+        background-color: #ffffff;
+        position: relative;
+        z-index: 999999;
+        width: 100%;
+        margin-top: 15px;
+        border-top: 0;
+        border: 1px solid #ccc;
+        border-top: 0;
+        margin-left: 0
+    }
+    .navbar-collapse.collapsing {
+        margin-top: 15px;
+        background-color: #fff;
+        width: 100%;
+        border-top: 0;
+        border: 1px solid #ccc;
+        border-top: 0;
+        margin-left: 0
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu,
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        -webkit-transform: 0.0s;
+        transform: 0.0s
+    }
+    #navbar .nav.navbar-nav li .mega-menu.drop-down-menu {
+        display: none
+    }
+    #navbar ul li a b {
+        display: inline-block
+    }
+    .dropdown.has-submenu ul {
+        display: none
+    }
+    .dropdown.has-submenu.open ul {
+        display: block
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu {
+        opacity: 1;
+        position: unset;
+        visibility: visible;
+        padding-left: 30px
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        opacity: 1;
+        position: unset;
+        visibility: visible;
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        display: block;
+        font-weight: 700;
+        padding: 0 14px;
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        font-weight: 600;
+        color: #34495e
+    }
+    .dropdown.has-submenu.open .drop-down-menu.mobile {
+        display: block!important
+    }
+    .nav.navbar-nav {
+        padding: 0 50px;
+    }
+    #navbar .add-listing-btn {
+        float: left;
+        padding: 20px 15px 30px;
+    }
+    .header-search-icon {
+        display: none
+    }
+    .navbar.navbar-default {
+        padding: 15px 14px
+    }
+    .navbar.navbar-default {
+        padding: 15px 14px
+    }
+    .nav.navbar-nav li {
+        padding: 0;
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu li {
+        padding: 10px 0
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu,
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li {
+        min-width: 200px;
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu,
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        border: 0
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        color: #F94141
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        color: #2c3e50
+    }
+    .layout-boxed #body-wrap .header {
+        padding: 0 10px
+    }
+    .layout-boxed #body-wrap {
+        margin: 0 10px
+    }
+    .header-static-one.header .mainmenu.affix {
+        margin-top: -200px;
+    }
+    .layout-boxed .header-static-one.header .mainmenu.affix {
+        padding-right: 20px;
+    }
+    .header-two.header.header-main .nav.navbar-nav li a,
+    .header-static-two.header.header-main .nav.navbar-nav li a,
+    .header-two.header.header-main #navbar .add-listing-btn a,
+    .header-static-two.header.header-main #navbar .add-listing-btn a {
+        color: unset;
+    }
+    .header-two.header.header-main .navbar-collapse.collapse.in,
+    .header-static-two.header.header-main .navbar-collapse.collapse.in,
+    .header-two.header.header-main .navbar-collapse.collapsing,
+    .header-static-two.header.header-main .navbar-collapse.collapsing {
+        padding: 0;
+        margin-left: 0;
+        margin-top: 18px
+    }
+    .header-static-two.header.header-main .navbar-collapse.collapse.in,
+    .header-static-two.header.header-main .navbar-collapse.collapsing {
+        margin-top: 2px
+    }
+    .header-static-two.header.header-main #navbar .add-listing-btn {
+        float: none;
+        text-align: left;
+        padding: 10px;
+        margin: 0 0 20px
+    }
+    .header-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a,
+    .header-static-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        color: #F94141;
+    }
+    .header-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a,
+    .header-static-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        color: #2c3e50;
+    }
+    .header-static-two.header.header-main .mainmenu.affix {
+        margin-top: -200px;
+    }
+    .header-three.header.header-main .navbar.navbar-default,
+    .header-static-three.header.header-main .navbar.navbar-default {
+        background-color: #fff;
+        border: 1px solid #ccc
+    }
+    .header-three.header.header-main .navbar.navbar-default .navbar-brand,
+    .header-static-three.header.header-main .navbar.navbar-default .navbar-brand {
+        margin: -8px 0 0;
+    }
+    .header-static-three.header .mainmenu.affix {
+        margin-top: -250px;
+    }
+    .layout-boxed .header-static-two.header .mainmenu.affix {
+        padding-right: 21px;
+    }
+    .header-three.header.header-main .navbar-collapse.collapse.in,
+    .header-static-three.header.header-main .navbar-collapse.collapse.in,
+    .header-three.header.header-main .navbar-collapse.collapsing,
+    .header-static-three.header.header-main .navbar-collapse.collapsing {
+        padding: 0;
+        margin-left: 0;
+        margin-top: 15px
+    }
+    .layout-boxed .header-static-three.header .mainmenu.affix {
+        padding-right: 20px;
+    }
+    /*--------------------------------------------------
+        Homepage 1
+    ----------------------------------------------------*/
+    .home-one-cat-location .cat-loc-cont-overlay {
+        padding: 60px 0;
+        text-align: center;
+    }
+    .home-one-cat-location .cat-loc-img-overlay ul {
+        padding: 0 29%;
+    }
+    .home-one-featured-img-ovrly ul {
+        padding: 98px 0;
+    }
+    .home-one-featured-cont ul li a {
+        margin: 10px 4px;
+    }
+    .home-one-featured-cont h3 {
+        padding: 55px 6px 10px;
+    }
+    .home-one-featured-cont h3 span sub {
+        font-size: 16px;
+    }
+    .home-one-featured-cont h3 span sup {
+        font-size: 13px;
+    }
+    .home-one-featured-cont h3 span {
+        font-size: 14px;
+    }
+    .home-one-featured-cont h3 span i {
+        font-size: 12px;
+        margin: 0;
+    }
+    .home-one-featured-cont>p {
+        padding: 0 5px 16px;
+        font-size: 15px;
+    }
+    .latest-item-carousel .slick-prev.slick-arrow {
+        left: 30%;
+    }
+    .latest-item-carousel .slick-next.slick-arrow {
+        right: 30%;
+    }
+    .advertise.horizontal,
+    .home-two-sidebar {
+        display: none;
+    }
+    .home-one-featured-item.all .home-one-featured-cont>p {
+        padding: 0 3px 16px;
+    }
+    .home-one-featured-item.all .home-one-featured-cont p span {
+        font-size: 15px;
+    }
+    .home-one-featured-item.all .home-one-featured-cont ul li a {
+        padding: 5px 4px;
+    }
+    .home-one-featured-item.all .home-one-featured-cont ul {
+        margin: 0 2px;
+    }
+    .home-one-featured-img {
+        height: 190px;
+    }
+    .home-one-featured-img img {
+        width: 100%;
+        height: 100%
+    }
+    /*--------------------------------------------------
+        Homepage 2
+    ----------------------------------------------------*/
+    .home-two-featured .feat-overlay-bottom {
+        left: 0;
+        padding: 0 23px;
+    }
+    .home-two-featured .home-two-feat-item {
+        height: 300px;
+    }
+    .home-two-featured .feat-overlay-bottom {
+        position: unset;
+        padding: 180px 0;
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        Homepage 3
+    ----------------------------------------------------*/
+    .home-three-recent-listing .recent-listing-details .recent-listing-left {
+        float: none;
+        width: 100%;
+    }
+    .home-three-recent-listing .recent-listing-details .recent-listing-right {
+        float: none;
+        padding: 0;
+        width: 100%;
+    }
+    .home-three-recent-listing .recent-listing-right .recent-listing-line {
+        display: none
+    }
+    .home-three-recent-listing .recent-listing-details {
+        height: auto;
+        border: 0;
+        padding-top: 35px;
+        border-bottom: 1px solid #ccc
+    }
+    .home-three-recent-listing .recent-listing-middle-icon {
+        left: 40%;
+        top: 26%;
+    }
+    .home-three-recent-listing .recent-listing-middle-icon {
+        top: 27%;
+    }
+    .home-three-recent-listing .recent-listing-left ul {
+        padding: 10px 0 15px;
+        text-align: center;
+    }
+    .home-three-pagination .pagination>li>a,
+    .home-three-pagination .pagination>li>span {
+        padding: 6px 10px;
+    }
+    .pricing-home.three .pricing-table-two {
+        margin: 15px 0;
+    }
+    .home-three-registration .register-middle-overlay {
+        left: 34%;
+    }
+    .counter .counter-item {
+        height: 180px;
+        margin: 20px 0 30px;
+        width: 180px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 32px;
+    }
+    .counter .counter-item::after {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        left: 0
+    }
+    .counter {
+        padding: 100px 0 70px;
+    }
+    .partner .slick-prev.slick-arrow {
+        left: 30%;
+    }
+    .partner .slick-next.slick-arrow {
+        right: 30%;
+    }
+    .partner-item-list.slick-initialized.slick-slider {
+        text-align: center
+    }
+    .home-three-feature-listing .list-item-overlay>ul {
+        padding-top: 30%;
+    }
+    /*--------------------------------------------------
+        Homepage Transport
+    ----------------------------------------------------*/
+    .transport-title h2 {
+        font-size: 24px;
+        width: 310px;
+    }
+    .title-overlay {
+        width: 310px;
+    }
+    .fetr-item-img-overlay.medium h4 {
+        text-align: left;
+    }
+    .transport-featured-cars .fetr-item-img-overlay h3 a,
+    .transport-featured-bike .fetr-item-img-overlay h3 a {
+        font-size: 18px;
+    }
+    .transport-featured-bike .ribbon::before {
+        border-width: 12px 5px 12px 12px;
+        left: -9px
+    }
+    /*--------------------------------------------------
+        Homepage Real Estate
+    ----------------------------------------------------*/
+    .realestate-category .section-title h2,
+    .realestate-top-srch .section-title h2,
+    .realestate-featured .section-title h2,
+    .realestate-recent .section-title h2 {
+        font-size: 22px;
+    }
+    .realestate-category .section-title.two {
+        padding-bottom: 0;
+    }
+    .realestate-category .category-item {
+        margin-top: 20px;
+    }
+    .realestate-top-srch .top-search-item-content h2 {
+        font-size: 18px;
+    }
+    .realestate-top-srch .top-search-item-content h2 span {
+        font-size: 16px;
+    }
+    .realestate-top-srch .top-search-item-content h2 span i {
+        font-size: 13px;
+    }
+    .realestate-top-srch .top-search-item-content p {
+        font-size: 15px;
+    }
+    .restaurant-btn>button {
+        font-size: 16px;
+        padding: 6px 18px;
+    }
+    #featured-property-carousel .pro-content-ovrly {
+        padding: 10% 0;
+    }
+    .realestate-recent .reecent-item-content h5>span {
+        font-size: 15px;
+    }
+    .realestate-recent .reecent-item-content h5>span a {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .realestate-recent .reecent-item-content {
+        padding: 10px;
+    }
+    .realestate-recent .reecent-item-content p span {
+        font-size: 15px;
+        padding: 2px;
+    }
+    .realestate-recent .reecent-item-content p span a {
+        display: block;
+        font-size: 15px;
+        padding: 0;
+    }
+    .realestate-submit .submit-content {
+        padding: 110px 0;
+    }
+    .realestate-submit .submit-content h1 {
+        font-size: 28px;
+    }
+    .realestate-submit .submit-content h3 {
+        font-size: 16px;
+    }
+    .realestate-submit .submit-content>button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .realestate-featured {
+        margin: 0 35px;
+    }
+    /*--------------------------------------------------
+        Homepage Business
+    ----------------------------------------------------*/
+    .business-cat .section-title h2,
+    .business-feat .section-title h2,
+    .business latest-item-carousel .section-title h2,
+    .business-all .section-title h2,
+    .business-pricing .section-title h2,
+    .business latest-news .section-title h2 {
+        font-size: 24px;
+    }
+    .business-all .all-item,
+    .latest-news .news-item {
+        height: auto;
+    }
+    .business-all .all-item .all-item-img,
+    .business-all .all-item-cont,
+    .latest-news .news-item-content,
+    .latest-news .news-item-img {
+        width: 100%;
+    }
+    .business-all .bottom-content p {
+        padding: 0;
+    }
+    .business-feat .feat-item-img {
+        height: 200px;
+    }
+    .business-feat .feat-item-img img {
+        width: 100%;
+        height: 100%
+    }
+    .business-all .all-item .all-item-img {
+        height: 230px;
+    }
+    .business-all .bottom-content {
+        padding: 120px 0;
+    }
+    /*--------------------------------------------------
+        Homepage Ads
+    ----------------------------------------------------*/
+    .all-ads .all-ads-cont li a {
+        padding: 6px 12px;
+    }
+    /*--------------------------------------------------
+        Homepage Doctor
+    ----------------------------------------------------*/
+    .latest-blog .blog-post {
+        margin-bottom: 30px;
+    }
+    .doctor.latest-blog {
+        padding: 0;
+    }
+    .doctor-spcl .spcl-dr-item>h4::after {
+        left: 125px;
+        top: 30px;
+    }
+    .doctor-spcl .spcl-dr-item>h4 {
+        margin: 0 auto;
+        padding: 6px;
+        text-align: center;
+        width: 270px;
+    }
+    .doctor-spcl .spcl-dr-img {
+        margin: 12px auto 0;
+        width: 270px;
+    }
+    /*--------------------------------------------------
+        Homepage Job Board
+    ----------------------------------------------------*/
+    .job-category .cat-item-overlay {
+        left: 38%;
+    }
+    .job-hottest .left-item p span,
+    .job-hottest .left-item p span a {
+        font-size: 14px;
+        padding: 0 12px 0 0;
+    }
+    .job-hottest .right-item h2 {
+        padding: 0 0 8px;
+        font-size: 24px;
+        margin: 0
+    }
+    .job-hottest .right-item p a {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+    .job-hottest .hottest-item {
+        padding: 8px 0 20px;
+    }
+    .newsletter-content {
+        padding: 0 0 26px;
+    }
+    .newsletter .newsletter-content h3 {
+        text-align: center;
+    }
+    .newsletter .newsletter-content input {
+        margin: 0;
+    }
+    .newsletter .newsletter-content button {
+        width: 100%;
+        margin: 6px 0 0
+    }
+    .job-all .job-cont-img {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+    .job-all .job-item-details {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+    .job-all .job-locaction>h3 {
+        padding-top: 0;
+        text-align: center;
+    }
+    .job-all .job-price {
+        text-align: center;
+        padding: 0
+    }
+    .job-all .job-price h3 span,
+    .job-all .job-price>span a {
+        margin: 0;
+    }
+    .job-sidebar {
+        margin-top: 60px;
+    }
+    .testimonial.four .client-comment::before {
+        font-size: 10px;
+        left: -10px;
+        top: -4px;
+    }
+    .testimonial.four .client-comment::after {
+        bottom: -6px;
+        font-size: 10px;
+        right: 0;
+    }
+    .counter .counter-item h1 {
+        font-size: 30px;
+    }
+    /*--------------------------------------------------
+        Homepage Travel And Hotel
+    ----------------------------------------------------*/
+    .travel-popular .popular-item {
+        height: auto;
+    }
+    .travel-popular .popular-item-img {
+        width: 100%;
+    }
+    .travel-popular .popular-item-img,
+    .travel-popular .popular-item-content {
+        width: 100%;
+        height: auto
+    }
+    .travel-package .img-overlay ul {
+        padding-top: 28%;
+    }
+    .travel-popular .item-left-cont {
+        width: 100%;
+        padding: 0
+    }
+    .travel-popular .left-cont-two {
+        border: 1px solid #ecf0f1;
+        margin-top: 35px;
+    }
+    .travel-popular .item-right-cont {
+        width: 100%;
+        padding: 6px 0 0;
+    }
+    .travel-package .img-overlay ul li a {
+        padding: 6px;
+    }
+    .travel-package .img-overlay ul {
+        padding: 195px 0 0;
+    }
+    .travel-popular .left-cont-one h4 span a {
+        padding: 5px;
+    }
+    .travel-hottest .item-img {
+        width: 100%;
+    }
+    .travel-hottest .item-content {
+        width: 100%;
+        margin-bottom: 40px
+    }
+    .travel-hottest .hottest-item {
+        height: auto;
+        margin-bottom: 40px
+    }
+    /*--------------------------------------------------
+        Homepage Event
+    ----------------------------------------------------*/
+    .event-latest .latest-event-img {
+        height: 300px;
+        position: relative;
+    }
+    .event-latest .latest-event-item img {
+        height: 100%;
+        width: 100%;
+    }
+    .event-latest .latest-event-overlay h3 {
+        margin: 80px 0 0;
+    }
+    .event-latest .latest-event-overlay.lg h3 {
+        padding-top: 1%;
+    }
+    .event-hottest .hottest-event-img {
+        height: 210px;
+    }
+    .event-hottest .hottest-event-overlay img {
+        width: 100%;
+        height: 100%
+    }
+    /*--------------------------------------------------
+        Homepage Restaurant
+    ----------------------------------------------------*/
+    .testimonial.five .testi-content {
+        padding: 100px;
+        margin: 0
+    }
+    .restaurant-category .category-item.large {
+        margin-bottom: 30px
+    }
+    .popular-item-sidebar {
+        display: none;
+    }
+    .restaurant-exclusive .exclusive-item-content h3 span i {
+        font-size: 14px;
+    }
+    .restaurant-exclusive .exclusive-item-content h3 span {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+    .restaurant-category .section-title h2,
+    .restaurant-popular .section-title h2,
+    .restaurant-exclusive .section-title h2,
+    .restaurnt.latest-news .section-title h2 {
+        font-size: 24px;
+    }
+    .directory-restaurant-btn>button {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+    .testimonial.five .testi-content {
+        padding: 100px 0 50px;
+    }
+    .restaurant-popular .popular-item-img-overlay-content p span:last-child {
+        display: none;
+    }
+    /*--------------------------------------------------
+        Admin Pages
+    ----------------------------------------------------*/
+    .admin-one-user ul.dropdown-menu {
+        margin: 0 28%;
+    }
+    .admin-one .db-overview {
+        padding: 20px 16px 0;
+    }
+    .admin-one .overview-item {
+        margin-bottom: 20px;
+    }
+    .admin-one {
+        padding-top: 278px;
+    }
+    .admin-two .admin-two-header h2 {
+        font-size: 30px;
+        margin: 122px 0;
+    }
+    .admin-analytics .visitor-overview-item {
+        margin-bottom: 15px;
+    }
+    .admin-privacy-setting {
+        margin-top: 45px;
+    }
+    .admin-privacy-setting li {
+        font-size: 15px;
+        padding: 14px 8px;
+    }
+    .admin-transaction-overview .transaction-item,
+    .admin-payment .admin-payment-overview .payment-item {
+        margin-bottom: 20px;
+    }
+    .admin-transaction-report h3 span,
+    .admin-sales-report h3 span,
+    .admin-invoice h3 span,
+    .admin-payment-report h3 span {
+        display: none;
+    }
+    .admin-sales-overview .sales-item {
+        margin-bottom: 20px;
+    }
+    .admin-profile {
+        margin-top: 20px;
+    }
+    .admin-three-content {
+        background-color: #fff
+    }
+    .admin-three-header {
+        height: auto;
+    }
+    .admin-three-header .user-alert-icons {
+        padding-top: 16px;
+        text-align: center;
+    }
+    .admin-three-header .admin-three-user {
+        float: none;
+        margin-top: 14px;
+        text-align: center;
+    }
+    .admin-three-header .admin-three-user .dropdown-menu {
+        left: 38%;
+    }
+    .admin-three-header {
+        margin-top: 138px;
+    }
+    .admin-listings-overview h3 span a {
+        display: none
+    }
+    .admin-one-menu nav>ul,
+    .admin-three-menu nav>ul {
+        text-align: center;
+    }
+    .admin-two .overview-item {
+        margin-bottom: 20px;
+    }
+    .admin-three .overview-item {
+        text-align: center;
+    }
+    .admin-three .overview-item p span {
+        float: none;
+        padding: 0 20px;
+    }
+    /*--------------------------------------------------
+        Login Page
+    ----------------------------------------------------*/
+    .page-header {
+        padding: 320px 0 52px;
+    }
+    .login-form-content {
+        padding: 10px 0;
+    }
+    .login-page .login-form {
+        padding: 30px 10px 50px;
+    }
+    .checkbox span a {
+        padding-left: 14px;
+        font-size: 14px
+    }
+    .login-form .checkbox span {
+        padding-right: 0;
+    }
+    .login-form .social-network ul li {
+        margin-bottom: 5px;
+        display: block
+    }
+    .login-page-three .login-content {
+        margin: 30px 0 20px;
+    }
+    .login-page-three .login-content .login-social-icons li {
+        margin: 0;
+    }
+    /*--------------------------------------------------
+        Registration Page
+    ----------------------------------------------------*/
+    .registration-page .registration-form {
+        padding: 6px 20px 30px;
+    }
+    .registration-form-content .social-network ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .registration-form-content {
+        padding: 30px 0;
+    }
+    .registration-page .registration-form h2 {
+        font-size: 24px;
+    }
+    .registration-form.registration-pg-one .social-network li {
+        display: inline-block;
+    }
+    .registration-forms .sec-title h2 {
+        font-size: 20px;
+    }
+    .registration-forms .registration-form-left {
+        height: 358px;
+        margin: 0 0 40px;
+    }
+    .registration-forms .registration-form-right {
+        height: 285px;
+    }
+    /*--------------------------------------------------
+        404 Page
+    ----------------------------------------------------*/
+    .page-notfound .notfound-content {
+        padding-top: 25px;
+    }
+    .page-notfound .notfound-content h1 {
+        font-size: 60px;
+    }
+    .page-notfound .notfound-content h2 {
+        font-size: 24px;
+    }
+    .page-notfound .notfound-search-form span i.fa.fa-home {
+        font-size: 20px;
+        padding: 10px 16px;
+    }
+    .page-notfound .notfound-search-form span input {
+        font-size: 18px;
+        height: 42px;
+        width: 83%;
+    }
+    .page-notfound .notfound-search-form span i.fa.fa-search {
+        font-size: 18px;
+        top: 22px;
+    }
+    .page-notfound .notfound-search-form {
+        padding: 10px 0 90px;
+    }
+    /*--------------------------------------------------
+        Team Page
+    ----------------------------------------------------*/
+    .team-page .section-title {
+        padding-bottom: 0;
+    }
+    .team .member-img {
+        padding: 10px 20px;
+    }
+    .team .member-img::before {
+        border: 0;
+    }
+    .team .member-img::after {
+        border: 0;
+    }
+    .team .team-member {
+        margin-top: 30px;
+    }
+    .team .member-info {
+        padding-top: 0;
+    }
+    .team.ly-four .member-social ul li a {
+        margin: 5px 4px;
+    }
+    /*--------------------------------------------------
+        Pricing Page
+    ----------------------------------------------------*/
+    .pricing .pricing-plan-two {
+        padding: 30px 0 70px;
+    }
+    .pricing-plan-one .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-one .pricing-table-price {
+        left: 37%;
+    }
+    .pricing-plan-one .pricing-table-one {
+        margin-top: 30px;
+    }
+    .pricing-plan-two .pricing-table-two {
+        margin-top: 40px;
+    }
+    .pricing-plan-two .pricing-table-two-featured {
+        left: 38%;
+    }
+    .pricing .pricing-plan-two.layout-two .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h1 {
+        font-size: 26px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2 {
+        font-size: 20px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2>sub {
+        font-size: 40px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2 span sub {
+        font-size: 18px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-two.selected {
+        margin-top: 30px;
+    }
+    .pricing-table-three .pricing-table-price {
+        left: 25%;
+    }
+    .pricing-table-four .pricing-tringle-shape {
+        border-left: 165px solid transparent;
+        border-right: 165px solid transparent;
+    }
+    .pricing-plan-three .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-three .pricing-table-three {
+        margin-top: 30px;
+    }
+    .pricing-plan-four .pricing-table-four {
+        margin: 15px 0;
+    }
+    .pricing-table-four .pricing-tringle-shape {
+        display: none;
+    }
+    /*--------------------------------------------------
+        Conatct Page One
+    ----------------------------------------------------*/
+    .contact .contact-info .cont-item {
+        text-align: center
+    }
+    .contact .contact-info {
+        padding: 32px 0 20px;
+        margin: 20px 0 10px;
+    }
+    .contact-page h2 {
+        font-size: 24px;
+    }
+    .contact.layout-two .contact-info .cont-item {
+        margin-bottom: 20px
+    }
+    .contact.layout-three .contact-info .cont-item h4,
+    .contact.layout-three .contact-info .cont-item h4 span>a {
+        font-size: 18px;
+    }
+    .contact.layout-three .contact-info {
+        padding: 40px 6px 30px;
+    }
+    .contact.layout-four .contact-info-text {
+        text-align: center
+    }
+    .contact.layout-four .contact-info .cont-item-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact.layout-four .contact-info .cont-item-right {
+        width: 100%;
+    }
+    .contact.layout-four .contact-social {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        About Us Page
+    ----------------------------------------------------*/
+    .about-us .about-contact p {
+        color: #ffffff;
+        padding: 0 10px;
+    }
+    .about-us .about-mission h2,
+    .about-us .about-mission p {
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        FAQ Page
+    ----------------------------------------------------*/
+    .faq-page .faq-content {
+        padding: 45px 0 30px;
+    }
+    /*--------------------------------------------------
+        Blog Page
+    ----------------------------------------------------*/
+    .page-header .page-content h2 {
+        font-size: 26px;
+    }
+    .blog-list .blog-layout-list .blog-post .post-meta,
+    .blog-list .blog-layout-list .blog-post .post-content {
+        padding: 0 10px;
+    }
+    .blog-single-wrap .post-comment-text .author-comment-text {
+        margin-left: 0;
+    }
+    /*--------------------------------------------------
+        Listing Page
+    ----------------------------------------------------*/
+    .listing-page .listings-content.full-width {
+        padding: 270px 0 5px!important;
+    }
+    .listing-page .listing-view-options .btn-group.bootstrap-select.form-control {
+        margin-bottom: 5px!important;
+    }
+    .listing-view-options .listing-icon-view a {
+        margin-left: 0;
+    }
+    .listing-page .listings-content {
+        padding: 15px 0 0;
+    }
+    .home-three-feature-listing.listings {
+        padding: 40px 0 15px;
+    }
+    .ads-featured.listings {
+        padding: 25px 0 10px;
+    }
+    .listing-sidebar.right {
+        padding: 0 0 40px
+    }
+    .business-feat.listings .feat-item-img-ovrly {
+        padding: 25px 0;
+    }
+    /*--------------------------------------------------
+        Footer
+    ----------------------------------------------------*/
+    .footer-categories {
+        padding: 20px 0;
+    }
+    .footer-contact-form {
+        padding-top: 10px;
+    }
+    .footer-bottom .copy-right-text p {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .footer-menu ul li>a {
+        padding: 10px;
+    }
+    /*--------------------------------------------------
+        Comimg Soon Page
+    ----------------------------------------------------*/
+    .coming-soon-wrap .countdown li span {
+        font-size: 35px;
+        padding: 20px 20px;
+        margin: 0 15px;
+    }
+    .coming-soon-wrap .countdown li:first-child span {
+        padding: 20px 12px;
+    }
+    .coming-soon-wrap .countdown-content h1 {
+        font-size: 30px;
+    }
+    .coming-soon-wrap .countdown-content h3 {
+        font-size: 16px;
+    }
+    .coming-soon-wrap .social-icons ul li a .fa {
+        padding: 12px 14px;
+    }
+    .coming-soon-wrap .countdown li p {
+        margin: 0 0 60px;
+    }
+    /*--------------------------------------------------
+        Demo Page
+    ----------------------------------------------------*/
+    .header-demo-purchase {
+        margin: 0 0 30px
+    }
+    /*--------------------------------------------------
+        Footer Style Two
+    ----------------------------------------------------*/
+    .switcher-footer-two.footer .footer-sup-info-cont .fotr-sup-info-item .sup-info-icon {
+        position: unset;
+        padding: 10px 0
+    }
+    .switcher-footer-two.footer {
+        margin-top: 0;
+        position: unset;
+    }
+    .switcher-footer-two.footer .footer-support-info {
+        position: unset;
+    }
+    .switcher-footer-two.footer .footer-support-info .footer-sup-info-cont .sup-info-icon i {
+        margin: 0 auto;
+    }
+    .switcher-footer-two.footer .footer-top {
+        padding-top: 30px;
+    }
+}
+
+
+/*==============================================================
+    Extra small devices (phones, less than 768px)
+================================================================*/
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    /*--------------------------------------------------
+        Site Preloader
+    ----------------------------------------------------*/
+    .site-preloader {
+        display: none
+    }
+    /*--------------------------------------------------
+        Homepage Map Layout One
+    ----------------------------------------------------*/
+    .pin-wrap {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: -50.71068px;
+        margin-left: -15px;
+        -webkit-transform-origin: 50% 120.71068% 0;
+        transform-origin: 50% 120.71068% 0;
+    }
+    .pin {
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        margin-left: -25px;
+        -webkit-transform-origin: 50% 120.71068% 0;
+        transform-origin: 50% 120.71068% 0;
+    }
+    .pin::after {
+        position: absolute;
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-transform: rotateZ(-45deg);
+        transform: rotateZ(-45deg);
+        border: 20px solid #FF017E;
+        border-radius: 50% 50% 50% 50%;
+    }
+    .pin::before {
+        position: absolute;
+        display: block;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-transform: rotateZ(-45deg);
+        transform: rotateZ(-45deg);
+        border: 18px solid #FF017E;
+        border-radius: 50% 50% 50% 0;
+    }
+    .shadow {
+        position: absolute;
+    }
+    .shadow::after {
+        position: absolute;
+        left: -125px;
+        display: block;
+        width: 25px;
+        height: 25px;
+        margin-top: -15px;
+        content: '';
+        -webkit-transform: rotateX(55deg);
+        transform: rotateX(55deg);
+        border-radius: 50%;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.5) 100px 0 20px;
+        box-shadow: rgba(0, 0, 0, 0.5) 100px 0 20px;
+    }
+    .pulse {
+        position: absolute;
+        margin-top: -25px;
+        margin-left: -25px;
+        -webkit-transform: rotateX(55deg);
+        transform: rotateX(55deg);
+    }
+    .pulse::after {
+        display: block;
+        width: 50px;
+        height: 50px;
+        content: '';
+        -webkit-animation: pulsate 1s ease-out;
+        animation: pulsate 1s ease-out;
+        -webkit-animation-delay: 1.1s;
+        animation-delay: 1.1s;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        opacity: 0;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.5);
+        -webkit-box-shadow: 0 0 6px 3px #FF017E;
+        box-shadow: 0 0 6px 3px #FF017E;
+    }
+    /*--------------------------------------------------
+        Homepage Map Layout Two
+    ----------------------------------------------------*/
+    .directory-search-form-map-vartical {
+        height: 700px;
+    }
+    .directory-search-form-map-vartical .search-form-vartical-cont {
+        top: 47%;
+        left: 10px;
+        width: 300px;
+    }
+    /*--------------------------------------------------
+        Directory Search Form One
+    ----------------------------------------------------*/
+    .directory-search-form-one {
+        height: 800px;
+        padding-top: 260px;
+    }
+    .directory-search-form-one .search-filter {
+        margin: 0;
+        height: 275px;
+    }
+    .directory-search-form-one .bootstrap-select.form-control.open .dropdown-menu.open {
+        margin: 14px 0 0;
+        height: 120px
+    }
+    .directory-search-form-one .form-control.keyword,
+    .directory-search-form-one .search-cities,
+    .directory-search-form-one .search-category,
+    .directory-search-form-one .search-btn {
+        float: none;
+        height: 55px;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .directory-search-form-one .form-control.keyword,
+    .directory-search-form-one .search-btn>button {
+        border-radius: 0px!important
+    }
+    .directory-search-form-one h2 {
+        font-size: 30px;
+        padding: 26px 10px 20px;
+    }
+    .directory-search-form-one .search-form-category {
+        padding: 20px 0 0;
+    }
+    .directory-search-form-one .search-form-category li a {
+        padding: 10px;
+    }
+    .search-form-category ul li img {
+        width: 32px;
+    }
+    .directory-search-form-one.travel .form-control.keyword.travel,
+    .directory-search-form-one.travel .search-category.travel,
+    .directory-search-form-one.travel .search-btn.travel,
+    .directory-search-form-one.travel .search-btn.travel button,
+    .directory-search-form-one.travel .input-group.date.date-from.travel,
+    .directory-search-form-one.travel .input-group.date.date-from.travel input,
+    .directory-search-form-one.travel .input-group.date.date-to.travel,
+    .directory-search-form-one.travel .input-group.date.date-to.travel input,
+    .directory-search-form-one.travel .search-filter .btn.dropdown-toggle.btn-info,
+    .directory-search-form-one.travel .search-filter .btn-group.bootstrap-select.form-control,
+    .directory-search-form-one.travel .search-country.travel {
+        width: 100%;
+        float: none;
+        margin-bottom: 4px;
+        height: 36px!important
+    }
+    /*--------------------------------------------------
+        Directory Search Form two
+    ----------------------------------------------------*/
+    .directory-search-form-two {
+        margin-bottom: 330px;
+    }
+    .directory-search-form-two .search-form-cont {
+        padding: 32px 20px 30px;
+        margin-bottom: -226px
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .search-location,
+    .directory-search-form-two .search-category,
+    .directory-search-form-two .search-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .directory-search-form-two .form-control.keyword,
+    .directory-search-form-two .bootstrap-select button,
+    .directory-search-form-two .search-btn>button {
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+    .directory-search-form-two .bootstrap-select.form-control.open .dropdown-menu.open {
+        margin: 14px 0 0;
+    }
+    .search-filter {
+        padding-top: 20px;
+    }
+    .directory-search-form-two.travel .form-control.keyword.travel,
+    .directory-search-form-two.travel .search-location.travel,
+    .directory-search-form-two.travel .search-category.travel,
+    .directory-search-form-two.travel .input-group.date.date-from.travel,
+    .directory-search-form-two.travel .input-group.date.date-to.travel {
+        width: 100%;
+        border-radius: 0;
+        height: 36px;
+        margin: 2px 0
+    }
+    .directory-search-form-two.travel .btn.dropdown-toggle.btn-info,
+    .directory-search-form-two.travel .btn-group.bootstrap-select.form-control,
+    .directory-search-form-two.travel .input-group.date.date-from.travel input,
+    .directory-search-form-two.travel .input-group.date.date-to.travel input {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-search-form-two.travel .search-btn.travel button {
+        width: 100%;
+        margin: 2px 0 0;
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-search-form-two.travel .search-btn.travel {
+        height: 36px;
+        width: 100%;
+    }
+    .directory-search-form-two.travel .search-form-cont {
+        bottom: -85px;
+        padding: 18px 20px
+    }
+    .directory-search-form-two.travel {
+        margin-bottom: 280px;
+    }
+    .directory-slide-carousel.travel .form-control.keyword.travel,
+    .directory-slide-carousel.travel .search-location.travel,
+    .directory-slide-carousel.travel .search-category.travel,
+    .directory-slide-carousel.travel .input-group.date.date-from.travel,
+    .directory-slide-carousel.travel .input-group.date.date-to.travel {
+        height: 36px;
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .btn-group.bootstrap-select.form-control,
+    .directory-slide-carousel.travel .btn.dropdown-toggle.btn-info {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .input-group.date.date-from.travel input,
+    .directory-slide-carousel.travel .input-group.date.date-to.travel input {
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-slide-carousel.travel .search-btn.travel,
+    .directory-slide-carousel.travel .search-btn.travel button {
+        width: 100%;
+        height: 36px;
+        border-radius: 0;
+        margin: 1px 0 0
+    }
+    .directory-slide-carousel.travel .carousel-search-form-content {
+        padding: 0;
+    }
+    /*--------------------------------------------------
+        Directory Search Form Carousel
+    ----------------------------------------------------*/
+    .directory-slide-carousel .form-control.keyword,
+    .directory-slide-carousel .search-location,
+    .directory-slide-carousel .search-category,
+    .directory-slide-carousel .search-btn {
+        width: 100%;
+        float: none;
+        margin-bottom: 5px;
+    }
+    .directory-slide-carousel .form-control.keyword,
+    .directory-slide-carousel .bootstrap-select button,
+    .directory-slide-carousel .search-btn>button {
+        border-radius: 4px;
+        height: 40px
+    }
+    .btn-group.bootstrap-select.form-control {
+        height: 40px!important;
+    }
+    .directory-slide-carousel .carousel-search-form {
+        padding: 305px 25px;
+    }
+    .directory-slide-carousel .carousel-inner .item {
+        height: 700px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h2 {
+        font-size: 26px;
+    }
+    .directory-slide-carousel .carousel-search-form-content h3 {
+        font-size: 18px;
+    }
+    .directory-slide-carousel .search-filter {
+        padding-top: 0;
+    }
+    .directory-search-form-slider .search-filter .bootstrap-select button,
+    .directory-search-form-slider .search-filter .search-btn>button {
+        border-radius: 4px;
+    }
+    .directory-search-form-slider .search-filter .btn-group.bootstrap-select.form-control {
+        margin-bottom: 15px
+    }
+    .directory-search-form-slider .search-filter .bootstrap-select.form-control.open .dropdown-menu.open {
+        margin-top: 14px;
+    }
+    .directory-search-form-slider.travel .search-filter.travel .form-control.keyword.travel,
+    .directory-search-form-slider.travel .search-filter.travel .search-location.travel,
+    .directory-search-form-slider.travel .search-filter.travel .search-category.travel,
+    .directory-search-form-slider.travel .input-group.date.date-from.travel,
+    .directory-search-form-slider.travel .input-group.date.date-to.travel {
+        float: left;
+        height: 36px;
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .btn-group.bootstrap-select.form-control,
+    .directory-search-form-slider.travel .btn.dropdown-toggle.btn-info {
+        height: 36px!important;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .input-group.date.date-from.travel input,
+    .directory-search-form-slider.travel .input-group.date.date-to.travel input {
+        height: 36px;
+        border-radius: 0
+    }
+    .directory-search-form-slider.travel .search-filter.travel .search-btn.travel,
+    .directory-search-form-slider.travel .search-btn.travel button {
+        width: 100%;
+        height: 36px;
+        border-radius: 0;
+        margin: 1px 0 0
+    }
+    /*--------------------------------------------------
+        Directory Search Form Paralax
+    ----------------------------------------------------*/
+    .parallax-cont-inner {
+        padding: 0;
+        text-align: center;
+    }
+    .parallax-cont-inner h1 {
+        font-size: 24px;
+        font-weight: 800;
+        margin: 0;
+        padding-top: 10%;
+    }
+    .parallax-cont-inner h3 {
+        color: #ffffff;
+        font-family: "raleway";
+        font-size: 16px;
+        margin: 8px 0 30px;
+    }
+    .directory-search-form-paralax .search-form-vartical-cont {
+        float: none;
+        margin: 0 auto;
+        padding: 18px 38px;
+        width: 290px;
+    }
+    .directory-search-form-paralax {
+        height: 800px;
+    }
+    .directory-search-form-paralax .parallax-cont {
+        padding-top: 285px;
+    }
+    .directory-search-form-paralax.travel .search-form-vartical-cont.travel {
+        margin-top: -8px;
+        padding: 25px 20px;
+    }
+    .directory-search-form-paralax.travel .parallax-cont-inner.travel h1 {
+        padding-top: 2%;
+        font-size: 20px
+    }
+    .directory-search-form-paralax.travel .parallax-cont-inner.travel h3 {
+        font-size: 16px;
+    }
+    .directory-search-form-map-vartical.travel .search-form-vartical-cont.travel {
+        top: 302px;
+        padding: 15px 20px
+    }
+    /*--------------------------------------------------
+        Directory Search Form Slider
+    ----------------------------------------------------*/
+    .directory-search-form-slider .search-filter .form-control.keyword,
+    .directory-search-form-slider .search-filter .search-location,
+    .directory-search-form-slider .search-filter .search-category,
+    .directory-search-form-slider .search-filter .search-btn {
+        float: left;
+        width: 100%;
+        margin-bottom: 6px;
+        border-radius: 4px
+    }
+    .directory-search-form-slider #directory-slider-carousel .item {
+        height: 900px;
+    }
+    .directory-search-form-slider #directory-slider-carousel .item h2 {
+        font-size: 30px;
+    }
+    .directory-search-form-slider #directory-slider-carousel .item h3 {
+        font-size: 18px;
+    }
+    .directory-search-form-slider .item .slider-content {
+        padding: 395px 0;
+    }
+    .directory-search-form-slider .carousel-control .glyphicon-chevron-right,
+    .directory-search-form-slider .carousel-control .glyphicon-chevron-left {
+        margin-top: 20px;
+    }
+    /*--------------------------------------------------
+        Header
+    ----------------------------------------------------*/
+    .page-header {
+        padding: 320px 0 52px;
+    }
+    .header-top {
+        text-align: center;
+        padding: 15px 0 5px;
+    }
+    .header-top .header-login-sign {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .topbar-contact-info {
+        padding: 10px 0 5px;
+    }
+    .navbar-collapse.collapse.in {
+        background-color: #ffffff;
+        position: relative;
+        z-index: 999999;
+        width: 100%;
+        margin-top: 15px;
+        border-top: 0;
+        border: 1px solid #ccc;
+        border-top: 0;
+        margin-left: 0
+    }
+    .navbar-collapse.collapsing {
+        margin-top: 15px;
+        background-color: #fff;
+        width: 100%;
+        border-top: 0;
+        border: 1px solid #ccc;
+        border-top: 0;
+        margin-left: 0
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu,
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        opacity: 1;
+        visibility: visible;
+        margin: 0;
+        -webkit-transform: 0.0s;
+        transform: 0.0s
+    }
+    #navbar .nav.navbar-nav li .mega-menu.drop-down-menu {
+        display: none
+    }
+    #navbar ul li a b {
+        display: inline-block
+    }
+    .dropdown.has-submenu ul {
+        display: none
+    }
+    .dropdown.has-submenu.open ul {
+        display: block
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu {
+        opacity: 1;
+        position: unset;
+        visibility: visible;
+        padding-left: 30px
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        opacity: 1;
+        position: unset;
+        visibility: visible;
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        display: block;
+        font-weight: 700;
+        padding: 0 14px;
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        font-weight: 600;
+        color: #34495e
+    }
+    .dropdown.has-submenu.open .drop-down-menu.mobile {
+        display: block!important
+    }
+    .nav.navbar-nav {
+        padding: 0 50px;
+    }
+    #navbar .add-listing-btn {
+        float: left;
+        padding: 20px 12px 30px;
+    }
+    .header-search-icon {
+        display: none
+    }
+    .navbar.navbar-default {
+        padding: 15px 14px
+    }
+    .navbar.navbar-default {
+        padding: 15px 14px
+    }
+    .nav.navbar-nav li {
+        padding: 0;
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu li {
+        padding: 10px 0
+    }
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu,
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li {
+        min-width: 200px;
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu,
+    #navbar .nav.navbar-nav li ul.drop-down-menu>li>ul.sub-menu {
+        border: 0
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        color: #F94141
+    }
+    #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        color: #2c3e50
+    }
+    .layout-boxed #body-wrap .header {
+        padding: 0
+    }
+    .layout-boxed #body-wrap {
+        margin: 0
+    }
+    .header-static-one.header .mainmenu.affix {
+        margin-top: -200px;
+    }
+    .layout-boxed .header-static-one.header .mainmenu.affix {
+        padding-right: 0px;
+    }
+    .header-two.header.header-main .nav.navbar-nav li a,
+    .header-static-two.header.header-main .nav.navbar-nav li a,
+    .header-two.header.header-main #navbar .add-listing-btn a,
+    .header-static-two.header.header-main #navbar .add-listing-btn a {
+        color: unset;
+    }
+    .header-two.header.header-main .navbar-collapse.collapse.in,
+    .header-static-two.header.header-main .navbar-collapse.collapse.in,
+    .header-two.header.header-main .navbar-collapse.collapsing,
+    .header-static-two.header.header-main .navbar-collapse.collapsing {
+        padding: 0;
+        margin-left: 0;
+        margin-top: 18px
+    }
+    .header-static-two.header.header-main .navbar-collapse.collapse.in,
+    .header-static-two.header.header-main .navbar-collapse.collapsing {
+        margin-top: 2px
+    }
+    .header-static-two.header.header-main #navbar .add-listing-btn {
+        float: none;
+        text-align: left;
+        padding: 10px;
+        margin: 0 0 20px
+    }
+    .header-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a,
+    .header-static-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu>li>a {
+        color: #F94141;
+    }
+    .header-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a,
+    .header-static-two.header.header-main #navbar .nav.navbar-nav li>ul.drop-down-menu.mobile>li>a {
+        color: #2c3e50;
+    }
+    .header-static-two.header.header-main .mainmenu.affix {
+        margin-top: -200px;
+    }
+    .header-three.header.header-main .navbar.navbar-default,
+    .header-static-three.header.header-main .navbar.navbar-default {
+        background-color: #fff;
+        border: 1px solid #ccc
+    }
+    .header-three.header.header-main .navbar.navbar-default .navbar-brand,
+    .header-static-three.header.header-main .navbar.navbar-default .navbar-brand {
+        margin: -8px 0 0;
+    }
+    .header-static-three.header .mainmenu.affix {
+        margin-top: -250px;
+    }
+    .layout-boxed .header-static-two.header .mainmenu.affix {
+        padding-right: 0
+    }
+    .header-three.header.header-main .navbar-collapse.collapse.in,
+    .header-static-three.header.header-main .navbar-collapse.collapse.in,
+    .header-three.header.header-main .navbar-collapse.collapsing,
+    .header-static-three.header.header-main .navbar-collapse.collapsing {
+        padding: 0;
+        margin-left: 0;
+        margin-top: 15px
+    }
+    .layout-boxed .header-static-three.header .mainmenu.affix {
+        padding-right: 0
+    }
+    /*--------------------------------------------------
+        Homepage 1
+    ----------------------------------------------------*/
+    .home-one-cat-location .cat-loc-cont-overlay {
+        padding: 60px 0;
+        text-align: center;
+    }
+    .home-one-cat-location .cat-loc-img-overlay ul {
+        left: 2%;
+    }
+    .home-one-featured-img-ovrly ul {
+        padding: 100px 0;
+    }
+    .home-one-featured-cont ul li a {
+        margin: 10px 4px;
+    }
+    .home-one-featured-cont h3 {
+        padding: 55px 6px 10px;
+    }
+    .home-one-featured-cont h3 span sub {
+        font-size: 16px;
+    }
+    .home-one-featured-cont h3 span sup {
+        font-size: 13px;
+    }
+    .home-one-featured-cont h3 span {
+        font-size: 14px;
+    }
+    .home-one-featured-cont h3 span i {
+        font-size: 12px;
+        margin: 0;
+    }
+    .home-one-featured-cont>p {
+        padding: 0 5px 16px;
+        font-size: 15px;
+    }
+    .latest-item-carousel .slick-prev.slick-arrow {
+        left: 30%;
+    }
+    .latest-item-carousel .slick-next.slick-arrow {
+        right: 30%;
+    }
+    .advertise.horizontal,
+    .home-one-sidebar {
+        display: none;
+    }
+    .home-one-featured-item.all .home-one-featured-cont>p {
+        padding: 0 3px 16px;
+    }
+    .home-one-featured-item.all .home-one-featured-cont p span {
+        font-size: 14px;
+    }
+    .home-two-featured-item.all .home-one-featured-cont ul li a {
+        padding: 5px 4px;
+    }
+    .home-one-featured-item.all .home-one-featured-cont ul {
+        margin: 0 2px;
+    }
+    .home-one-featured-img-ovrly li a {
+        padding: 8px 10px;
+    }
+    .home-one-featured-img {
+        height: 190px;
+    }
+    .home-one-featured-img img {
+        width: 100%;
+        height: 100%
+    }
+    /*--------------------------------------------------
+        Homepage 2
+    ----------------------------------------------------*/
+    .home-two-featured .feat-overlay-bottom {
+        left: 3px;
+    }
+    .home-two-latest .home-two-latest-cont ul li a {
+        border: 1px solid #ccc;
+        display: block;
+        margin: 2px;
+        padding: 6px 9px;
+    }
+    .home-two-featured .home-two-feat-item {
+        height: 300px;
+    }
+    .home-two-featured .feat-overlay-bottom {
+        position: unset;
+        padding: 180px 0;
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        Homepage 3
+    ----------------------------------------------------*/
+    .home-three-recent-listing .recent-listing-details .recent-listing-left {
+        float: none;
+        width: 100%;
+    }
+    .home-three-recent-listing .recent-listing-details .recent-listing-right {
+        float: none;
+        padding: 0;
+        width: 100%;
+    }
+    .home-three-recent-listing .recent-listing-right .recent-listing-line {
+        display: none
+    }
+    .home-three-recent-listing .recent-listing-details {
+        height: auto;
+        border: 0;
+        padding-top: 35px;
+        border-bottom: 1px solid #ccc
+    }
+    .home-three-recent-listing .recent-listing-middle-icon {
+        left: 40%;
+        top: 26%;
+    }
+    .home-three-recent-listing .recent-listing-middle-icon {
+        top: 25%;
+    }
+    .home-three-recent-listing .recent-listing-left ul {
+        padding: 10px 0 15px;
+        text-align: center;
+    }
+    .home-three-pagination .pagination>li>a,
+    .home-three-pagination .pagination>li>span {
+        padding: 6px 10px;
+    }
+    .pricing-home.three .pricing-table-two {
+        margin: 15px 0;
+    }
+    .home-three-registration .register-middle-overlay {
+        left: 34%;
+    }
+    .counter .counter-item {
+        height: 180px;
+        margin: 20px 0 30px;
+        width: 180px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 32px;
+    }
+    .counter .counter-item::after {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        left: 0
+    }
+    .counter {
+        padding: 100px 0 70px;
+    }
+    .partner .slick-prev.slick-arrow {
+        left: 30%;
+    }
+    .partner .slick-next.slick-arrow {
+        right: 30%;
+    }
+    .partner-item-list.slick-initialized.slick-slider {
+        text-align: center
+    }
+    .home-three-feature-listing .list-item-overlay>ul {
+        padding-top: 30%;
+    }
+    /*--------------------------------------------------
+        Homepage Transport
+    ----------------------------------------------------*/
+    .transport-title h2 {
+        font-size: 22px;
+        width: 287px;
+    }
+    .title-overlay {
+        width: 285px;
+    }
+    .fetr-item-img-overlay.medium h4 {
+        text-align: left;
+    }
+    .transport-featured-cars .fetr-item-img-overlay h3 a,
+    .transport-featured-bike .fetr-item-img-overlay h3 a,
+    .transport-popular .price-cont .rating {
+        font-size: 18px;
+    }
+    .transport-popular .price-cont .rating i {
+        font-size: 16px;
+    }
+    .transport-featured-bike .ribbon::before {
+        border-width: 12px 5px 12px 12px;
+        left: -9px
+    }
+    /*--------------------------------------------------
+        Homepage Event
+    ----------------------------------------------------*/
+    .event-latest .latest-event-overlay h3 {
+        margin: 70px 0 0;
+    }
+    .event-upcoming .upcoming-event-cont {
+        padding: 0 15px 4px;
+    }
+    .event-latest .latest-event-img {
+        height: 300px;
+        position: relative;
+    }
+    .event-latest .latest-event-item img {
+        height: 100%;
+        width: 100%;
+    }
+    .event-latest .latest-event-overlay h3 {
+        margin: 80px 0 0;
+    }
+    .event-latest .latest-event-overlay.lg h3 {
+        padding-top: 1%;
+    }
+    .event-hottest .hottest-event-img {
+        height: 210px;
+    }
+    .event-hottest .hottest-event-overlay img {
+        width: 100%;
+        height: 100%
+    }
+    .event-hottest .hottest-event-overlay {
+        padding: 55px 0;
+    }
+    /*--------------------------------------------------
+        Homepage Real Estate
+    ----------------------------------------------------*/
+    .realestate-category .section-title h2,
+    .realestate-top-srch .section-title h2,
+    .realestate-featured .section-title h2,
+    .realestate-recent .section-title h2 {
+        font-size: 22px;
+    }
+    .realestate-category .section-title.two {
+        padding-bottom: 0;
+    }
+    .realestate-category .category-item {
+        margin-top: 20px;
+    }
+    .realestate-top-srch .top-search-item-content h2 {
+        font-size: 18px;
+    }
+    .realestate-top-srch .top-search-item-content h2 span {
+        font-size: 16px;
+    }
+    .realestate-top-srch .top-search-item-content h2 span i {
+        font-size: 13px;
+    }
+    .realestate-top-srch .top-search-item-content p {
+        font-size: 15px;
+    }
+    .restaurant-btn>button {
+        font-size: 16px;
+        padding: 6px 18px;
+    }
+    #featured-property-carousel .pro-content-ovrly {
+        padding: 30px 0;
+    }
+    .realestate-recent .reecent-item-content h5>span {
+        font-size: 14px;
+    }
+    .realestate-recent .reecent-item-content h5>span a {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .realestate-recent .reecent-item-content p span {
+        font-size: 13px;
+        padding: 1px;
+    }
+    .realestate-recent .reecent-item-content p span a {
+        display: block;
+        font-size: 13px;
+        padding: 3px 0;
+    }
+    .realestate-submit .submit-content {
+        padding: 110px 0;
+    }
+    .realestate-submit .submit-content h1 {
+        font-size: 28px;
+    }
+    .realestate-submit .submit-content h3 {
+        font-size: 16px;
+    }
+    .realestate-submit .submit-content>button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    .realestate-recent .reecent-item-content {
+        padding: 10px;
+    }
+    /*--------------------------------------------------
+        Homepage Business
+    ----------------------------------------------------*/
+    .business-cat .section-title h2,
+    .business-feat .section-title h2,
+    .business latest-item-carousel .section-title h2,
+    .business-all .section-title h2,
+    .business-pricing .section-title h2,
+    .business latest-news .section-title h2 {
+        font-size: 24px;
+    }
+    .business-all .all-item,
+    .latest-news .news-item {
+        height: auto;
+    }
+    .business-all .all-item .all-item-img,
+    .business-all .all-item-cont,
+    .latest-news .news-item-content,
+    .latest-news .news-item-img {
+        width: 100%;
+    }
+    .business-all .bottom-content p {
+        padding: 0;
+    }
+    .business-all .all-item .all-item-img {
+        height: 230px;
+    }
+    .business-all .bottom-content {
+        padding: 120px 0
+    }
+    /*--------------------------------------------------
+        Homepage Ads
+    ----------------------------------------------------*/
+    .all-ads .all-ads-cont li a {
+        padding: 6px 7px;
+    }
+    /*--------------------------------------------------
+        Homepage Doctor
+    ----------------------------------------------------*/
+    .doctor-featured .section-title h2,
+    .doctor-spcl .section-title h2,
+    .doctor-all .section-title h2,
+    .doctor.testimonial.three .section-title h2,
+    .doctor.latest-blog .section-title h2 {
+        font-size: 24px;
+    }
+    .doctor-featured .doctor-info button {
+        padding: 5px 15px;
+    }
+    .latest-blog .blog-post {
+        margin-bottom: 30px;
+    }
+    .doctor.latest-blog {
+        padding: 0;
+    }
+    .doctor-spcl .spcl-dr-item>h4::after {
+        left: 125px;
+        top: 30px;
+    }
+    .doctor-spcl .spcl-dr-item>h4 {
+        margin: 0 auto;
+        padding: 6px;
+        text-align: center;
+        width: 270px;
+    }
+    .doctor-spcl .spcl-dr-img {
+        margin: 12px auto 0;
+        width: 270px;
+    }
+    /*--------------------------------------------------
+        Homepage Job Board
+    ----------------------------------------------------*/
+    .job-category .cat-item-overlay {
+        left: 36%;
+    }
+    .job-hottest .left-item p span,
+    .job-hottest .left-item p span a {
+        font-size: 14px;
+        padding: 0 12px 0 0;
+    }
+    .job-hottest .right-item h2 {
+        padding: 0 0 8px;
+        font-size: 24px;
+        margin: 0
+    }
+    .job-hottest .right-item p a {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+    .job-hottest .hottest-item {
+        padding: 8px 0 20px;
+    }
+    .newsletter-content {
+        padding: 0 0 26px;
+    }
+    .newsletter .newsletter-content h3 {
+        text-align: center;
+    }
+    .newsletter .newsletter-content input {
+        margin: 0;
+    }
+    .newsletter .newsletter-content button {
+        width: 100%;
+        margin: 6px 0 0
+    }
+    .job-all .job-cont-img {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+    .job-all .job-item-details {
+        width: 100%;
+        float: none;
+        text-align: center
+    }
+    .job-all .job-locaction>h3 {
+        padding-top: 0;
+        text-align: center;
+    }
+    .job-all .job-price {
+        text-align: center;
+        padding: 0
+    }
+    .job-all .job-price h3 span,
+    .job-all .job-price>span a {
+        margin: 0;
+    }
+    .job-sidebar {
+        margin-top: 60px;
+    }
+    .testimonial.four .client-comment::before {
+        font-size: 10px;
+        left: -10px;
+        top: -4px;
+    }
+    .testimonial.four .client-comment::after {
+        bottom: -6px;
+        font-size: 10px;
+        right: 0;
+    }
+    .counter .counter-item h1 {
+        font-size: 30px;
+    }
+    /*--------------------------------------------------
+        Homepage Travel And Hotel
+    ----------------------------------------------------*/
+    .travel-popular .popular-item {
+        height: auto;
+    }
+    .travel-popular .popular-item-img {
+        width: 100%;
+    }
+    .travel-popular .popular-item-img,
+    .travel-popular .popular-item-content {
+        width: 100%;
+        height: auto
+    }
+    .travel-package .img-overlay ul {
+        padding-top: 28%;
+    }
+    .travel-popular .item-left-cont {
+        width: 100%;
+        padding: 0
+    }
+    .travel-popular .left-cont-two {
+        border: 1px solid #ecf0f1;
+        margin-top: 35px;
+    }
+    .travel-popular .item-right-cont {
+        width: 100%;
+        padding: 6px 0 0;
+    }
+    .travel-package .img-overlay ul li a {
+        padding: 6px;
+    }
+    .travel-package .img-overlay ul {
+        padding: 190px 0 0;
+    }
+    .travel-popular .left-cont-one h4 span a {
+        padding: 5px;
+    }
+    .travel-hottest .item-img {
+        width: 100%;
+    }
+    .travel-hottest .item-content {
+        width: 100%;
+        margin-bottom: 40px
+    }
+    .travel-hottest .hottest-item {
+        height: auto;
+        margin-bottom: 40px
+    }
+    /*--------------------------------------------------
+        Homepage Restaurant
+    ----------------------------------------------------*/
+    .testimonial.five .testi-content {
+        padding: 100px;
+        margin: 0
+    }
+    .restaurant-category .category-item.large {
+        margin-bottom: 30px
+    }
+    .popular-item-sidebar {
+        display: none;
+    }
+    .restaurant-exclusive .exclusive-item-content h3 span i {
+        font-size: 14px;
+    }
+    .restaurant-exclusive .exclusive-item-content h3 span {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+    .restaurant-category .section-title h2,
+    .restaurant-popular .section-title h2,
+    .restaurant-exclusive .section-title h2,
+    .restaurnt.latest-news .section-title h2 {
+        font-size: 24px;
+    }
+    .directory-restaurant-btn>button {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+    .testimonial.five .testi-content {
+        padding: 100px 0 50px;
+    }
+    .restaurant-popular .popular-item-img-overlay-content p span:last-child {
+        display: none;
+    }
+    /*--------------------------------------------------
+        Admin One Dashboard
+    ----------------------------------------------------*/
+    .admin-one-user ul.dropdown-menu {
+        margin: 0 24%;
+    }
+    .admin-one .db-overview {
+        padding: 20px 16px 0;
+    }
+    .admin-one .overview-item {
+        margin-bottom: 20px;
+    }
+    .admin-one {
+        padding-top: 278px;
+    }
+    /*--------------------------------------------------
+        Admin Pages
+    ----------------------------------------------------*/
+    .admin-two .admin-two-header h2 {
+        font-size: 30px;
+        margin: 122px 0;
+    }
+    .admin-analytics .visitor-overview-item {
+        margin-bottom: 15px;
+    }
+    .admin-privacy-setting {
+        margin-top: 45px;
+    }
+    .admin-privacy-setting li {
+        font-size: 13.5px;
+        padding: 14px 8px;
+    }
+    .admin-transaction-overview .transaction-item,
+    .admin-payment .admin-payment-overview .payment-item {
+        margin-bottom: 20px;
+    }
+    .admin-transaction-report h3 span,
+    .admin-sales-report h3 span,
+    .admin-invoice h3 span,
+    .admin-payment-report h3 span {
+        display: none;
+    }
+    .admin-sales-overview .sales-item {
+        margin-bottom: 20px;
+    }
+    .admin-profile {
+        margin-top: 20px;
+    }
+    .admin-three-content {
+        background-color: #fff
+    }
+    .admin-three.analytics .visitor-overview-item {
+        padding: 30px 40px;
+    }
+    .admin-three-header {
+        height: auto;
+    }
+    .admin-three-header .user-alert-icons {
+        padding-top: 16px;
+        text-align: center;
+    }
+    .admin-three-header .admin-three-user {
+        float: none;
+        margin-top: 14px;
+        text-align: center;
+    }
+    .admin-three-header .admin-three-user .dropdown-menu {
+        left: 38%;
+    }
+    .admin-three-header {
+        margin-top: 138px;
+    }
+    .admin-listings-overview h3 span a {
+        display: none
+    }
+    .admin-one-menu nav>ul,
+    .admin-three-menu nav>ul {
+        text-align: center;
+    }
+    .admin-two .overview-item {
+        margin-bottom: 20px;
+    }
+    .admin-three .overview-item {
+        text-align: center;
+    }
+    .admin-three .overview-item p span {
+        float: none;
+        padding: 0 20px;
+    }
+    /*--------------------------------------------------
+        Login Page
+    ----------------------------------------------------*/
+    .login-form-content {
+        padding: 10px 0;
+    }
+    .login-page .login-form {
+        padding: 30px 10px 50px;
+    }
+    .checkbox span a {
+        padding-left: 14px;
+        font-size: 14px
+    }
+    .login-form .checkbox span {
+        padding-right: 0;
+    }
+    .login-form .social-network ul li {
+        margin-bottom: 5px;
+        display: block
+    }
+    .login-form-one-content {
+        padding: 35px 0;
+    }
+    .login-form-one-content .login-form-one h2 {
+        font-size: 20px;
+    }
+    .login-form-one-content .login-form-one form {
+        padding: 45px 15px 0;
+    }
+    .login-page-three .login-content {
+        margin: 30px 0 20px;
+    }
+    .login-page-three .login-content .login-social-icons li {
+        margin: 0;
+    }
+    .login-content.four .login-form.four {
+        padding: 0 20px;
+    }
+    .login-page-three.four .login-content.four h2 {
+        font-size: 24px;
+    }
+    .login-page-three.four .login-content.four {
+        margin: 40px 0;
+    }
+    .login-form-one-content .login-form-one .checkbox label {
+        padding-left: 0;
+    }
+    /*--------------------------------------------------
+        Registration Page
+    ----------------------------------------------------*/
+    .registration-page .registration-form {
+        padding: 6px 20px 30px;
+    }
+    .registration-form-content .social-network ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .registration-form-content {
+        padding: 30px 0;
+    }
+    .registration-page .registration-form h2 {
+        font-size: 24px;
+    }
+    .registration-form.registration-pg-one .social-network li {
+        display: inline-block;
+    }
+    .registration-forms .sec-title h2 {
+        font-size: 20px;
+    }
+    .registration-forms .registration-form-left {
+        height: 358px;
+        margin: 0 0 40px;
+    }
+    .registration-forms .registration-form-right {
+        height: 285px;
+    }
+    /*--------------------------------------------------
+        404 Page
+    ----------------------------------------------------*/
+    .page-notfound .notfound-content {
+        padding-top: 25px;
+    }
+    .page-notfound .notfound-content h1 {
+        font-size: 60px;
+    }
+    .page-notfound .notfound-content h2 {
+        font-size: 24px;
+    }
+    .page-notfound .notfound-search-form span i.fa.fa-home {
+        font-size: 20px;
+        padding: 10px 16px;
+    }
+    .page-notfound .notfound-search-form span input {
+        font-size: 18px;
+        height: 42px;
+        width: 80%;
+    }
+    .page-notfound .notfound-search-form span i.fa.fa-search {
+        font-size: 18px;
+        top: 22px;
+    }
+    .page-notfound .notfound-search-form {
+        padding: 10px 0 90px;
+    }
+    /*--------------------------------------------------
+        Team Page
+    ----------------------------------------------------*/
+    .team-page .section-title {
+        padding-bottom: 0;
+    }
+    .team .member-img {
+        padding: 8px;
+    }
+    .team .member-img::before {
+        border: 0;
+    }
+    .team .member-img::after {
+        border: 0;
+    }
+    .team .team-member {
+        margin-top: 30px;
+    }
+    .team .member-info {
+        padding-top: 0;
+    }
+    .team.ly-three .member-social ul li a {
+        margin: 10px 5px;
+    }
+    .team.ly-four .member-social {
+        padding: 10px 0 4px;
+    }
+    .team.ly-four .member-social ul li a {
+        margin: 5px 4px;
+    }
+    /*--------------------------------------------------
+        Pricing Page
+    ----------------------------------------------------*/
+    .pricing-plan-one .pricing-table-price {
+        left: 30%;
+    }
+    .pricing-table-two-featured {
+        left: 33%;
+    }
+    .pricing .pricing-plan-two {
+        padding: 30px 0 70px;
+    }
+    .pricing-plan-one .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-one .pricing-table-one {
+        margin-top: 30px;
+    }
+    .pricing-plan-two .pricing-table-two {
+        margin-top: 40px;
+    }
+    .pricing .pricing-plan-two.layout-two .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h1 {
+        font-size: 26px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2 {
+        font-size: 20px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2>sub {
+        font-size: 40px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-top h2 span sub {
+        font-size: 18px;
+    }
+    .pricing-plan-two.layout-two .pricing-table-two.selected {
+        margin-top: 30px;
+    }
+    .pricing-table-three .pricing-table-price {
+        left: 22%;
+    }
+    .pricing-table-four .pricing-tringle-shape {
+        border-left: 145px solid transparent;
+        border-right: 145px solid transparent;
+    }
+    .pricing-plan-three .section-title {
+        padding-bottom: 0;
+    }
+    .pricing-plan-three .pricing-table-three {
+        margin-top: 30px;
+    }
+    .pricing-plan-four .pricing-table-four {
+        margin: 15px 0;
+    }
+    .pricing-table-four .pricing-tringle-shape {
+        display: none;
+    }
+    /*--------------------------------------------------
+        Conatct Page One
+    ----------------------------------------------------*/
+    .contact .contact-info .cont-item {
+        text-align: center
+    }
+    .contact .contact-info {
+        padding: 32px 0 20px;
+        margin: 20px 0 10px;
+    }
+    .contact-page h2 {
+        font-size: 24px;
+    }
+    .contact.layout-two .contact-info .cont-item {
+        margin-bottom: 20px
+    }
+    .contact.layout-three .contact-info .cont-item h4 {
+        font-size: 15px;
+    }
+    .contact.layout-three .contact-info .cont-item h4 span>a {
+        font-size: 16px;
+    }
+    .contact.layout-three .contact-info {
+        padding: 40px 6px 30px;
+    }
+    .contact.layout-four .contact-info-text {
+        text-align: center
+    }
+    .contact.layout-four .contact-info .cont-item-left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact.layout-four .contact-info .cont-item-right {
+        width: 100%;
+    }
+    .contact.layout-four .contact-social {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        About Us Page
+    ----------------------------------------------------*/
+    .about-us .about-contact p {
+        color: #ffffff;
+        padding: 0 10px;
+    }
+    .about-us .about-mission h2,
+    .about-us .about-mission p {
+        text-align: center;
+    }
+    /*--------------------------------------------------
+        FAQ Page
+    ----------------------------------------------------*/
+    .faq-page .faq-content {
+        padding: 45px 0 30px;
+    }
+    /*--------------------------------------------------
+        Blog Page
+    ----------------------------------------------------*/
+    .page-header .page-content h2 {
+        font-size: 24px;
+    }
+    .blog-list .blog-layout-list .blog-post .post-meta,
+    .blog-list .blog-layout-list .blog-post .post-content {
+        padding: 0 10px;
+    }
+    .blog-single-wrap .post-comment-text .author-comment-text {
+        margin-left: 0;
+    }
+    /*--------------------------------------------------
+        Listing Page
+    ----------------------------------------------------*/
+    .listing-page .listings-content.full-width {
+        padding: 270px 0 5px!important;
+    }
+    .listing-page .listing-view-options .btn-group.bootstrap-select.form-control {
+        margin-bottom: 5px!important;
+    }
+    .listing-view-options .listing-icon-view a {
+        margin-left: 0;
+    }
+    .listing-page .listings-content {
+        padding: 15px 0 0;
+    }
+    .home-three-feature-listing.listings {
+        padding: 40px 0 15px;
+    }
+    .listing-sidebar.right {
+        padding: 0 0 50px;
+    }
+    .ads-featured.listings {
+        padding: 25px 0 10px;
+    }
+    .business-feat.listings .feat-item-img-ovrly {
+        padding: 25px 0;
+    }
+    /*--------------------------------------------------
+        Footer
+    ----------------------------------------------------*/
+    .footer-categories {
+        padding: 20px 0;
+    }
+    .footer-contact-form {
+        padding-top: 10px;
+    }
+    .footer-bottom .copy-right-text p {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .footer-menu ul li>a {
+        padding: 6px;
+    }
+    /*--------------------------------------------------
+        Comimg Soon Page
+    ----------------------------------------------------*/
+    .coming-soon-wrap .countdown li span {
+        font-size: 35px;
+        padding: 20px 20px;
+    }
+    .coming-soon-wrap .countdown li:first-child span {
+        padding: 20px 12px;
+    }
+    .coming-soon-wrap .countdown-content h1 {
+        font-size: 30px;
+    }
+    .coming-soon-wrap .countdown-content h3 {
+        font-size: 16px;
+    }
+    .coming-soon-wrap .social-icons ul li a .fa {
+        padding: 12px 14px;
+    }
+    .coming-soon-wrap .countdown li p {
+        margin: 0 0 60px;
+    }
+    /*--------------------------------------------------
+        Demo Page
+    ----------------------------------------------------*/
+    .header-demo-purchase {
+        margin: 0 0 30px
+    }
+    /*--------------------------------------------------
+        Footer Style Two
+    ----------------------------------------------------*/
+    .switcher-footer-two.footer .footer-sup-info-cont .fotr-sup-info-item .sup-info-icon {
+        position: unset;
+        padding: 10px 0
+    }
+    .switcher-footer-two.footer {
+        margin-top: 0;
+        position: unset;
+    }
+    .switcher-footer-two.footer .footer-support-info {
+        position: unset;
+    }
+    .switcher-footer-two.footer .footer-support-info .footer-sup-info-cont .sup-info-icon i {
+        margin: 0 auto;
+    }
+    .switcher-footer-two.footer .footer-top {
+        padding-top: 30px;
+    }
+}

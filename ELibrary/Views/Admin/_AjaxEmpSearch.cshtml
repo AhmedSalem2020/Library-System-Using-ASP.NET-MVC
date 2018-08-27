@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ELibrary.Models.employee>
+
+
+<table class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+
+            <th>UserName</th>
+            <th>fName </th>
+            <th>lName </th>
+            <th>Email </th>
+            <th>birthDate </th>
+            <th>address</th>
+            <th>PhoneNumber</th>
+            <th>Image</th>
+          
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (employee item in Model)
+        {
+            <tr>
+                <td>@item.user.UserName</td>
+                <td>@item.user.fName</td>
+                <td>@item.user.lName</td>
+                <td>@item.user.Email</td>
+                <td>@item.user.birthDate</td>
+                <td>@item.user.address</td>
+                <td>@item.user.PhoneNumber</td>
+                <td><img src="~/Images/@item.user.image" height="100" width="150" /></td>
+
+              
+
+            </tr>
+
+        }
+
+    </tbody>
+</table>

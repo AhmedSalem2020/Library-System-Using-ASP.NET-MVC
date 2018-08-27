@@ -1,0 +1,104 @@
+﻿@model ELibrary.Models.RegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Register</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Event Register Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
+    <script type="application/x-javascript">
+         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- Meta tag Keywords -->
+    <!-- css files -->
+    <link rel="stylesheet" href="/SmartRegister/css/style.css" type="text/css" media="all" /> <!-- Style-CSS -->
+    <link rel="stylesheet" href="/SmartRegister/css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
+    <!-- //css files -->
+    <!-- js -->
+    <script type="text/javascript" src="/SmartRegister/js/jquery-2.1.4.min.js"></script>
+    <!-- //js -->
+</head>
+<body>
+    <script src="/SmartRegister/js/jquery.vide.min.js"></script>
+    <!-- main -->
+    <div data-vide-bg="video/Ipad">
+        <div class="center-container">
+            <div class="w3ls-header">
+                <div class="header-main">
+                    <h1>Event register Form</h1>
+                    <div class="header-bottom">
+                        <div class="header-right w3agile">
+                            <div class="header-left-bottom agileinfo">
+                @using (Html.BeginForm("SmartRegister", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                 {
+                    @Html.AntiForgeryToken()
+
+                    <div class="icon1">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.fName, new { @class = "form-control",@placeholder="FirstName" })
+                    </div>
+                    <div class="icon1">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.lName, new { @class = "form-control", @placeholder = "LastName" })
+                    </div>
+                    <div class="icon1">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Enter Your mail" })
+                    </div>
+                     <div class="icon1">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.birthDate, new { @class = "form-control", @placeholder = "BirthDate" })
+                    </div>
+                    <div class="icon1">
+                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.Address, new { @class = "form-control", @placeholder = "Location" })
+                    </div>
+                    <div class="icon1">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.phoneNumber, new { @class = "form-control", @placeholder = "Phone Number" })
+                    </div>
+                    <div class="icon1">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Create Password" })
+                    </div>
+                    <div class="icon1">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", @placeholder = "Confirm Password" })
+                    </div>
+                    <div class="bottom">
+                    <input type="submit" value="Register" />
+                    </div>
+                   
+                 }
+                                              
+                                <div class="header-left-top">
+                                    <div class="sign-up"> <h2>or</h2> </div>
+
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header end here-->
+            <!-- copyright start here -->
+            <div class="copyright">
+                <p>© 2018 Smart Register Form. All rights reserved | Design by Ahmed Salem</p>
+            </div>
+            <!--copyright end here-->
+        </div>
+    </div>
+</body>
+</html>

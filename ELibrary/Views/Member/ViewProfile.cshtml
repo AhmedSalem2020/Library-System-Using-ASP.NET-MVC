@@ -1,0 +1,47 @@
+﻿
+
+@model ELibrary.Models.ApplicationUser
+@{
+    ViewBag.Title = "ViewProfile";
+}
+
+
+    <table class="table table-bordered table-hover">
+        <thead>
+
+            <tr>
+                <th>Fname </th>
+                <th>lName</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Image</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+           
+            <tr>
+                <td>@Model.fName</td>
+
+                <td>@Model.lName</td>
+
+                <td>@Model.Email</td>
+
+                <td>@Model.address</td>
+
+                <td>@Model.PhoneNumber</td>
+
+                <td><img src="~/Images/@Model.image" width="100" height="150" /></td>
+
+        </tr>
+
+    </tbody>
+</table>
+
+@Html.ActionLink("Edit Your Profile", "Edit", "Member",null, new { @class="btn btn-primary"})
+
+@Html.ActionLink("Change Password", "ResetPassword", "Account", null, new { @class = "btn btn-primary" })
+
+

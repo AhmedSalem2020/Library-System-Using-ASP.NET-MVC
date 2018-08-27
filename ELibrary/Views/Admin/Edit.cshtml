@@ -1,0 +1,91 @@
+﻿@model ELibrary.Models.ApplicationUser
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<form method="post" class="form-horizontal" enctype="multipart/form-data">
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.fName, new { @class = "col-sm-3 label-control" })
+
+        <div class="col-sm-6">
+
+            @Html.TextBoxFor(a => a.fName, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-info">
+            @Html.ValidationMessageFor(a => a.fName)
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.lName, new { @class = "col-sm-3 label-control" })
+
+        <div class="col-sm-6">
+            @Html.TextBoxFor(a => a.lName, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.lName)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.Email, new { @class = "col-sm-3 label-control" })
+
+        <div class="col-sm-6">
+            @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.Email)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(a => a.address, new { @class = "col-sm-3 label-control" })
+
+        <div class="col-sm-6">
+            @Html.EditorFor(a => a.address, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.address)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.PhoneNumber, new { @class = "col-sm-3 label-control" })
+
+        <div class="col-sm-6">
+            @Html.EditorFor(a => a.PhoneNumber, new { @class = "form-control" })
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.PhoneNumber)
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.image, new { @class = "col-sm-3 label-control" })
+
+        <div class="col-sm-6">
+            <input type="file" value="browse" name="img" />
+            @*@Html.EditorFor(a => a.image, new { @class = "form-control" })*@
+        </div>
+
+        <div class="col-sm-3 bg-danger">
+            @Html.ValidationMessageFor(a => a.image)
+        </div>
+    </div>
+    <div class="form-group">
+
+        <div class="col-sm-6 col-sm-offest-3">
+
+            <input type="submit" value=@ViewBag.btnTitle class="btn btn-warning" />
+
+        </div>
+
+    </div>
+
+</form>

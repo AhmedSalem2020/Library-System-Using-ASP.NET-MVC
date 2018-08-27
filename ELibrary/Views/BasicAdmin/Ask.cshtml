@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ELibrary.Models.book>
+@{
+    ViewBag.Title = "Ask";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<h2>Ask Anything you would like to know about Library system</h2>
+
+<form method="post" action="Ask">
+
+
+    <input type="text" name="name" class="form-control" />
+    <br />
+    <br />
+
+    <input type="submit" class="btn btn-success" />
+</form>
+
+<br />
+<div class="form-group about-info">
+    Number Of Books : @ViewBag.Count
+</div>
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.publishDate)
+            </th>
+
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.publishDate)
+                </td>
+                
+            </tr>
+
+        }
+    </tbody>
+</table>
+

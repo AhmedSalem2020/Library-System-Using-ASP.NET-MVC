@@ -1,0 +1,154 @@
+﻿@model ELibrary.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "Admins";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+
+<br />
+@Html.ActionLink("Add Admin", "Add", "BasicAdmin", new { @class = "btn btn-info" })
+<br /><br />
+<table id="AdminTable" class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Address</th>
+            <th>PhoneNumber</th>
+            <th>BirthDate</th>
+            <th>JoinDate</th>
+            <th>Salary</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+</table>
+
+<link href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+
+@section scripts{
+    <script src="//cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+
+    <script>
+        var PopUp;
+        var DataTable;
+
+        $(document).ready(function () {
+
+            DataTable = $("#AdminTable").DataTable({
+
+                "ajax": {
+                    "url": "/BasicAdmin/GetAdminsData",
+                        "type": "Get",
+                        "datatype": "json"
+                    },//End Of Ajax
+                    "columns": [
+                        { "data": "UserName", "orderable": false },
+                        { "data": "Email", "orderable": false },
+                        { "data": "fName", "orderable": false },
+                        { "data": "lName", "orderable": false },
+                        { "data": "address", "orderable": false },
+                        { "data": "PhoneNumber", "orderable": false },
+                        { "data": "birthDate", "orderable": false },
+                        { "data": "JoinDate", "orderable": false },
+                        { "data": "salary", "orderable": false },
+                        {
+                            "data": "Id", "render": function (data) {
+                                return "<a class='btn btn-warning btn-sm'  onclick=PopUpForm('@Url.Action("PopUpEdit","BasicAdmin")/" + data +"') > <li class='fa fa-pencil'></li> Edit</a >"
+                            }, "orderable": false
+                        },
+                        {
+                            "data": "Id", "render": function (data) {
+                                return "<a class='btn btn-danger btn-sm' onclick=Delete(" + data + ")><li class='fa fa-trash'></li> Delete</a>"
+                            }, "orderable": false
+                        }
+                    ]//End Of Column
+
+            })//end DataTable
+
+        });//end ready function
+
+        function PopUpForm(url) {
+            var FormDiv = $('<div>');
+            $.get(url)
+                .done(function (response) {
+                    FormDiv.html(response);
+
+                    PopUp = FormDiv.dialog({
+                        autoOpen: true,
+                        resizable: false,
+                        title: "Admin Data",
+                        height: 560,
+                        width: 500,
+                        close: function () {
+                            PopUp.dialog('destroy').remove();
+                        }
+                    })
+                })
+        }//End of PopUpForm
+
+        function SubmitForm(form) {
+            //For Validation
+            $.validator.unobstrusive.parse(form);
+            //Check For Validation
+            if ($(form).valid()) {
+                $.ajax(
+                    {
+                        type: "POST",
+                        url: form.action,
+                        data: $(form).serialize(),
+                        success: function (data) {
+                            if (data.success) {
+                                //in case of success we will close popup first
+                                PopUp.dialog('close');
+                                //then reload datatble with data
+                                DataTable.ajax.reload();
+                                //Notification Message
+                                if (alert("Updated")) {
+                                    $.notify(data.message, {
+                                        globalPosition: "top center",
+                                        className: "success"
+                                    })//End Of Notify
+                                }
+                            }//End Of IF Cond.
+                        }//End Of Success
+                    })//End Of Ajax
+            }//End of Check For Validation
+        }//End Of SubmitForm
+
+         function Delete(id) {
+            if (confirm("Are You Sure To Delete ???")) {
+                $.ajax(
+                    {
+                    type: "POST",
+                    url: '@Url.Action("DeleteAdmin","BasicAdmin")/' + id,
+                    success: function (data) {
+                        if (data.success) {
+                            //then reload datatble with data
+                            DataTable.ajax.reload();
+                            //Notification Message
+                            $.notify(data.message, {
+                                globalPosition: "top center",
+                                className: "success"
+                            })//End Of Notify
+                        }//End Of IF Cond.
+                    }//End of success
+                })//End Of Ajax
+            }//End if
+        }//End of Delete
+    </script>
+}
+
+
+
+
+
+
+
+
+

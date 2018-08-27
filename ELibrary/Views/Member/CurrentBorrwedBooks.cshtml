@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ELibrary.Models.userBook>
+
+@{
+    ViewBag.Title = "CurrentBorrwedBooks";
+}
+
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>
+                Book Title
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.startDate)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.deliveredDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.returnDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isDelivered)
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @*@{ 
+           int count = 0;
+            var l = ViewBag.num as 
+        }*@
+
+        @foreach (var item in Model)
+         {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.book.title)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.startDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.deliveredDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.returnDate)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.isDelivered)
+                </td>
+
+                @*<td>@ViewBag.num[0]
+                    
+                </td>*@
+            </tr>
+         }
+    </tbody>
+</table>

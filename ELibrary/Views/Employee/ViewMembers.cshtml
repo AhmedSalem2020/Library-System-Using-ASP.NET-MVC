@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ELibrary.Models.member>
+
+@{
+    ViewBag.Title = "ViewMembers";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<h2>ViewEmployess</h2>
+
+<table class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+
+            <th>UserName</th>
+            <th>fName </th>
+            <th>lName </th>
+            <th>Email </th>
+            <th>birthDate </th>
+            <th>address</th>
+            <th>PhoneNumber</th>
+            <th>Image</th>
+            <th>Operations</th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (member item in Model)
+        {
+            <tr>
+                <td>@item.user.UserName</td>
+                <td>@item.user.fName</td>
+                <td>@item.user.lName</td>
+                <td>@item.user.Email</td>
+                <td>@item.user.birthDate</td>
+                <td>@item.user.address</td>
+                <td>@item.user.PhoneNumber</td>
+                <td><img src="~/Images/@item.user.image" height="100" width="150" /></td>
+
+                <td>
+                    @Html.ActionLink("UpdateMember", "UpdateMember", "Employee", new { id = item.id }, new { @class = "btn btn-warning" })
+
+                    @Html.ActionLink("Delete", "DeleteMember", "Employee", new { id = item.id }, new { @class = "btn btn-danger" })
+
+                </td>
+
+            </tr>
+
+        }
+
+    </tbody>
+</table>
+

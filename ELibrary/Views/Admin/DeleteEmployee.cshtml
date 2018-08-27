@@ -1,0 +1,24 @@
+﻿@model ELibrary.Models.ApplicationUser
+@{
+    ViewBag.Title = "DeleteEmployee";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<h3>Are you sure you want to delete this?@Model.fName @Model.lName</h3>
+<div>
+    <hr />
+    @Html.HiddenFor(a => a.Id)
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "ViewEmployess")
+        </div>
+    }
+</div>
+
+

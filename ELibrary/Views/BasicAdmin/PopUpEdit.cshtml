@@ -1,0 +1,61 @@
+﻿@model ELibrary.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "PopUpEdit";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+@using (Html.BeginForm("PopUpEdit", "BasicAdmin", FormMethod.Post, new { onsubmit = "return SubmitForm(this)" }))
+{
+    @Html.HiddenFor(a => a.Id)
+    <div class="form-group">
+        @Html.LabelFor(a => a.UserName, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.UserName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.UserName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.Email, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.Email)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.fName, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.fName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.fName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.lName, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.lName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.lName)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.address, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.address, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.address)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.birthDate, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.birthDate, new { @type = "Date", @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.birthDate)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.JoinDate, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.JoinDate, new { @type = "Date", @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.JoinDate)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.PhoneNumber, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.PhoneNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.PhoneNumber)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(a => a.Employee.salary, new { @class = "control-label" })
+        @Html.TextBoxFor(a => a.Employee.salary, new { @class = "form-control" })
+        @Html.ValidationMessageFor(a => a.Employee.salary)
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save Changes" class="btn btn-success" />
+        <input type="reset" value="Cancel" class="btn btn-warning" />
+    </div>
+}
+

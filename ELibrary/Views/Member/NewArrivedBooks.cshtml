@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ELibrary.Models.book>
+
+@{
+    ViewBag.Title = "NewArrivedBooks";
+}
+
+
+
+<table class="table table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>
+                Book Name
+            </th>
+            <th>
+
+                Category Name
+            </th>
+            <th>
+                Publisher Name
+            </th>
+
+            <th>
+                Author Mail
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+         {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.categoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.publisher.name)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.author.email)
+                </td>
+
+
+
+            </tr>
+         }
+    </tbody>
+</table>

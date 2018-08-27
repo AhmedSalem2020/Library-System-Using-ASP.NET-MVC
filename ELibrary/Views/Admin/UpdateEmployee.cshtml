@@ -1,0 +1,72 @@
+﻿@model ELibrary.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "UpdateEmployee";
+    Layout = "~/Views/Shared/_Layout - Copy.cshtml";
+}
+
+<h2>UpdateEmployee</h2>
+
+<br />
+<br />
+<br />
+@using (Html.BeginForm("UpdateEmployee", "Admin", FormMethod.Post, new { @class = "form-horizontal", role = "form", @enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="icon1">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @placeholder = "username" })
+    </div>
+    <br />
+
+                    <div class="icon1">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.fName, new { @class = "form-control", @placeholder = "FirstName" })
+                    </div>
+                    <br />
+
+                    <div class="icon1">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.lName, new { @class = "form-control", @placeholder = "LastName" })
+                    </div>
+                    <br />
+
+                    <div class="icon1">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Enter Your mail" })
+                    </div>
+                    <br />
+
+                    <div class="icon1">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <input name="Dob" class="form-control" type="date" value="@Model.birthDate.Date"/>
+                            @*@Html.TextBoxFor(m => m.birthDate, new { @class = "form-control", @placeholder = "BirthDate" })*@
+                    </div>
+                    <br />
+
+                    <div class="icon1">
+                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.address, new { @class = "form-control", @placeholder = "Location" })
+                    </div>
+                    <br />
+
+                    <div class="icon1">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", @placeholder = "Phone Number" })
+                    </div>
+                    <br />
+                    <div class="form-group">
+                        <div class="col-sm-6">
+                            <input type="file" value="browse" name="img" />
+                        </div>
+                        <div class="col-sm-3 bg-danger">
+                            @Html.ValidationMessageFor(a => a.image)
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <input type="submit" class="btn btn-danger" value="Update Employee" />
+                    </div>
+
+}
